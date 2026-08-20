@@ -11,9 +11,11 @@ export function ClientProviders({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     setIsClient(true);
-    
-    // Service Worker pour PWA
-    if ('serviceWorker' in navigator) {
+
+    // Only register the service worker in production to avoid dev-time blob/fallback issues
+    const isProd = process.env.NODE_ENV === 'production';
+
+    if (isProd && 'serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
           .then(registration => console.log('SW registered:', registration.scope))
