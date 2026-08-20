@@ -5,10 +5,12 @@ import { cookies } from 'next/headers';
 // Utilisé côté server components / layouts.
 // Récupère automatiquement la cookie entrante et la passe au shim.
 export async function createClientForPage() {
-  // cookies() may be async in the current Next.js runtime (error reported in logs).
-  // Await it and convert to string safely.
+  // cookies() peut renvoyer un CookieStore asynchrone dans certaines versions/contextes Next
   const cookieStore = await cookies();
-  const cookieString = typeof cookieStore?.toString === 'function' ? cookieStore.toString() : '';
+  const cookieString =
+    cookieStore && typeof (cookieStore as any).toString === 'function'
+      ? (cookieStore as any).toString()
+      : (cookieStore ? String(cookieStore) : '');
   return createShimServerClient(cookieString);
 }
 
@@ -17,7 +19,10 @@ export async function createClientForPage() {
 export async function createClientForAction(cookieString?: string) {
   if (cookieString) return createShimServerClient(cookieString);
   const cookieStore = await cookies();
-  const cs = typeof cookieStore?.toString === 'function' ? cookieStore.toString() : '';
+  const cs =
+    cookieStore && typeof (cookieStore as any).toString === 'function'
+      ? (cookieStore as any).toString()
+      : (cookieStore ? String(cookieStore) : '');
   return createShimServerClient(cs);
 }
 
