@@ -1,0 +1,233 @@
+/* ✅ 1. Import Tailwind (v4-style) */
+@import "tailwindcss";
+
+/* ✅ 2. Définis ton thème avec @theme */
+@theme {
+  --color-night-blue-50: #eef7ff;
+  --color-night-blue-100: #d9ecff;
+  --color-night-blue-500: #2563eb;
+  --color-night-blue-700: #1d4ed8;
+  --color-night-blue-900: #1e293b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
+
+/* ✅ 3. Thème clair/sombre */
+:root {
+  --bg-primary: #f3f4f6;
+  --text-primary: #111827;
+}
+.dark {
+  --bg-primary: #0f172a;
+  --text-primary: #f9fafb;
+}
+
+/* ✅ 4. Styles globaux de base — FOND BLEU NUIT */
+@layer base {
+  body {
+    @apply bg-[#0b1120] text-white min-h-screen;
+    overflow-x: hidden;
+  }
+}
+
+/* 🔹 Tooltip LUVIKA */
+[data-tooltip] {
+  @apply bg-black/80 backdrop-blur border border-white/10 text-cyan-300 text-xs;
+  font-family: 'Inter', sans-serif;
+}
+[data-tooltip]::before {
+  @apply border-transparent border-t-white/10;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* ✅ 5. glass-border */
+.glass-border {
+  @apply border border-white/15 bg-white/5 backdrop-blur-xl;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.08);
+}
+
+/* ✅ 6. Sections vitrées */
+.glass-section {
+  @apply backdrop-blur-xl bg-white/5 border border-white/15 rounded-xl shadow-lg shadow-cyan-500/10;
+}
+.glass-section-icy {
+  @apply backdrop-blur-2xl bg-gradient-to-br from-white/10 via-white/5 to-transparent border border-cyan-300/20 rounded-xl shadow-xl shadow-cyan-500/20;
+}
+
+/* ========== 7. ANIMATIONS DE BASE ========== */
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+}
+.animate-float { animation: float 8s ease-in-out infinite; }
+.animation-delay-2000 { animation-delay: 2s; }
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow { animation: spin-slow 2s linear infinite; }
+
+@keyframes progress {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+.animate-progress { animation: progress 2.5s ease-in-out infinite; }
+
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 8s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.animate-gradient-shift {
+  animation: gradient-shift 45s ease infinite;
+  background-size: 400% 400%;
+}
+
+/* ========== 8. ANIMATIONS CYBERPUNK ========== */
+@keyframes glitchMove {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-2px); }
+}
+@keyframes glitchMoveY {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-2px); }
+  50% { transform: translateY(2px); }
+  75% { transform: translateY(-1px); }
+}
+@keyframes pulseNeon {
+  0%, 100% { box-shadow: 0 0 8px var(--neon-color), 0 0 15px var(--neon-color); }
+  50% { box-shadow: 0 0 15px var(--neon-color), 0 0 30px var(--neon-color), 0 0 45px var(--neon-color); }
+}
+@keyframes flicker {
+  0%, 100% { opacity: 0.05; }
+  50% { opacity: 0.08; }
+}
+@keyframes flicker-mobile {
+  0%, 100% { opacity: 0.03; }
+  50% { opacity: 0.05; }
+}
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+@keyframes pulse-slow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.5; }
+}
+
+.animate-flicker { animation: flicker 0.12s infinite; }
+.animate-flicker-mobile { animation: flicker-mobile 0.2s infinite; }
+.neon-glow {
+  --neon-color: #22d3ee;
+  animation: pulseNeon 1.8s ease-in-out infinite;
+}
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+.animate-pulse-slow {
+  animation: pulse-slow 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ========== 9. EFFETS CRT ========== */
+.crt-effect {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg, transparent, transparent 2px,
+    rgba(0, 0, 0, 0.06) 2px, rgba(0, 0, 0, 0.06) 4px
+  );
+  opacity: 0.08;
+  z-index: 1;
+}
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 20% 35%, rgba(255, 255, 255, 0.03) 0%, transparent 20%),
+    radial-gradient(circle at 80% 65%, rgba(255, 255, 255, 0.03) 0%, transparent 20%);
+  opacity: 0.3;
+  z-index: 2;
+}
+
+/* ========== 10. ANIMATION PULSE SUBTILE ========== */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.5; }
+}
+.animate-pulse-subtle {
+  animation: pulse-subtle 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ========== 11. ACCESSIBILITÉ ========== */
+@media (prefers-reduced-motion: reduce) {
+  .crt-effect, .noise-overlay, [class*="animate-"] {
+    animation: none !important;
+    display: none !important;
+  }
+  .glass-border, .glass-section, .glass-section-icy {
+    backdrop-filter: none !important;
+  }
+  .fixed.inset-0 > * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+
+/* Forcer l'expansion complète pour l'espace entreprise */
+.enterprise-layout-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.enterprise-layout-container main {
+  width: 100%;
+}
+
+.enterprise-layout-container main > div {
+  width: 100%;
+  max-width: 100% !important;
+}
+
+/* Supprimer les conteneurs restrictifs potentiels */
+.max-w-7xl,
+.max-w-6xl,
+.max-w-5xl,
+.container {
+  max-width: 100% !important;
+}
+
+/* Pour les grands écrans, garder un peu d'espace mais pas de centrage serré */
+@media (min-width: 1920px) {
+  .enterprise-layout-container main > div {
+    max-width: 1600px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

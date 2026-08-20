@@ -1,0 +1,442 @@
+<!-- public/offline.html - Version compatible tous navigateurs -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#020617">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Hors ligne - LUVIKA</title>
+  <style>
+    /* Styles de base - Fonctionne partout */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background: #020617;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      overflow-x: hidden;
+    }
+
+    /* Effet de fond simple compatible partout */
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 50%, rgba(6, 182, 212, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(14, 165, 233, 0.03) 0%, transparent 50%),
+        radial-gradient(circle at 50% 80%, rgba(34, 211, 238, 0.05) 0%, transparent 50%);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      max-width: 440px;
+      width: 100%;
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      animation: fadeIn 0.5s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Icône animée */
+    .offline-icon {
+      font-size: 64px;
+      margin-bottom: 16px;
+      animation: pulse 2s ease-in-out infinite;
+      line-height: 1;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.1); opacity: 0.8; }
+    }
+
+    /* Titre gradient */
+    .title {
+      font-size: clamp(2rem, 5vw, 2.5rem);
+      font-weight: 800;
+      margin: 20px 0;
+      background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 50%, #22d3ee 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+
+    /* Badge de statut */
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      padding: 8px 20px;
+      border-radius: 50px;
+      margin: 15px 0;
+      font-size: 0.9rem;
+      color: #fca5a5;
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: #ef4444;
+      border-radius: 50%;
+      animation: blink 1.5s ease-in-out infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .description {
+      color: #94a3b8;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 12px 0;
+      padding: 0 10px;
+    }
+
+    /* Détection navigateur */
+    .browser-hint {
+      background: rgba(14, 165, 233, 0.05);
+      border: 1px solid rgba(14, 165, 233, 0.1);
+      border-radius: 12px;
+      padding: 16px;
+      margin: 20px 0;
+      text-align: left;
+      font-size: 0.85rem;
+      color: #7dd3fc;
+    }
+
+    .browser-hint p {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Boutons */
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+      color: white;
+      box-shadow: 0 4px 12px rgba(6, 182, 212, 0.3);
+    }
+
+    .btn-primary:active {
+      transform: scale(0.98);
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      color: #94a3b8;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-secondary:active {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Info de reconnexion */
+    .reconnect-info {
+      margin-top: 20px;
+      font-size: 0.8rem;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(14, 165, 233, 0.2);
+      border-top-color: #0ea5e9;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Support iOS */
+    @supports (-webkit-touch-callout: none) {
+      body {
+        min-height: -webkit-fill-available;
+      }
+    }
+
+    /* Support PWA standalone */
+    @media all and (display-mode: standalone) {
+      body {
+        padding-top: env(safe-area-inset-top);
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+    }
+
+    /* Mobile optimizations */
+    @media (max-width: 480px) {
+      .container {
+        padding: 32px 20px;
+        border-radius: 16px;
+      }
+      
+      .title {
+        font-size: 1.8rem;
+      }
+      
+      .buttons {
+        flex-direction: column;
+      }
+      
+      .btn {
+        width: 100%;
+        justify-content: center;
+        padding: 14px 24px;
+      }
+    }
+
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #020617;
+      }
+    }
+
+    /* Reduced motion */
+    @media (prefers-reduced-motion: reduce) {
+      .offline-icon {
+        animation: none;
+      }
+      
+      .status-dot {
+        animation: none;
+        opacity: 1;
+      }
+      
+      .container {
+        animation: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  
+  <div class="container">
+    <!-- Icône selon le navigateur -->
+    <div class="offline-icon" id="offlineIcon">📡</div>
+    
+    <h1 class="title">HORS LIGNE</h1>
+    
+    <div class="status-badge">
+      <span class="status-dot"></span>
+      <span>Aucune connexion Internet</span>
+    </div>
+    
+    <p class="description">
+      Vous pouvez continuer à utiliser LUVIKA avec les pages précédemment visitées.
+    </p>
+    
+    <!-- Indice spécifique au navigateur -->
+    <div class="browser-hint" id="browserHint">
+      <p>💡 <strong>Astuce :</strong></p>
+      <p id="hintText">Ajoutez LUVIKA à votre écran d'accueil pour une meilleure expérience hors ligne.</p>
+    </div>
+    
+    <div class="buttons">
+      <button onclick="retryConnection()" class="btn btn-primary">
+        🔄 Réessayer
+      </button>
+      <a href="/" class="btn btn-secondary">
+        🏠 Accueil
+      </a>
+    </div>
+    
+    <div class="reconnect-info">
+      <span class="spinner"></span>
+      <span>Reconnexion automatique en cours...</span>
+    </div>
+  </div>
+
+  <script>
+    // Détection du navigateur et adaptation
+    (function detectBrowser() {
+      const ua = navigator.userAgent;
+      const isIOS = /iphone|ipad|ipod/.test(ua.toLowerCase());
+      const isAndroid = /android/.test(ua.toLowerCase());
+      const isChrome = /chrome/i.test(ua);
+      const isSafari = /safari/i.test(ua) && !isChrome;
+      const isSamsung = /samsung/i.test(ua);
+      const isPWA = window.matchMedia('(display-mode: standalone)').matches || 
+                    navigator.standalone || 
+                    window.navigator.standalone;
+      
+      const icon = document.getElementById('offlineIcon');
+      const hintText = document.getElementById('hintText');
+      
+      // Adapter l'icône
+      if (isPWA) {
+        icon.textContent = '📱';
+      } else if (isIOS) {
+        icon.textContent = '🍎';
+      } else if (isAndroid) {
+        icon.textContent = '🤖';
+      }
+      
+      // Messages personnalisés selon le navigateur
+      if (isIOS && isSafari) {
+        hintText.innerHTML = 'Appuyez sur <strong>Partager</strong> <span style="font-size:1.2em;">📤</span> puis <strong>"Sur l\'écran d\'accueil"</strong> pour installer LUVIKA.';
+      } else if (isAndroid && isChrome) {
+        hintText.innerHTML = 'Appuyez sur <strong>⋮</strong> puis <strong>"Ajouter à l\'écran d\'accueil"</strong> pour installer LUVIKA.';
+      } else if (isSamsung) {
+        hintText.innerHTML = 'Appuyez sur <strong>≡</strong> puis <strong>"Ajouter à l\'écran d\'accueil"</strong> pour installer LUVIKA.';
+      } else if (isPWA) {
+        hintText.innerHTML = '✅ Vous utilisez déjà la version installée de LUVIKA.';
+      } else {
+        hintText.innerHTML = 'Ajoutez LUVIKA à votre écran d\'accueil pour une meilleure expérience hors ligne.';
+      }
+    })();
+
+    // Fonction de reconnexion
+    function retryConnection() {
+      const btn = document.querySelector('.btn-primary');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '🔄 Tentative...';
+      btn.disabled = true;
+      
+      // Essayer de se reconnecter
+      fetch('/')
+        .then(() => {
+          window.location.reload();
+        })
+        .catch(() => {
+          btn.innerHTML = '❌ Échec';
+          setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+          }, 2000);
+        });
+    }
+
+    // Reconnexion automatique
+    let checkInterval;
+    
+    function startAutoReconnect() {
+      checkInterval = setInterval(() => {
+        if (navigator.onLine) {
+          fetch('/')
+            .then(response => {
+              if (response.ok) {
+                clearInterval(checkInterval);
+                window.location.reload();
+              }
+            })
+            .catch(() => {});
+        }
+      }, 5000);
+    }
+
+    // Événements de connexion
+    window.addEventListener('online', () => {
+      setTimeout(() => window.location.reload(), 500);
+    });
+
+    window.addEventListener('offline', () => {
+      console.log('📡 Mode hors ligne activé');
+    });
+
+    // Démarrer la surveillance
+    window.addEventListener('load', () => {
+      startAutoReconnect();
+      
+      // Notification si supportée
+      if ('Notification' in window && Notification.permission === 'granted') {
+        // Ne pas notifier en mode hors ligne pour éviter les erreurs
+      }
+    });
+
+    // Gestion des erreurs de Service Worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistration()
+        .then(reg => {
+          if (!reg) {
+            console.log('Service Worker non trouvé - installation...');
+            navigator.serviceWorker.register('/sw.js')
+              .catch(() => console.log('Installation SW différée'));
+          }
+        });
+    }
+
+    // Empêcher le zoom sur mobile (double-tap)
+    document.addEventListener('dblclick', function(e) {
+      if ('ontouchstart' in window) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+ const isSafariDesktop = /^((?!chrome|android).)*safari/i.test(navigator.userAgent) && 
+                          !('ontouchstart' in window);
+  
+  if (isSafariDesktop) {
+    document.getElementById('hintText').innerHTML = 
+      '💡 <strong>Safari ne supporte pas l\'installation PWA.</strong><br>' +
+      'Utilisez Chrome ou Edge pour installer LUVIKA sur votre bureau.';
+  }
+</script>
+</body>
+</html>

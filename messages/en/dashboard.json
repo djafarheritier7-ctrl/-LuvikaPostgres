@@ -1,0 +1,73 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Manage your profile and NFC cards",
+  "welcome": "Welcome to your dashboard",
+  "quick_actions": "Quick Actions",
+  "analytics": "Analytics",
+  "messages": "Messages",
+  "subscribers": "Subscribers",
+  "card_config": "Card Configuration",
+  "parameters": "Parameters",
+  "profile": {
+    "title": "Profile",
+    "description": "Manage your personal information",
+    "full_name": "Full Name",
+    "username": "Username",
+    "job_title": "Job Title",
+    "bio_short": "Short Biography"
+  },
+  "visibility": {
+    "title": "Visibility",
+    "description": "Control your profile visibility",
+    "is_public": "Public Profile",
+    "is_public_description": "Make your profile visible to everyone",
+    "sections": "Visible Sections",
+    "bio": "Biography",
+    "contact": "Contact",
+    "social": "Social Media",
+    "portfolio": "Portfolio",
+    "certificates": "Certificates"
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Manage your contact information",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "social": {
+    "title": "Social Media",
+    "description": "Manage your social media",
+    "website": "Website",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "security": {
+    "title": "Security",
+    "description": "Manage your account security",
+    "two_factor": "Two-Factor Authentication",
+    "two_factor_description": "Enable two-factor authentication for extra security",
+    "password": "Password",
+    "password_description": "Change your password",
+    "change_password": "Change Password",
+    "not_configured": "Not Configured"
+  },
+  "subscription": {
+    "title": "Subscription",
+    "description": "Manage your subscription",
+    "plan": "Plan",
+    "status": "Status",
+    "active": "Active",
+    "manage": "Manage Subscription"
+  },
+  "success": {
+    "title": "Success",
+    "description": "Your changes have been saved successfully"
+  },
+  "error": {
+    "title": "Error",
+    "description": "An error occurred while saving"
+  },
+  "saving": "Saving...",
+  "save": "Save"
+}

@@ -1,0 +1,1973 @@
+{
+  "LUVIKA": "LUVIKA",
+  "tagline": "Monisa bino oyo bozali — Lukasa ya nto mpamba · NFC · Kod QR · Ba Abonema · Bateka na nzi · Ba Mele",
+  "cta": {
+    "create": "Sala profili na ngai",
+    "discover": "Tala"
+  },
+  "profile": {
+    "edit": "Sobola profili",
+    "view_public": "Tala profili ya batu nyonso"
+  },
+  "system": {
+    "connection_lost": "LUVIKA — Konata elongi. Kabanda internet na nge.",
+    "connection_back": "Konata mekatuka.",
+    "server_error": "Serveur eza te. Meka diaka na ntangu ya nsuka.",
+    "action_error": "Ntembe esalama. Meka diaka."
+  },
+  "features": {
+    "title": "Sambu na nki LUVIKA?",
+    "nfc": {
+      "title": "NFC mpe Kode QR",
+      "desc": "Kabola profili na nge na kukata to na scanning"
+    },
+    "stats": {
+      "title": "Bikaluli",
+      "desc": "Ba scanning, ba ngedi, ba monisio — yonso ke tandalama"
+    },
+    "multi": {
+      "title": "Ba carte mingi",
+      "desc": "Professionnel? Sala ba carte NFC mingi"
+    },
+    "events": {
+      "title": "Ba mele mpe ba Kode QR",
+      "create": {
+        "title": "Sala ba mele",
+        "desc": "Bongisa ba salons na nge, ba conférences to ba webinaires mpe kangisa makambo yonso na kisika moko."
+      },
+      "qr": {
+        "title": "Bokoli ya ba Kode QR",
+        "desc": "Kabola noki ba carte, ba profili to ba mele na ba kode QR oyo okoki sobole."
+      },
+      "analytics": {
+        "title": "Ba analise ya avance",
+        "desc": "Landela ba vues, ba intéractions mpe ba performances ya ba carte na nge mpe ba mele."
+      }
+    },
+    "superpro": {
+      "title": "Ba comptes Super Pro mpe Bateka na nzi",
+      "desc": "Ba comptes Super Pro kapesa ba entreprises nzela ya koteka ba produits na bango na karte digitale. Sala ba carte mingi, landela ba ventes na nge mpe ba intéractions, mpe kabola ba offres na nge na ba kode QR sambu na kukuma epai ya ba clients na nge kisika nyonso."
+    }
+  },
+  "event": {
+    "checkin": {
+      "success": "✅ Monisio mekatuka!",
+      "thanks": "Matondo sambu na kusala na {title}.",
+      "view_participants": "Tala ba participants"
+    }
+  },
+  "dashboard": {
+    "greeting_morning": "Mbote, {name} 🌞",
+    "greeting_afternoon": "Ndenge, {name} ☀️",
+    "greeting_evening": "Ndombolo, {name} 🌙",
+    "greeting_night": "Yo, {name} 🌃",
+    "subtitle": "Gere lukama digital na yo",
+    "view_public": "Tanga lukama public na ngai",
+    "export_csv": "Kosalela (.csv)",
+    "visibility": {
+      "title": "Visibilité ya sections",
+      "description": "Sala na bato oyo bakendaka bakoyeba."
+    },
+    "quick_menu": {
+      "visibility": "Visibilité",
+      "contact": "Messages",
+      "qr": "Kod QR",
+      "nfc": "Bakabaka NFC",
+      "report": "Kosenga",
+      "message": "Message perso",
+      "orders": "Commandes",
+      "upgrade": "Kobongola"
+    },
+    "contact_requests": {
+      "title": "Messages ya bato oyo bakendaka",
+      "description": "Pesa bato oyo bakendaka lukama na yo kosalela message.",
+      "label": "Kosalela messages",
+      "enabled": "Activé – bato bakokaki yo",
+      "disabled": "Désactivé – formulaire masqué",
+      "enable": "Kotondisa",
+      "disable": "Kosenga"
+    },
+    "time": {
+      "seconds": "{count} seconde",
+      "seconds_plural": "{count} secondes",
+      "minutes": "{count} minute",
+      "minutes_plural": "{count} minutes",
+      "hours": "{count} heure",
+      "hours_plural": "{count} heures",
+      "days": "{count} jour",
+      "days_plural": "{count} jours"
+    },
+    "orders": {
+      "title": "Commandes ya bakabaka",
+      "description": "Gere commandes NFC oyo ekotaka.",
+      "manage": "Gere commandes"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "plans": {
+        "freemium": "Freemium",
+        "basic": "Freemium",
+        "premium": "Premium",
+        "entreprise": "Entreprise"
+      },
+      "active": "✅ Actif",
+      "inactive": "⚠️ Inactif",
+      "active_until": "Plan na yo ezali actif kati {date}.",
+      "upgrade_prompt": "Compte na yo ezali Freemium. Kosenga administrateur kosala plan.",
+      "request_upgrade": "Demander une mise à niveau",
+      "success_title": "✅ Succès !",
+      "success_message": "Administrateur akokaki yo na ntango 24h.",
+      "upgrade_to_premium": "Passer à Premium",
+      "request_enterprise": "Convertir en compte Entreprise"
+    },
+    "qr": {
+      "title": "Kod QR ya lukama",
+      "alt": "Kod QR po {username}",
+      "instructions": "Scan po akenda na lukama na yo",
+      "open_link": "Kobeta lien"
+    },
+    "nfc": {
+      "title": "Bakabaka NFC ({count})",
+      "empty": "Aza na kabaka NFC te.",
+      "ago": "ntango elandi",
+      "status": {
+        "active": "Active",
+        "lost": "Perdue",
+        "blocked": "Bloquée",
+        "inactive": "Inactive"
+      },
+      "upgrade_required": "⚠️ Plan Premium requis",
+      "add_card": "Kobeta kabaka NFC"
+    },
+    "stats": {
+      "title": "Statistiques d’engagement",
+      "total_scans": "Scans totaux",
+      "nfc_scans": "Scans NFC",
+      "qr_scans": "Scans QR",
+      "recent_visitors": "Bato oyo bazalaka",
+      "no_scans": "Aza na scan te.",
+      "anonymous": "Moto anonyme",
+      "scan_type": {
+        "nfc": "NFC",
+        "qr": "QR"
+      }
+    },
+    "other_features": {
+      "title": "Autres fonctionnalités",
+      "description": "Gere kabaka NFC na yo to kosalela message personnalisé.",
+      "report_card": "Kosenga kabaka na yo",
+      "reasons": {
+        "lost": "Kabaka perdue",
+        "stolen": "Kabaka volée",
+        "damaged": "Kabaka endommagée",
+        "no_longer_needed": "Plus besoin de la carte",
+        "other": "Autre (précisez)"
+      },
+      "custom_reason": "Précisez la raison",
+      "custom_reason_placeholder": "Ex: carte cassée, erreur d'impression...",
+      "submit_report": "Kosenga kabaka",
+      "custom_message": "Message personnalisé",
+      "custom_message_placeholder": "Ex: Je change de poste, merci de mettre à jour mon profil...",
+      "send_message": "Kosalela message"
+    },
+    "settings": {
+      "title": "Paramètres du profil",
+      "saving": "Kosala...",
+      "save": "Kosala",
+      "save_success": "✅ Profil mis à jour",
+      "save_error": "❌ Échec de la sauvegarde",
+      "load_error": "❌ Impossible de charger le profil",
+      "avatar_uploaded": "✅ Photo de profil mise à jour",
+      "avatar_error": "❌ Échec de l’upload",
+      "avatar_invalid": "⚠️ Format invalide (JPG/PNG seulement)",
+      "cover_uploaded": "✅ Couverture mise à jour",
+      "cover_error": "❌ Échec de l’upload",
+      "cover_invalid": "⚠️ Format invalide (JPG/PNG seulement)",
+      "url_copied": "✅ Lien copié",
+      "photo": {
+        "title": "Photo & Couverture",
+        "avatar": "Photo de profil",
+        "cover": "Photo de couverture",
+        "upload_avatar": "Changer la photo",
+        "upload_cover": "Cliquer pour uploader une couverture"
+      },
+      "personal": {
+        "title": "Informations personnelles",
+        "full_name": "Nkombo mingi",
+        "full_name_placeholder": "ex: Hassan M.",
+        "username": "Nkombo ya utilisateur",
+        "username_placeholder": "nom_na_yo",
+        "job_title": "Poste",
+        "job_title_placeholder": "Développeur Full-Stack",
+        "company": "Entreprise",
+        "company_placeholder": "LUVIKA",
+        "bio_short": "Bio courte",
+        "bio_short_placeholder": "1 ligne percutante",
+        "bio_long": "Bio complète",
+        "bio_long_placeholder": "Votre parcours, passions, valeurs..."
+      },
+      "contact": {
+        "title": "Coordonnées",
+        "email": "Email",
+        "email_placeholder": "hassan@luvika.me",
+        "phone": "Téléphone",
+        "phone_placeholder": "+243 999 123 456",
+        "address": "Adresse",
+        "address_placeholder": "Kinshasa, RDC",
+        "website": "Site web"
+      },
+      "visibility": {
+        "title": "Visibilité",
+        "description": "Choisissez ce qui apparaît sur votre profil public",
+        "portfolio_locked": "Débloquez le portfolio avec un abonnement Premium",
+        "certificates_locked": "Les certificats sont réservés aux comptes Premium/Entreprise"
+      },
+      "advanced": {
+        "title": "Options avancées",
+        "public_profile": "Profil public",
+        "public_profile_desc": "Visible sans connexion",
+        "contact_requests": "Messages publics",
+        "contact_requests_desc": "Autoriser les visiteurs à vous écrire",
+        "profile_url": "URL de profil"
+      },
+      "privacy": {
+        "title": "Confidentialité",
+        "hide_birth_year": "Masquer l'année de naissance",
+        "hide_birth_year_desc": "Affiche seulement jour/mois",
+        "disable_birthday_icon": "Désactiver l'icône anniversaire",
+        "disable_birthday_icon_desc": "Masque 🎂 le jour de l'anniversaire",
+        "verified_badge": "Badge de vérification",
+        "verified_badge_desc": "Affiche à côté de votre nom",
+        "verified_tooltip": "Profil vérifié",
+        "enterprise_only": "Réservé aux entreprises"
+      }
+    }
+  },
+  "navbar": {
+    "home": "Lupangu",
+    "features": "Misala",
+    "pricing": "Ba prix",
+    "about": "Sambu na",
+    "contact": "Kutana",
+    "blog": "Blog mpe ba nouvelles",
+    "sign_in": "Kota",
+    "sign_up": "Komikomisa",
+    "language": "Ndolingo",
+    "sign_out": "Basika",
+    "sign_out_confirm_title": "Basika",
+    "sign_out_confirm_message": "Okoki soló kolinga kubasika?",
+    "sign_out_confirm_yes": "Ee, basika",
+    "sign_out_confirm_no": "Longola",
+    "farewell_title": "Na moni!",
+    "farewell_message": "Matondo sambu na kusadila LUVIKA. Lokola tukumonisa nge... 😢",
+    "profile_completion": "Kukokisa profili",
+    "edit_profile": "Sobola profili",
+    "completed": "kokisami",
+    "view_public_profile": "Tala profili na ngai ya batu nyonso"
+  },
+  "settings": {
+    "url_copied": "✅ Lien mekaninama",
+    "title": "Ba paramètres ya profili",
+    "description": "Sala ba informations na nge ya muntu mpe ya vie privée",
+    "save": "Bomba",
+    "refresh": "Sika",
+    "back": "Vutuka",
+    "profile": {
+      "title": "Profili",
+      "description": "Ba informations ya muntu mpe ya mosala",
+      "full_name": "Kombo yonso",
+      "username": "Kombo ya musadisi",
+      "job_title": "Mosala",
+      "bio_short": "Lisolo mokuse"
+    },
+    "photo": {
+      "title": "Foto mpe Couverture",
+      "avatar": "Foto ya profili",
+      "cover": "Foto ya couverture",
+      "upload_avatar": "Sobola foto",
+      "upload_cover": "Klik sambu na kupakana couverture"
+    },
+    "contact": {
+      "title": "Ba coordonnées",
+      "email": "Email",
+      "description": "Ba informations ya kutana",
+      "email_placeholder": "nestor@luvika.me",
+      "phone": "Telefone",
+      "phone_placeholder": "+243 890 177 601",
+      "address": "Adresse",
+      "address_placeholder": "Kinshasa, RDC",
+      "website": "Site web"
+    },
+    "personal": {
+      "title": "Ba informations ya muntu",
+      "full_name": "Kombo yonso",
+      "full_name_placeholder": "lakisa: nestor P.",
+      "username": "Kombo ya musadisi",
+      "username_placeholder": "lakisa. nestor (ya nkuse)",
+      "job_title": "Mosala",
+      "job_title_placeholder": "Développeur Full-Stack",
+      "company": "Entreprise",
+      "company_placeholder": "LUVIKA",
+      "bio_short": "Lisolo mokuse",
+      "bio_short_placeholder": "Mongole moko ya mfunu",
+      "bio_long": "Lisolo ya ndelo",
+      "bio_long_placeholder": "Nzela na nge, ba passions, ba valeurs..."
+    },
+    "privacy": {
+      "title": "Vie privée mpe Sécurité",
+      "biometric_auth": "Authentification biométrique",
+      "biometric_auth_desc": "Kota na mbangu na elongi na nge to na monoko na nge. Aucune données biométrique eza te na ba serveurs na biso — yonso e tikala na appareil na nge.",
+      "hide_birth_year": "Bomba mbula ya mbotama",
+      "hide_birth_year_desc": "Mbula ya mbotama na nge ekomonana te na profili na nge ya batu nyonso",
+      "disable_birthday_icon": "Kufwa icône ya mbotama",
+      "disable_birthday_icon_desc": "Bomba ba animations mpe ba notifications oyo etali mbotama na nge",
+      "verified_badge": "Badge ya vérification officielle",
+      "verified_badge_desc": "Monisa badge ✅ vérifié na profili na nge ya batu nyonso",
+      "verified_tooltip": "Profili vérifié na ndenge ya lotomo",
+      "enterprise_only": "Eza kaka na plan Entreprise"
+    },
+    "advanced": {
+      "title": "Ba options ya avance",
+      "public_profile": "Profili ya batu nyonso",
+      "public_profile_desc": "Emonanaka na kukota te",
+      "contact_requests": "Ba messages ya batu nyonso",
+      "contact_requests_desc": "Pesa nzela na ba visiteurs sambu na kokomela nge message",
+      "profile_url": "URL ya profili"
+    },
+    "subscription": {
+      "title": "Abonema",
+      "description": "Sala abonema na nge",
+      "plan": "Plan",
+      "status": "Etat",
+      "active": "Actif",
+      "manage": "Sala abonema"
+    },
+    "visibility": {
+      "title": "Monisama",
+      "description": "Pona nki emonanaka na profili na nge ya batu nyonso",
+      "is_public": "Profili ya batu nyonso",
+      "is_public_description": "Kosala ete profili na nge emonana na batu nyonso",
+      "sections": "Ba sections oyo emonanaka",
+      "portfolio_locked": "Kukangola portfolio na abonema Professionnel",
+      "certificates_locked": "Ba certificats eza mpo na ba comptes Professionnel/Business"
+    },
+    "social": {
+      "title": "Ba réseaux sociaux",
+      "description": "Ba liens ya ba réseaux sociaux na nge",
+      "website": "Site web",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "security": {
+      "title": "Sécurité",
+      "description": "Ba paramètres ya sécurité ya compte",
+      "two_factor": "Authentification na ba facteurs mibale",
+      "two_factor_description": "Tonda authentification na ba facteurs mibale sambu na sécurité mingi",
+      "password": "Mot de passe",
+      "password_description": "Sobola mot de passe na nge",
+      "change_password": "Sobola mot de passe",
+      "not_configured": "Esobola kusalamaka te"
+    },
+    "parameters": {
+      "title": "Ba paramètres ya Système",
+      "subtitle": "Sala ba paramètres ya avance ya compte na nge",
+      "parameters": "Ba paramètres",
+      "details": "Ba détails",
+      "refresh": "Sika",
+      "add": "Bakisa",
+      "edit": "Sobola",
+      "delete": "Kufwa",
+      "save": "Bomba",
+      "cancel": "Longola",
+      "select_parameter": "Pona paramètre moko sambu na kutala ba détails",
+      "no_parameters": "Paramètre mosi te ezui",
+      "no_description": "Description mosi te",
+      "updated": "Esobmani",
+      "key": "Clé",
+      "value": "Valeur",
+      "type": "Type",
+      "description": "Description",
+      "key_placeholder": "Tia clé ya paramètre",
+      "value_placeholder": "Tia valeur ya paramètre",
+      "description_placeholder": "Description oyo okoki kotika",
+      "back": "Vutuka",
+      "types": {
+        "string": "Texte",
+        "number": "Nombre",
+        "boolean": "Booléen",
+        "json": "JSON"
+      }
+    }
+  },
+  "statistics": {
+    "title": "Ba statistiques",
+    "subtitle": "Tala performance ya profili na nge mpe ba scanning na nge",
+    "back": "Vutuka",
+    "refresh": "Sika",
+    "export": "Benda",
+    "range": "Période",
+    "last_7_days": "Ba mokolo 7 oyo mekita",
+    "last_30_days": "Ba mokolo 30 oyo mekita",
+    "last_90_days": "Ba mokolo 90 oyo mekita",
+    "all_time": "Kuutuka ntama",
+    "search": "Kimbala",
+    "search_placeholder": "Kombo to kombo ya musadisi...",
+    "filter_type": "Type ya scanning",
+    "all_types": "Ba types yonso",
+    "total_scans": "Ba scanning yonso",
+    "trends": "Ba tendances",
+    "recent_scans": "Ba scanning ya sika-sika",
+    "no_scans": "Scanning ya sika-sika te",
+    "anonymous": "Mutu oyo bayebi te",
+    "insights": "Ba informations",
+    "unique_visitors": "Ba visiteurs bayebani",
+    "unique_visitors_desc": "Batu mbalakaka baye scanning",
+    "best_day": "Mokolo oyo salami mingi",
+    "best_day_desc": "Mokolo oyo ba scanning efulu",
+    "security": "Sécurité",
+    "security_desc": "Ba scanning na nge yonso eza na code mpe eza na sécurité"
+  },
+  "card_config": {
+    "subtitle_new": "Sala configuration ya sika mpo na carte NFC",
+    "active": " Etongama",
+    "info_title": "Informations",
+    "custom_link_url_label": "URL ya lien personnalisé",
+    "custom_link_url_description": "Tia URL oyo okolinga kubakisa ntango type ya scanning oyo ekotonga. Lakisa: site web na nge, portfolio, LinkedIn, etc.",
+    "info_description": "Sala ba types ya scanning mpe ba priorités na bango. Ba types oyo eza: Profili, Carte ya Visite, Kutana, Ba Réseaux Sociaux, Portfolio, Ba Certificats, Mele, Lien, CV mpe Personnalisé.",
+    "preview_title": "Monisa titre",
+    "preview_description": "Description",
+    "preview_hint": "Aperçu indice",
+    "title": "Configuration ya carte NFC",
+    "subtitle": "Sala ba types ya scanning mpe ba priorités na bango",
+    "configurations": "Ba configurations",
+    "details": "Ba détails",
+    "refresh": "Sika",
+    "add": "Bakisa",
+    "edit": "Sobola",
+    "preview_empty": "Aperçu eza mtumba",
+    "preview_empty_hint": "Contenu mosi te ya komonisa na aperçu",
+    "delete": "Kufwa",
+    "save": "Bomba",
+    "cancel": "Longola",
+    "back": "Vutuka",
+    "select_config": "Pona configuration moko sambu na kutala ba détails",
+    "no_configs": "Configuration mosi te ezui",
+    "no_title": "Titre mosi te",
+    "no_description": "Description mosi te",
+    "updated": "Esobmani",
+    "type": "Type",
+    "options_title": "Ba options",
+    "preview": "Aperçu",
+    "description": "Description",
+    "url": "URL",
+    "priority": "Priorité",
+    "enabled": "Etongama",
+    "disabled": "Elongama",
+    "enable": "Tonda",
+    "disable": "Longola",
+    "changes_saved": "✅ Ba changements e bobmami",
+    "title_placeholder": "Tia titre ya configuration",
+    "description_placeholder": "Description oyo okoki kotika",
+    "url_placeholder": "URL oyo okoki kotika",
+    "priority_placeholder": "Priorité ya ba chiffres",
+    "descriptions": {
+      "profile": "Profili",
+      "cv": "CV",
+      "portfolio": "Portfolio",
+      "contact": "Ba réseaux sociaux",
+      "event": "Mele",
+      "custom_link": "Lien personnalisé",
+      "social": "Ba réseaux sociaux",
+      "business": "Carte ya Visite",
+      "articles": "Ba articles",
+      "link": "Lien ya professionnel",
+      "bio": "Monisa lisolo mokuse/mole",
+      "identity": "Monisa pseudo, ba pronoms, état",
+      "professional": "Monisa mosala, entreprise, état pro",
+      "location": "Monisa engumba, nsi, adresse",
+      "availability": "Monisa état ya disponibilité",
+      "birthday": "Monisa mokolo ya mbotama (bosalela 'Bomba mbula')"
+    },
+    "types": {
+      "custom_link": "Lien personnalisé",
+      "articles": "Ba articles",
+      "profile": "Profili",
+      "business": "Carte ya Visite",
+      "contact": "Kutana",
+      "social": "Ba Réseaux Sociaux",
+      "portfolio": "Portfolio",
+      "certificates": "Ba certificats",
+      "event": "Mele",
+      "link": "Lien",
+      "cv": "CV",
+      "custom": "Personnalisé",
+      "bio": "Lisolo",
+      "identity": "Identité",
+      "professional": "Professionnel",
+      "location": "Localisation",
+      "availability": "Disponibilité",
+      "birthday": "Mbotama"
+    }
+  },
+  "subscribers": {
+    "title": "Ba abonema",
+    "subtitle": "Sala ba abonema na nge mpe ba permissions na bango",
+    "back": "Vutuka",
+    "refresh": "Sika",
+    "export": "Benda",
+    "search": "Kimbala",
+    "search_placeholder": "Kombo, kombo ya musadisi to lisolo...",
+    "filter_verified": "Vérifié",
+    "all_verified": "Yonso",
+    "verified": "Vérifié",
+    "unverified": "Vérifié te",
+    "filter_blocked": "Ekomami",
+    "all_blocked": "Yonso",
+    "blocked": "Ekomami",
+    "unblocked": "Ekomami te",
+    "sort_by": "Bongisa na",
+    "order": "Ordre",
+    "sort": {
+      "date": "Mokolo",
+      "name": "Kombo"
+    },
+    "asc": "Komatama",
+    "desc": "Kokita",
+    "results": "ba resultats",
+    "no_subscribers": "Abonema mosi te sambu na ntangu oyo",
+    "regular": "Standard",
+    "no_bio": "Lisolo mosi te",
+    "unblock": "Kukangola",
+    "block": "Kokanga",
+    "unverify": "Longola vérification",
+    "verify": "Vérifier",
+    "total": "Yonso",
+    "new_today": "Ba sika lelo",
+    "view_profile": "Tala profili",
+    "unfollow": "Longola kolanda",
+    "follow": "Landa",
+    "pending": "Eza kolanda"
+  },
+  "contact_requests": {
+    "title": "Ba messages ya ba visiteurs",
+    "description": "Pesa nzela na batu oyo batalaka profili na nge ya batu nyonso sambu na kotika nge message.",
+    "label": "Kuzwa ba messages",
+    "enabled": "Etongama – ba visiteurs bakoki kutana nge",
+    "disabled": "Elongama – formulaire ekomami",
+    "enable": "Tonda",
+    "disable": "Longola"
+  },
+  "time": {
+    "seconds": "{count} seconde",
+    "seconds_plural": "{count} secondes",
+    "minutes": "{count} minute",
+    "minutes_plural": "{count} minutes",
+    "hours": "{count} heure",
+    "hours_plural": "{count} heures",
+    "days": "{count} jour",
+    "days_plural": "{count} jours"
+  },
+  "orders": {
+    "title": "Ba commandes ya ba carte",
+    "description": "Sala ba commandes NFC na nge oyo eza.",
+    "manage": "Sala ba commandes"
+  },
+  "subscription": {
+    "title": "Abonema",
+    "active_indicator": " Actif",
+    "inactive_indicator": "Inactif",
+    "status_active": "Abonema actif",
+    "plans": {
+      "freemium": "Basique",
+      "basic": "Basique",
+      "premium": "Professionnel",
+      "entreprise": "Business"
+    },
+    "active": " Actif",
+    "inactive": "⚠️ Inactif",
+    "active_until": "Plan na nge eza actif kino {date}.",
+    "upgrade_prompt": "Compte na nge eza na mode Basique. Kutana administrateur sambu na kotonda plan.",
+    "request_upgrade": "Senga kobongola",
+    "success_title": "✅ Succès!",
+    "success_message": "Administrateur akutana nge na ba heures 24.",
+    "upgrade_to_premium": "Kobongola na Professionnel",
+    "request_enterprise": "Kobongola na compte BUSINESS"
+  },
+  "qr": {
+    "title": "Kode QR ya profili",
+    "alt": "Kode QR mpo na {username}",
+    "instructions": "Scan mpo na kukota na profili na nge",
+    "open_link": "Kangula lien"
+  },
+  "nfc": {
+    "title": "Carte NFC na ngai",
+    "active": "Active",
+    "inactive": "Active te",
+    "none": "Mosi te",
+    "card_id": "ID karte",
+    "no_card_message": "Aza na carte NFC LUVIKA te.",
+    "no_card_description": "Pona carte NFC na nge oyo okoki sobole mpo na kubakisa ba informations na nge na kukata moko.",
+    "benefit1_title": "Kupakana noki",
+    "benefit1_desc": "Zwa carte na nge na ba mokolo 3-5 ya mosala",
+    "benefit2_title": "Okoki sobole",
+    "benefit2_desc": "Design unique na kode QR na nge mpe ba informations",
+    "benefit3_title": "Kukangama",
+    "benefit3_desc": "Carte ya PVC ya qualité élevée, ekangamaka masa te",
+    "order_button": "Pona carte NFC na ngai",
+    "card_number": "Carte",
+    "scans_count": "Ba scanning",
+    "unique_visitors": "Ba visiteurs bayebani",
+    "manage_button": "Sala ba carte na ngai",
+    "order_another": "Pona nkatu",
+    "tip": "💡 Astuce:",
+    "tip_message": "Sobola contenu ya carte NFC na nge na ba paramètres sambu na kokamba ba informations oyo bakaboli.",
+    "upgrade_required": "⚠️ Plan Professionnel esengeli",
+    "add_card": "Bakisa carte NFC"
+  },
+  "stats": {
+    "title": "Ba statistiques ya engagement",
+    "total_scans": "Ba scanning yonso",
+    "nfc_scans": "Ba scanning NFC",
+    "qr_scans": "Ba scanning QR",
+    "recent_visitors": "Ba visiteurs ya nsuka",
+    "no_scans": "Scanning ya sika-sika te.",
+    "anonymous": "Mutu oyo bayebi te",
+    "visitors": "Ba visiteurs",
+    "scan_type": {
+      "nfc": "NFC",
+      "qr": "QR"
+    }
+  },
+  "auth": {
+    "signout": "Basika",
+    "welcome": {
+      "title": "Boyei malamu!",
+      "message": "Kusepela kumona nge lisusu na LUVIKA. Okoki kusala? 🌟"
+    },
+    "complete": {
+      "title": "Kokokisa profili na nge",
+      "description": "Ba informations moke sambu na kopesa compte na nge bikosana",
+      "full_name": "Kombo yonso",
+      "full_name_placeholder": "Nestor Kipampe",
+      "username": "Kombo ya musadisi",
+      "username_placeholder": "nestor",
+      "username_hint": "Ba lettres ya nkuse, ba chiffres, ba tirets mpe ba underscores kaka (3-20 caractères)",
+      "username_available": "Kombo ya musadisi oyo eza!",
+      "username_taken": "Kombo ya musadisi oyo ezui",
+      "username_checking": "Vérification...",
+      "submit": "Kokokisa compte na ngai",
+      "saving": "Kobomba...",
+      "success": "Profili esalemi!",
+      "redirecting": "Kobakisa na tableau de bord...",
+      "error_full_name_required": "Tia kombo na nge yonso",
+      "error_username_too_short": "Kombo ya musadisi esengeli kozala na ba caractères 3 to mingi",
+      "error_generic": "Ntembe esalama. Sola ntangu mosusu.",
+      "step_identity": "Identité",
+      "step_contact": "Kutana",
+      "step_bio": "Lisolo",
+      "title_identity": "1. Nani ozali?",
+      "desc_identity": "Kombo yonso mpe kombo ya musadisi (URL ya profili na nge)",
+      "title_contact": "2. Ndenge nini bakutana nge?",
+      "desc_contact": "Telefone, WhatsApp — yonso eza ya vie privée na ebandeli",
+      "title_bio": "3. Lobela biso sambu na nge",
+      "desc_bio": "Mosala, entreprise, lisolo mokuse — sobole carte na nge",
+      "phone": "Telefone",
+      "whatsapp": "WhatsApp",
+      "job_title": "Mosala",
+      "company": "Entreprise",
+      "bio_short": "Lisolo mokuse",
+      "skip": "Bika",
+      "back": "Vutuka",
+      "next": "Elanda",
+      "finish": "Kokokisa profili na ngai"
+    },
+    "signup": {
+      "title": "Sala compte",
+      "identity_step": "1. Identité",
+      "email_step": "3. Adresse email",
+      "security_step": "4. Sécurité",
+      "full_name": "Kombo yonso",
+      "full_name_placeholder": "lakisa: Nestor PHAKU",
+      "username": "Kombo ya musadisi (URL)",
+      "username_hint": "Profili na nge ekozala na: {url}",
+      "email": "Email",
+      "password": "Mot de passe",
+      "password_hint": "Na moins 6 caractères",
+      "submit": "Komikomisa",
+      "creating": "Kosala...",
+      "success": "✅ Compte esalemi! Okoki kukota sika.",
+      "error_generic": "Ntembe esalama. Sola ntangu mosusu to kutana support.",
+      "error_email": "Email eza malamu te to esalemi.",
+      "error_password": "Mot de passe eza moke (min. 6 caractères).",
+      "error_username": "Kombo ya musadisi eza malamu te (ba lettres, ba chiffres, _ to -).",
+      "already_have_account": "Aza na compte lisusu?",
+      "sign_in": "Kota",
+      "privacy": "Na kolanda, ondima ba",
+      "terms": "Ba conditions ya kusadila",
+      "identity_desc": "Banda na koloba biso nani ozali.",
+      "email_desc": "Tokotindela nge lien ya confirmation",
+      "security_desc": "Pona mot de passe makasi. 2FA e activée na ebandeli.",
+      "code_sent": "✅ Kode e tindami! Tala ba emails na nge (pe ba spams).",
+      "invalid_code": "Kode eza malamu te to mekita.",
+      "sending": "Kotinda...",
+      "send_code": "Tinda kode",
+      "verify_code": "Vérifier kode",
+      "otp": "Kode ya vérification (8 ba chiffres)",
+      "password_length": "Na moins 8 ba caractères",
+      "password_uppercase": "Lettre moko ya monene",
+      "password_lowercase": "Lettre moko ya nkuse",
+      "password_number": "Chiffre moko",
+      "password_confirm": "Confirmation ya mot de passe",
+      "password_special": "Caractère spécial moko",
+      "password_match": "Ba mots de passe balandani",
+      "2fa_enabled": "🔒 L'authentification na ba facteurs mibale (2FA) e activée na ebandeli mpo na sécurité na nge.",
+      "back": "Vutuka",
+      "next": "Elanda",
+      "create_account": "Kosala compte na ngai",
+      "error_name": "Kombo esengeli kozala na ba caractères 2 to mingi.",
+      "error_email_format": "Adresse email eza malamu te.",
+      "username_hint_plain": "Profili na nge: luvika.me/{username}",
+      "email_exists": "📧 Aza na compte na email oyo. Kota to sadila email nkatu.",
+      "check_email": "✅ Tala ba emails na nge — lien ya confirmation e tindami epai na nge.",
+      "choose_plan": "Pona plan na nge",
+      "plan_desc": "Banda na ofele, sobole na Professionnel sambu na ba fonctionnalités mingi"
+    },
+    "reset": {
+      "title": "Mot de passe ya sika",
+      "subtitle": "Tia mot de passe ya sika oyo eza na sécurité.",
+      "new_password": "Mot de passe ya sika",
+      "submit": "Sobola",
+      "verifying": "Vérification lien...",
+      "invalid_link": "Lien eza malamu te to mekita.",
+      "error_update": "Kusobola elongi.",
+      "success_title": "Mot de passe e sobmani!",
+      "success_message": "Mot de passe na nge e sobmani."
+    },
+    "signin": {
+      "title": "Kota",
+      "subtitle": "Kota na compte LUVIKA na nge",
+      "email": "Email",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe ebangana?",
+      "submit": "Kota",
+      "connecting": "Kutana...",
+      "error_generic": "Ntembe oyo eyebana te. Sola ntangu mosusu.",
+      "error_credentials": "Email to mot de passe eza malamu te.",
+      "error_email": "Adresse email eza malamu te.",
+      "error_password": "Mot de passe esengeli.",
+      "no_account": "Aza na compte te?",
+      "sign_up": "Sala compte",
+      "profile_missing": "Profili na nge ekokisi te. Kutana support."
+    },
+    "forgot_password": {
+      "title": "Mot de passe ebangana?",
+      "subtitle": "Tia email na nge mpo na kuzwa lien ya réinitialisation.",
+      "otp_subtitle": "Kode moko e tindami epai na nge na email.",
+      "reset_subtitle": "Pona mot de passe ya sika oyo eza na sécurité.",
+      "email": "Email",
+      "otp": "Kode ya vérification",
+      "new_password": "Mot de passe ya sika",
+      "confirm_password": "Confirmer mot de passe",
+      "submit": "Tinda lien",
+      "verify": "Vérifier kode",
+      "reset": "Réinitialiser",
+      "sending": "Kotinda...",
+      "email_sent": "✅ Lien e tindami! Tala ba emails na nge.",
+      "back_to_login": "Vutuka na kota",
+      "error": "Adresse email ezuami te.",
+      "error_generic": "Ntembe oyo eyebana te.",
+      "success": "✅ Mot de passe e sobmani!",
+      "password_length": "Na moins 8 ba caractères",
+      "password_uppercase": "Lettre moko ya monene",
+      "password_lowercase": "Lettre moko ya nkuse",
+      "password_number": "Chiffre moko",
+      "password_special": "Caractère spécial moko",
+      "password_match": "Ba mots de passe balandani",
+      "email_label": "Adresse email",
+      "email_placeholder": "nge@email.com",
+      "error_invalid_email": "Tia adresse email oyo eza malamu",
+      "error_no_account": "Compte mosi te ezuami na adresse email oyo",
+      "check_spam": "Tala diaka ba spams na nge.",
+      "signature": "LUVIKA • Lien eza na nzela ya ngonga moko"
+    },
+    "error": {
+      "title": "Ntembe ya authentification",
+      "description": "Ntembe esalami na ntangu ya authentification.",
+      "default_message": "Ntembe esalami.",
+      "unexpected_error": "Ntembe moko oyo eyebanaki te esalami.",
+      "back_to_login": "Vutuka na kota",
+      "back_to_login_button": "Vutuka na kota",
+      "signature": "LUVIKA • Assistance eza"
+    }
+  },
+  "admin": {
+    "title": "💼 Espace Administrateur",
+    "subtitle": "Sala ba utilisateurs, ba abonema mpe ba carte NFC",
+    "stats": {
+      "total_users": "Ba utilisateurs",
+      "active_subscriptions": "Ba abonema actifs",
+      "total_scans": "Ba scanning yonso",
+      "orders": "Ba commandes",
+      "nfc_cards": "Ba carte NFC",
+      "trends": "Ba tendances ya sika-sika"
+    },
+    "subscriptions": {
+      "no_active": "Aucun abonema actif mpo na ntangu oyo.",
+      "title": "Sala ba abonema",
+      "description": "Tonda to sobole plan ya musadisi.",
+      "action": "Sala ba abonema"
+    },
+    "nav": {
+      "orders": "Ba commandes",
+      "back_to_dashboard": "Vutuka na tableau de bord"
+    },
+    "subscription": {
+      "plan": "Plan",
+      "activated": "E tongami le",
+      "expires": "Ekita le",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "never": "Te",
+      "activate": "Tonda",
+      "deactivate": "Longola",
+      "title": "Sala ba abonema",
+      "description": "Tonda to sobole plan ya musadisi.",
+      "action": "Sala ba abonema",
+      "edit": "Sobola",
+      "change_plan": "Sobola plan",
+      "select_plan": "Pona plan",
+      "expires_help": "Bika mtumba mpo na abonema ya bomoi yonso",
+      "updated_success": "Plan e sobmani na succès",
+      "update_error": "Kusobola elongi",
+      "upgrade_to_premium": "Kobongola na Professionnel",
+      "request_enterprise": "Kobongola na compte Business"
+    },
+    "nfc": {
+      "status": {
+        "active": "Active",
+        "lost": "Mekweyaka",
+        "blocked": "Ekomama",
+        "inactive": "Inactive",
+        "status": "Etat"
+      },
+      "created": "Esalemi le",
+      "no_cards": "Aucune carte NFC mpo na ntangu oyo.",
+      "block_card": "Komona carte",
+      "status_values": {
+        "active": "Active",
+        "lost": "Mekweyaka",
+        "blocked": "Ekomama",
+        "inactive": "Inactive"
+      },
+      "activated": "E tongami le",
+      "assigned_to": "Assignée à",
+      "card_id": "ID carte",
+      "created_at": "Esalemi le",
+      "actions": "Ba actions",
+      "activate": "Tonda",
+      "block": "Kokoma",
+      "unassign": "Désassigner"
+    },
+    "users": {
+      "name": "Kombo",
+      "username": "Identifiant",
+      "email": "Email",
+      "role": "Rôle",
+      "actions": "Ba actions",
+      "no_users": "Aucun utilisateur mpo na ntangu oyo."
+    },
+    "analytics": {
+      "recent_activity": "Activité ya sika-sika",
+      "coming_soon": "Ba graphiques mpe ba analyses ya détail bino koya."
+    },
+    "user_selector": {
+      "placeholder": "Pona utilisateur...",
+      "search": "Kimbala utilisateur...",
+      "loading": "Chargement...",
+      "no_results": "Aucun utilisateur ezui."
+    },
+    "plans": {
+      "basic": "Basique",
+      "premium": "Pro",
+      "entreprise": "Business",
+      "undefined": "Non défini"
+    },
+    "actions": {
+      "title": "Ba actions noki",
+      "welcome_email": {
+        "title": "📧 Email ya boyei malamu",
+        "description": "Tinda email na Kode QR na musadisi ya sika",
+        "button": "Tinda sika",
+        "sending": "Envoi..."
+      },
+      "email_success": "✅ Email e tindami na succès!",
+      "email_error": "❌ Ntembe na ntangu ya kotinda.",
+      "error_generic": "Ntembe esalama. Sola ntangu mosusu.",
+      "sending": "Envoi..."
+    },
+    "modules": {
+      "subscriptions": {
+        "no_active": "Aucun abonema actif mpo na ntangu oyo.",
+        "title": "Sala ba abonema",
+        "description": "Tonda to sobole plan ya musadisi.",
+        "action": "Sala ba abonema"
+      },
+      "orders": {
+        "title": "Ba commandes NFC",
+        "description": "Sala ba commandes ya ba carte NFC: validation, expédition, suivi.",
+        "action": "Tala ba commandes"
+      },
+      "nfc": {
+        "title": "Ba carte NFC",
+        "description": "Komona carte oyo mekweyaka to inactive.",
+        "action": "Superviser ba carte"
+      },
+      "users": {
+        "title": "Ba utilisateurs",
+        "description": "Modérer ba profili mpe ba déclarations ya kufwa.",
+        "action": "Sala ba utilisateurs"
+      },
+      "analytics": {
+        "title": "Ba statistiques globales",
+        "description": "Tala ba tendances mpe ba performances.",
+        "action": "Tala ba analyses"
+      }
+    },
+    "orders": {
+      "title": "Ba commandes ya ba carte",
+      "subtitle": "Landela mpe valider ba demandes ya ba carte physiques.",
+      "no_orders": "Aucune commande mpo na ntangu oyo."
+    }
+  },
+  "about": {
+    "title": "Sambu na LUVIKA",
+    "subtitle": "Luvika: Ebandeli ya kombo mpe ebandeli ya projet",
+    "origin": {
+      "title": "Ebandeli ya kombo Luvika",
+      "content": "Kombo Luvika ewuti na kusangisa ba éléments mibale ya ntina:\n• Luvi, ewuti na liloba Luvila, na monoko ya kikongo, oyo elimboli identité, essence, oyo elimboli mutu na molili.\n• Ka, oyo elimboli carte, oyo etali support ya identification.\n\nNa yango, Luvika elimboli identité oyo eza na carte.\n\nKombo oyo emonisi vision ya projet: kopesa identité digitale ya sika, oyo esangisami na carte NFC, mpo na kopesa nzela na mutu nyonso komimonisa, kabola profili ya professionnel na ye mpe kopesa motuya na identité na ye na ndenge ya pete, ya sécurité mpe ya sika.\nNa Luvika, identité ekotisi te kaka ete eza declaratif: ekomi digital, eza transportable mpe eza connecté, ntangu eza kopesa motuya na essence na ye ya culture mpe ya humain."
+    },
+    "context": {
+      "title": "Contexte mpe idée ya ebandeli",
+      "content": "Luvika ebotamaki na réflexion ya mutu moko mpe ya molili. Na ntangu ya kimia, nazalaki komipesa mituna ndenge ya kopesa motuya na ba ressources na ngai, ba origines na ngai mpe identité na ngai, mingimingi na eya ya tribu na ngai. Idée ya ebandeli ezalaki ya kosala solution oyo ekoki kusangisa lisusu batu na ba sources na bango, mpo na kopesa nzela ya kopesa motuya na histoire na bango, village ya ebandeli na bango, tribu na bango mpe botiami na bango na clan.\n\nConcept ya ebandeli ezalaki mpo na développement ya application oyo ekoki kolakisa ndenge nyonso ebandeli ya mutu: village na ye, tribu na ye, clan na ye. Na platform oyo, ba éléments ya culture mpe ya identité ekoki koyebana, kusanganisama mpe kobatama."
+    },
+    "problem": {
+      "title": "Problème oyo emonani / limite ya concept ya ebandeli",
+      "content": "Kasi, analyse ya molili mingi ememaki ngai na koyeba ntina moko: projet oyo etali kaka identité ya culture ekoki kuzwa public moke mpe ekopesa nzela te mpo na adoption monene."
+    },
+    "transformation": {
+      "title": "Transformation ya stratégique ya projet",
+      "content": "Ezaki wana transformation ya stratégique ya concept esalemaki. Luvika ebongwanaki mpo na kokoma identifiant ya professionnel ya numérique, oyo etongami na système ya ba carte NFC, ntango eza kobatela identité lokola base ya vision. Evolution oyo epesaki nzela ya komemela projet utilité ya concret, ya sika mpe ya universel, mpo na koyanola ba besoins ya professionnel mpe ya commercial oyo eza na ntina."
+    },
+    "solution": {
+      "title": "Mbotama ya solution Luvika (NFC mpe identité numérique)",
+      "content": "Na ntangu ya développement, emonanaki polele ete kosala kaka ba profili ya ba utilisateurs eza te. Na yango, Luvika emipesaki structure na ba plans misato ya ndenge na ndenge:\n• Plan ya Basique, mpo na ba utilisateurs oyo balingi présence numérique ya pete mpe ya kuzwa.\n• Plan ya Professionnel, mpo na ba fonctionnalités ya avance, oyo ememeli création mpe gestion ya ba événements lokola ba conférences, ba mariages, ba fêtes to ba réunions ya professionnel.\n• Plan ya Business, mpo na ba entreprises mpe ba utilisateurs oyo baza na ba besoins ya monene, oyo esangiseli ba outils ya vente, ya visibilité mpe ya gestion ya avance.\n\nNzala na structure oyo, Luvika ekomaki mingi koleka application ya pete. Lelo oyo eza platform ya versatile oyo epesaka nzela ya kopesa motuya na identité, kolongola échanges ya professionnel, kosala ba carte ya identification ya professionnel na technologie NFC mpe kosala valeur ya économique mpo na ba utilisateurs na ye."
+    },
+    "offers": {
+      "title": "Structure ya ba offres (Basique, Professionnel, Business)",
+      "content": "Luvika epesaka ba plans misato oyo eza na ba prix oyo ekoki mpo na ba besoins ndenge na ndenge:\n\n**Plan ya Basique**: Mpo na ba particuliers oyo balingi présence numérique ya pete mpe ya kuzwa. Mpo na ba étudiants, ba jeunes professionnels mpe ba particuliers.\n\n**Plan ya Professionnel**: Mpo na ba freelances, ba entrepreneurs mpe ba professionnels. Epesaka ba fonctionnalités ya avance lokola création ya ba événements, gestion ya ba contacts mpe ba outils ya networking.\n\n**Plan ya Business**: Mpo na ba entreprises mpe ba organisations. Esangiseli ba outils ya gestion ya équipe, ya visibilité ya commercial mpe ya création ya valeur ya économique."
+    },
+    "vision": {
+      "title": "Vision mpe mission ya Luvika",
+      "content": "**Vision**: Kozwa référence ya africaine ya identité numérique ya professionnel, oyo esangiseli innovation ya technologique mpe motuya ya culture.\n\n**Mission**: Kobongisa carte ya visite physique ya identité numérique ya intelligent, ya contrôle, ya sécurité mpe oyo eza mpo na batu yonso — mingimingi mpo na ba entrepreneurs, ba développeurs mpe ba leaders ya africains.\n\nTolingi l'avenir oyo identité numérique ekopekisa ba contacts ya professionnel mpo na kobatela ba racines ya culture ya mutu nyonso."
+    },
+    "value": {
+      "title": "Valeur ajoutée mpo na ba utilisateurs",
+      "content": "Luvika epesaka valeur ajoutée ya ntina mpo na ba utilisateurs:\n\n• **Kokoka ya kusadila**: Interface ya intuitive mpe ya ba ndolingo efulu, oyo eza mpo na batu yonso\n• **Sécurité ya makasi**: Contrôle mobimba na ba données na nge ya muntu mpe ya mosala\n• **Connexion**: Ba échanges ya professionnel oyo eza na nzela na technologie NFC\n• **Visibilité**: Kopesa motuya na profili na nge mpe na ba compétences na nge\n• **Culture**: Kopesa motuya na identité mpe na ba racines ya culture\n• **Économie**: Kosala valeur mpe ba opportunités ya commerciale\n• **Innovation**: Technologie ya sika na service ya développement ya mutu mpe ya mosala"
+    },
+    "perspective": {
+      "title": "Perspective mpe ambition ya projet",
+      "content": "Luvika eza na ambition ya:\n\n• **Kobongisa networking** na Afrique mpe na mokili mobimba\n• **Kosala écosystème numérique** ya professionnel mpe oyo etongami na culture\n• **Kokokisa ba échanges** kati na ba professionnels ya africains mpe ya international\n• **Kopesa ndinga na innovation ya technologique ya africaine**\n• **Kokokisa développement ya économique** ya continent\n• **Komoka plateforme oyo eza na ntina** mpo na ba professionnels ya mokili mobimba\n\nLokasi na biso eza ya kosala Luvika symbole ya excellence ya technologique ya africaine, ntango eza kosalisa kopesa motuya na ba valeurs mpe identité ya ba utilisateurs na ye."
+    }
+  },
+  "contact": {
+    "title": "Kutana",
+    "subtitle": "Ntembe moko, idée moko, collaboration? Tolinga kobalola na bino.",
+    "address": "Adresse",
+    "email": "Email",
+    "phone": "Telefone",
+    "form_title": "Tinda biso message",
+    "name": "Kombo",
+    "name_placeholder": "Kombo na nge",
+    "message": "Message",
+    "message_placeholder": "Mbote, nalingi...",
+    "send": "Tinda"
+  },
+  "download": {
+    "title": "Kopakana",
+    "subtitle": "LUVIKA eza ofele, kangamini mpo na batu yonso, mpe eza kosala na kukangola te.",
+    "step1": {
+      "title": "1. Sala profili na nge",
+      "desc": "Na minites 2, tia ba informations na nge mpe sobole identité na nge."
+    },
+    "step2": {
+      "title": "2. Sala Kode QR na nge",
+      "desc": "To sangisa carte NFC (option ya Professionnel)."
+    },
+    "step3": {
+      "title": "3. Kabola!",
+      "desc": "Scan → contact e batisama → connexion etongami."
+    },
+    "cta_title": "Okoki kombo kosala oyo ozali?",
+    "cta_desc": "Banda na ofele — carte bancaire esengeli te.",
+    "download_now": "Banda sika"
+  },
+  "footer": {
+    "product": "Produit",
+    "features": "Ba fonctionnalités",
+    "pricing": "Ba prix",
+    "download": "Kopakana",
+    "documentation": "Documentation",
+    "company": "Ba ressources",
+    "about": "Sambu na",
+    "contact": "Kutana",
+    "blog": "Blog",
+    "legal": "Légal",
+    "privacy": "Vie privée",
+    "terms": "Ba conditions",
+    "cookies": "Gestion ya cookies",
+    "tagline": "Plateforme digitale oyo ebongisaka présentation ya professionnel na Afrique. Kangola, kabola, kongengisa.",
+    "copyright": "Esalemi na ❤️ na Kinshasa, RDC",
+    "cta_title": "Sangisa na révolution digitale",
+    "cta_description": "Sala profili ya professionnel na nge na minites 2 mpe ebanda kongengisa.",
+    "cta_button": "Kosala profili na ngai",
+    "available_languages": "Eza na ba ndolingo 9",
+    "language": "Ndolingo",
+    "sitemap": "Plan ya site",
+    "security": "Sécurité",
+    "status": "Etat",
+    "operational": "Operationnel",
+    "made_in_africa": "100% Esalemi na Afrique",
+    "gdpr_compliant": "RGPD Compliant",
+    "scroll_to_top": "Vutuka na likolo"
+  },
+  "pricing": {
+    "title": "Ba plans ya ba prix",
+    "description": "Pona plan oyo ekoki na ba besoins na nge",
+    "billing": {
+      "monthly": "Sanza",
+      "yearly": "Mobu",
+      "per_month": "na sanza",
+      "per_year": "na mobu"
+    },
+    "plans": {
+      "freemium": {
+        "title": "Ofele",
+        "desc": "Mpo na ebandeli",
+        "features": {
+          "nfc": "Carte NFC moko",
+          "users": "Profili ya mutu",
+          "events": "Mele moko",
+          "presence": "Suivi ya ba présences",
+          "stats": "Ba statistiques ya base",
+          "roles": "Rôle ya musadisi",
+          "dashboard": "Tableau de bord"
+        }
+      },
+      "premium": {
+        "title": "Professionnel",
+        "popular": "Populaire",
+        "desc": "Mpo na ba professionnels",
+        "features": {
+          "nfc": "Ba carte NFC 10",
+          "users": "Équipe kino 5",
+          "events": "Ba événements oyo eliaki te",
+          "presence": "Suivi ya avance",
+          "stats": "Ba statistiques ya détail",
+          "roles": "Gestion ya ba rôles",
+          "dashboard": "Dashboard ya avance"
+        }
+      },
+      "entreprise": {
+        "title": "Business",
+        "desc": "Solution mobimba",
+        "features": {
+          "nfc": "Ba carte NFC oyo eliaki te",
+          "users": "Équipe oyo eliaki te",
+          "events": "Ba événements oyo eliaki te",
+          "presence": "Suivi na temps réel",
+          "stats": "Ba analyses mobimba",
+          "roles": "Contrôle d'accès ya avance",
+          "dashboard": "Dashboard ya personnalisé"
+        }
+      }
+    },
+    "cta": {
+      "choose": "Pona {plan}"
+    },
+    "footer": {
+      "custom_plan": "Plan ya personnalisé",
+      "contact_us": "Kutana biso"
+    }
+  },
+  "validate_button": "Valider",
+  "cancel_button": "Longola",
+  "confirm_cancel": "Okoki soló kolinga kolongola commande oyo? Action oyo ekosuka.",
+  "action_success": {
+    "validate": "✅ Commande validée!",
+    "cancel": "✅ Commande annulée."
+  },
+  "action_error": {
+    "validate": "❌ Échec validation",
+    "cancel": "❌ Échec annulation"
+  },
+  "common": {
+    "save": "Bomba",
+    "saving": "Kobomba...",
+    "loading": "Chargement...",
+    "back_to_home": "Lupangu",
+    "privacy_link": "Vie privée",
+    "terms_link": "Ba conditions",
+    "contact_link": "Kutana"
+  },
+  "enterprise": {
+    "title": "🏢 Espace Business",
+    "subtitle": "Sala boutique na nge, ba employés na nge, ba carte na nge mpe présence na nge — na temps réel.",
+    "modules": {
+      "dashboard": {
+        "title": "Tableau de bord",
+        "desc": "Vue d'ensemble na temps réel ya activité na nge"
+      },
+      "settings": {
+        "title": "Ba paramètres ya profili",
+        "description": "Sala ba informations na nge ya muntu mpe vie privée",
+        "profile": {
+          "title": "Profili",
+          "description": "Ba informations ya muntu mpe ya mosala",
+          "full_name": "Kombo yonso",
+          "username": "Kombo ya musadisi",
+          "job_title": "Mosala",
+          "bio_short": "Lisolo mokuse"
+        },
+        "visibility": {
+          "title": "Monisama",
+          "description": "Pona nki emonanaka na profili na nge ya batu nyonso",
+          "is_public": "Profili ya batu nyonso",
+          "is_public_description": "Kosala ete profili na nge emonana na batu nyonso",
+          "sections": "Ba sections oyo emonanaka",
+          "portfolio_locked": "Kukangola portfolio na abonema Professionnel",
+          "certificates_locked": "Ba certificats eza mpo na ba comptes Professionnel/Business"
+        },
+        "contact": {
+          "title": "Kutana",
+          "description": "Ba informations ya kutana",
+          "email": "Email",
+          "phone": "Telefone",
+          "address": "Adresse"
+        },
+        "social": {
+          "title": "Ba réseaux sociaux",
+          "description": "Ba liens ya ba réseaux sociaux na nge",
+          "website": "Site web",
+          "linkedin": "LinkedIn",
+          "github": "GitHub"
+        },
+        "security": {
+          "title": "Sécurité",
+          "description": "Ba paramètres ya sécurité ya compte",
+          "two_factor": "Authentification na ba facteurs mibale",
+          "two_factor_description": "Tonda authentification na ba facteurs mibale sambu na sécurité mingi",
+          "password": "Mot de passe",
+          "password_description": "Sobola mot de passe na nge",
+          "change_password": "Sobola mot de passe",
+          "not_configured": "Esobola kusalamaka te"
+        },
+        "subscription": {
+          "title": "Abonema",
+          "description": "Sala abonema na nge",
+          "plan": "Plan",
+          "status": "Etat",
+          "active": "Actif",
+          "manage": "Sala abonema"
+        },
+        "success": {
+          "title": "Succès",
+          "description": "Ba changements na nge e bobmami"
+        },
+        "error": {
+          "title": "Ntembe",
+          "description": "Ntembe esalami na ntangu ya kobomba"
+        },
+        "saving": "Kobomba...",
+        "save_success": "✅ Profili e sobmani",
+        "save_error": "❌ Échec ya kobomba",
+        "load_error": "❌ Impossible ya charger profili",
+        "avatar_uploaded": "✅ Foto ya profili e sobmani",
+        "avatar_error": "❌ Échec ya upload",
+        "avatar_invalid": "⚠️ Format eza malamu te (JPG/PNG kaka)",
+        "cover_uploaded": "✅ Couverture e sobmani",
+        "cover_error": "❌ Échec ya upload",
+        "cover_invalid": "⚠️ Format eza malamu te (JPG/PNG kaka)",
+        "url_copied": "✅ Lien e kaninama",
+        "photo": {
+          "title": "Foto mpe Couverture",
+          "avatar": "Foto ya profili",
+          "cover": "Foto ya couverture",
+          "upload_avatar": "Sobola foto",
+          "upload_cover": "Klik sambu na kupakana couverture"
+        },
+        "personal": {
+          "title": "Ba informations ya muntu",
+          "full_name": "Kombo yonso",
+          "full_name_placeholder": "lakisa: Hassan M.",
+          "username": "Kombo ya musadisi",
+          "username_placeholder": "kombo_na_nge",
+          "job_title": "Mosala",
+          "job_title_placeholder": "Développeur Full-Stack",
+          "company": "Entreprise",
+          "company_placeholder": "LUVIKA",
+          "bio_short": "Lisolo mokuse",
+          "bio_short_placeholder": "Mongole moko ya mfunu",
+          "bio_long": "Lisolo ya ndelo",
+          "bio_long_placeholder": "Nzela na nge, ba passions, ba valeurs..."
+        },
+        "contact_info": {
+          "title": "Ba coordonnées",
+          "email_placeholder": "hassan@luvika.me",
+          "phone_placeholder": "+243 999 123 456",
+          "address_placeholder": "Kinshasa, RDC"
+        },
+        "advanced": {
+          "title": "Ba options ya avance",
+          "public_profile": "Profili ya batu nyonso",
+          "public_profile_desc": "Emonanaka na kukota te",
+          "contact_requests": "Ba messages ya batu nyonso",
+          "contact_requests_desc": "Pesa nzela na ba visiteurs sambu na kokomela nge message",
+          "profile_url": "URL ya profili"
+        },
+        "privacy_settings": {
+          "title": "Vie privée",
+          "hide_birth_year": "Bomba mbula ya mbotama",
+          "hide_birth_year_desc": "Emonisaka kaka mokolo/mokolo",
+          "disable_birthday_icon": "Kufwa icône ya mbotama",
+          "disable_birthday_icon_desc": "Bomba 🎂 le jour ya mbotama",
+          "verified_badge": "Badge ya vérification",
+          "verified_badge_desc": "Emonanaka na pembeni ya kombo na nge",
+          "verified_tooltip": "Profili vérifié",
+          "enterprise_only": "Mpo na ba entreprises"
+        }
+      },
+      "product": {
+        "add_to_cart": "Bakisa na panier",
+        "added_to_cart": "✅ Ebakisami na panier!",
+        "cart_error": "❌ Impossible ya kubakisa na panier",
+        "favorite_error": "❌ Ntembe na favori",
+        "add_to_favorites": "Bakisa na ba favoris",
+        "remove_from_favorites": "Longola na ba favoris",
+        "quantity": "Quantité",
+        "order_now": "Pona sika",
+        "whatsapp_order": "Pona na WhatsApp",
+        "seller_not_found": "Vendeur ezuami te",
+        "no_whatsapp": "Vendeur oyo akoki te kuzwa na WhatsApp",
+        "quantity_exceeds_stock": "Quantité oyo elingami eleki stock oyo eza",
+        "in_stock": "{count} na stock",
+        "add_favorite": "Bakisa na ba favoris",
+        "remove_favorite": "Longola na ba favoris",
+        "no_description": "Description mosi te"
+      },
+      "shop": {
+        "title": "Boutique mpe ba Produits",
+        "desc": "Catalogue ya batu nyonso, stock, ba promotions",
+        "edit_title": "Sobola produit",
+        "product_info": "Ba informations ya produit",
+        "image": "Image",
+        "image_help": "JPG/PNG kino 5MB",
+        "name": "Kombo ya produit",
+        "name_placeholder": "lakisa: T-shirt LUVIKA",
+        "slug": "URL ya personnalisé",
+        "slug_placeholder": "tshirt-luvika",
+        "description": "Description",
+        "description_placeholder": "Lobela produit na nge...",
+        "price": "Prix",
+        "promo_price": "Prix ya promotion",
+        "stock": "Stock",
+        "sku": "Référence (SKU)",
+        "sku_placeholder": "LUVIKA-TSHIRT-001",
+        "sku_help": "Kode unique mpo na suivi ya ba stocks",
+        "optional": "Optionnel",
+        "save": "Bomba",
+        "saving": "Kobomba...",
+        "cancel": "Longola",
+        "delete": "Kufwa",
+        "save_success": "✅ Produit e sobmani",
+        "save_error": "❌ Échec ya kobomba",
+        "load_error": "❌ Impossible ya charger produit",
+        "upload_error": "❌ Échec ya upload",
+        "invalid_image": "⚠️ Format eza malamu te (JPG/PNG kaka)",
+        "image_too_large": "⚠️ Image eleki monene (max 5MB)",
+        "missing_fields": "⚠️ Tia ba champs yonso oyo esengeli",
+        "delete_confirm": "Okoki soló kolinga kufwa produit oyo? Action oyo ekosuka.",
+        "delete_success": "✅ Produit ekufwami",
+        "delete_error": "❌ Échec ya kufwa",
+        "new_product": "Produit ya sika",
+        "images": "Ba images ya produit",
+        "image_help_multi": "Kino ba images 5 (JPG/PNG, max 5MB)",
+        "max_5_images": "⚠️ Maximum ba images 5",
+        "create_product": "Kosala produit",
+        "create_success": "✅ Produit esalemi",
+        "create_error": "❌ Échec ya bokoli",
+        "uploading": "Upload...",
+        "no_products": "Produit mosi te e batisami",
+        "add_product": "Bakisa produit",
+        "edit_product": "Sobola produit",
+        "delete_product": "Kufwa",
+        "view_coming_soon": "Eko koya noki",
+        "view_product": "Tala produit",
+        "invalid_slug": "Slug esengeli te kozala na URL to ba mots oyo eza te",
+        "slug_preview": "Aperçu ya lien"
+      },
+      "orders": {
+        "title": "Ba commandes",
+        "desc": "Suivi ya ba ventes mpe expéditions",
+        "total_revenue": "Revenu yonso",
+        "pending_orders": "Ba commandes oyo eza kolanda",
+        "completed_orders": "Ba commandes oyo ekamati",
+        "recent_orders": "Ba commandes ya sika-sika"
+      },
+      "employees": {
+        "title": "Ba employés",
+        "desc": "Gestion ya RH moke mpe ba rôles",
+        "add_employee": "Bakisa employé",
+        "full_name": "Kombo yonso",
+        "full_name_placeholder": "lakisa: Nestor P.",
+        "email": "Email",
+        "email_placeholder": "phaku@entreprise.com",
+        "phone": "Telefone",
+        "phone_placeholder": "+243 890 177 601",
+        "position": "Mosala",
+        "position_placeholder": "Développeur, RH, etc.",
+        "role": "Rôle",
+        "select_role": "Pona rôle",
+        "roles": {
+          "employee": "Employé",
+          "manager": "Manager",
+          "admin": "Administrateur"
+        },
+        "cancel": "Longola",
+        "confirm_add": "Bakisa employé",
+        "adding": "Kobakisa...",
+        "add_success": "✅ Employé ebakisami!",
+        "add_error": "❌ Échec ya kubakisa. Sola ntangu mosusu."
+      },
+      "cards": {
+        "title": "Ba carte Pro",
+        "desc": "Ba carte NFC oyo eliaki te mpo na équipe mobimba"
+      },
+      "attendance": {
+        "title": "Présence",
+        "desc": "Pointage na Kode QR na temps réel",
+        "recent_logs": "Ba présences ya sika-sika"
+      },
+      "communication": {
+        "title": "Communication",
+        "desc": "Ba messages internes mpe ba annonces",
+        "broadcast_title": "Message global",
+        "broadcast_desc": "Tinda message na ba employés yonso",
+        "message_placeholder": "Koma message na nge awa...",
+        "send_broadcast": "Tinda",
+        "sending": "Envoi..."
+      },
+      "settings": {
+        "title": "Ba paramètres",
+        "desc": "Configuration ya entreprise na nge",
+        "company_info": "Ba informations ya entreprise",
+        "name": "Kombo",
+        "email": "Email",
+        "phone": "Telefone",
+        "address": "Adresse",
+        "city": "Ville",
+        "country": "Nsi",
+        "website": "Site web",
+        "description": "Description",
+        "logo_url": "URL ya logo",
+        "save": "Bomba",
+        "saving": "Kobomba...",
+        "save_success": "✅ Profili e sobmani",
+        "save_error": "❌ Échec ya kobomba",
+        "loading": "Chargement..."
+      }
+    },
+    "value_prop": {
+      "title": "Entreprise na nge, unifiée mpe ya bomoi",
+      "desc": "Luvika eza te profili — eza outil ya mosala na nge ya mokolo na mokolo, oyo esalemi mpo na Afrique mpe scalable na international."
+    }
+  },
+  "enterprise_only": "Business",
+  "blog": {
+    "title": "Blog ya LUVIKA",
+    "description": "Koyeba ba nouvelles ya nsuka, ba tutoriels mpe ba conseils sambu na kusadila LUVIKA na ndenge ya malamu."
+  },
+  "not_found": {
+    "loading": "Chargement...",
+    "title": "Page ezuami te",
+    "session_expired": "Session na nge ekoki kokita. Kota sika sambu na kolanda.",
+    "page_moved": "Page oyo ozali koluka eza te to e bongwani.",
+    "sign_out": "Basika",
+    "back": "Vutuka",
+    "suggestions_title": "Ba suggestions",
+    "need_help": "Osengeli lisalisi?",
+    "contact_support": "Kutana support",
+    "made_with": "Esalemi na ❤️ na Kinshasa",
+    "suggestions": {
+      "dashboard": "Tableau de bord",
+      "features": "Ba fonctionnalités NFC",
+      "pricing": "Ba offres mpe ba prix",
+      "documentation": "Documentation"
+    },
+    "badges": {
+      "languages": "Ba ndolingo 9",
+      "security": "Sécurité bancaire",
+      "availability": "99.9% disponibilité"
+    }
+  },
+  "cookies_page": {
+    "loading": "Chargement...",
+    "badge": "Ba cookies",
+    "title": "Politique ya ba cookies",
+    "description": "Kosalela kaka ba cookies oyo esengeli mpo na fonctionnement ya platforme. Ba cookies ya suivi to ya publicité basalelami te.",
+    "used_cookies_title": "Ba cookies oyo basalelami",
+    "used_cookies_subtitle": "Esengeli mpo na fonctionnement",
+    "cookies_list": {
+      "auth": "Authentification",
+      "auth_desc": "Ba cookies ya session sambu na kobatela compte na nge actif",
+      "preferences": "Ba préférences",
+      "preferences_desc": "Ndolingo oyo eponami mpe thème ya affichage",
+      "security": "Sécurité",
+      "security_desc": "Protection contre ba attaques CSRF mpe XSS"
+    },
+    "important_title": "Mfunu",
+    "important_no_tracking": "Ba cookies ya suivi te",
+    "important_description": "(Google Analytics, Meta Pixel, etc.) basalelami te na LUVIKA. Okoki kutala to kolongola ba cookies na ba paramètres ya navigateur na nge na ntangu nyonso.",
+    "your_rights_title": "Ba droits na nge",
+    "rights_list": {
+      "access": "Kuzwa liste ya ba cookies oyo basalelami",
+      "delete": "Kolongola ba cookies na ba paramètres ya navigateur na nge",
+      "refuse": "Refuser ba cookies oyo esengeli te (eza te na LUVIKA)"
+    },
+    "back_to_home": "Vutuka na lupangu",
+    "footer_text": "LUVIKA • Politique ya ba cookies • Dernière mise à jour: {date}",
+    "made_with": "Esalemi na ❤️ na Kinshasa"
+  },
+  "privacy_page": {
+    "loading": "Chargement...",
+    "badge": "Vie privée",
+    "title": "Politique ya vie privée – Luvika",
+    "description": "Vie privée na nge eza priorité na biso. Politique oyo elobi ndenge tobatelaka ba données na nge ya muntu.",
+    "back_to_home": "Vutuka na lupangu",
+    "footer_text": "LUVIKA • Politique ya vie privée • Dernière mise à jour: {date}",
+    "made_with": "Esalemi na ❤️ na Kinshasa",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Luvika eza platforme ya ba carte numériques ya professionnel. Protection ya ba données na nge ya muntu eza priorité ya liboso. Politique oyo elobi ba données nini tokolektaka, mpo na nki, mpe ndenge tobatelaka yango."
+      },
+      "collected_data": {
+        "title": "Ba données oyo tokolektaka",
+        "content": "Ntango osalelaka Luvika, tokolektaka:",
+        "items": "Kombo mpe kombo ya libota|Adresse ya email|Numéro ya telefone|Foto ya profili|Ba informations ya carte numérique oyo esalemi|Ba données ya connexion (adresse IP, type ya appareil)"
+      },
+      "purpose": {
+        "title": "Mokano ya kolekta",
+        "content": "Ba données basalelami mpo na:",
+        "items": "Kosala mpe kosala compte na nge|Kosala ba carte numériques na nge|Kobatela accès na platforme|Kobongisa performance ya service"
+      },
+      "cookies": {
+        "title": "Ba cookies",
+        "content": "Luvika esalelaka ba cookies mpo na:",
+        "items": "Kobatela session na nge|Navigation ya sécurité|Kobatela ba préférences mosusu",
+        "highlight": "Ba cookies ya publicité ya tiers basalelami te na ndingisa na nge."
+      },
+      "data_sharing": {
+        "title": "Kokabola ba données",
+        "content": "Ba données na nge batekaka te. Bakoki kotelemisama na ba services techniques oyo batondami na sécurité mpo na fonctionnement ya platforme kaka."
+      },
+      "security": {
+        "title": "Sécurité",
+        "content": "Tozalaka kosalela ba mesures techniques ya avance mpo na kobatela ba informations na nge na ba accès oyo epesami nzela te."
+      },
+      "retention": {
+        "title": "Mokolo ya kobatela",
+        "content": "Ba données eza kaka ntango compte na nge eza actif. Okoki kosengela kolongola na ntangu nyonso."
+      },
+      "your_rights": {
+        "title": "Ba droits na nge",
+        "content": "Okoki:",
+        "items": "Kuzwa ba données na nge|Sobola ba informations na nge|Kolongola compte na nge"
+      },
+      "contact": {
+        "title": "Kutana",
+        "content_before": "Sambu na likambo nyonso:"
+      }
+    }
+  },
+  "terms_page": {
+    "loading": "Chargement...",
+    "badge": "Ba conditions générales",
+    "title": "Ba conditions générales ya kusadila",
+    "description": "Ba conditions ya kusadila platforme LUVIKA. Ntango osalelaka ba services na biso, ondima ba conditions oyo.",
+    "effective_date": "Na vigueur le: {date}",
+    "back_to_home": "Vutuka na lupangu",
+    "footer_text": "LUVIKA • Ba conditions générales ya kusadila • Dernière mise à jour: {date}",
+    "made_with": "Esalemi na ❤️ na Kinshasa",
+    "sections": {
+      "acceptance": {
+        "title": "1. Kondima ya ba conditions",
+        "content": "Ntango osalelaka LUVIKA, ondima ba conditions oyo. Soki ondimi te, kusadila service te."
+      },
+      "account": {
+        "title": "2. Compte ya musadisi",
+        "content": "Nge mosi ozali na mokumba ya sécurité ya compte na nge mpe ba informations oyo okabolaka na batu nyonso."
+      },
+      "intellectual_property": {
+        "title": "3. Propriété intellectuelle",
+        "content": "LUVIKA mpe code ya source na yango eza ya ba auteurs na yango. Contenu oyo opubliaka ekomaka na nge."
+      },
+      "liability": {
+        "title": "4. Limitation ya responsabilité",
+        "content": "LUVIKA epesami 'tel quel'. Tozali kopesa nzela te disponibilité 24/7 to fiabilité ya ba scanning NFC/QR."
+      },
+      "modifications": {
+        "title": "5. Ba modifications",
+        "content": "Tokoki kobongisa ba conditions oyo. Okoyebisama soki changement monene esalemi."
+      }
+    }
+  },
+  "home": {
+    "audience": {
+      "creators": "Ba créateurs",
+      "entrepreneurs": "Ba entrepreneurs",
+      "professionals": "Ba professionnels"
+    },
+    "stats": {
+      "users": "Ba utilisateurs",
+      "scans": "Ba scanning",
+      "satisfaction": "Kusepela"
+    },
+    "features": {
+      "title_before": "Bongisa lisusu",
+      "title_highlight": "présence numérique na nge",
+      "description": "LUVIKA ebongisaka identité numérique na nge na ba fonctionnalités innovantes oyo esalelami mpo na ba créateurs, ba entrepreneurs mpe ba professionnels oyo baza na ambitions.",
+      "nfc_stat": "100% sans contact",
+      "stats_stat": "Ba données na temps réel",
+      "multi_stat": "Multi-plateforme"
+    },
+    "reviews": {
+      "badge": "Ba avis vérifiés",
+      "title": "Nini ba utilisateurs na biso balobi",
+      "description": "Koyeba ba expériences ya communauté na biso.",
+      "verified": "Vérifié"
+    },
+    "events": {
+      "badge": "Ba événements intelligents",
+      "description": "Bongisa, tala mpe kotala ba événements na nge na ba kode QR personnalisés mpe ba statistiques na temps réel."
+    },
+    "footer": {
+      "description": "Génération ya sika ya identité numérique mpo na ba créateurs, ba entrepreneurs mpe ba professionnels oyo baza na ambitions na Afrique mpe na bisika misusu.",
+      "product": "Produit",
+      "company": "Entreprise",
+      "legal": "Légal",
+      "features": "Ba fonctionnalités",
+      "pricing": "Ba prix",
+      "download": "Kopakana",
+      "documentation": "Documentation",
+      "about": "Sambu na",
+      "contact": "Kutana",
+      "blog": "Blog",
+      "careers": "Ba carrières",
+      "privacy": "Vie privée",
+      "terms": "Ba conditions",
+      "cookies": "Ba cookies",
+      "security": "Sécurité",
+      "copyright": "© {year} {brand}. Esalemi na ❤️ na RDC.",
+      "operational": "Opérationnel"
+    },
+    "profile_preview": "Aperçu ya carte",
+    "best_solution_badge": "Solution ya malamu koleka 2026"
+  },
+  "cookies_banner": {
+    "title": "Ba cookies",
+    "essential_badge": "Ba nécessaires",
+    "close_label": "Kokanga",
+    "description": "Kosalela ba cookies oyo esengeli mpo na fonctionnement ya platforme, kobatela session na nge mpe kobongisa ba services na biso.",
+    "badge_security": "Sécurité",
+    "badge_session": "Session",
+    "badge_preferences": "Ba préférences",
+    "accept_button": "Kondima",
+    "reject_button": "Refuser",
+    "privacy_link": "Vie privée"
+  },
+  "install_modal": {
+    "title": "Kotya Luvika",
+    "pwa_badge": "Application PWA",
+    "close_label": "Kokanga",
+    "ios_prefix": "Na iOS:",
+    "ios_instruction_before": "Pesa",
+    "ios_share_text": "Kabola",
+    "ios_add_text": "Bakisa na écran ya lupangu",
+    "android_prefix": "Na Android:",
+    "android_description": "Tia Luvika mpo na accès ya noki, ba notifications mpe mode hors-ligne.",
+    "install_button": "Kotya",
+    "later_button": "Nsima",
+    "footer_text": "Ofele • Ba secondes moke"
+  },
+  "profile_card_3d": {
+    "brand_name": "LUVIKA",
+    "tagline": "Monisa bino oyo bozali",
+    "example_url": "luvika.me/vika",
+    "verified_badge": "⚡ Vérifié",
+    "matricule_example": "483 920 174"
+  },
+  "contact_page": {
+    "opening_hours": "Ba heures ya ndende",
+    "monday_friday": "Lundi - Vendredi: 8h - 18h",
+    "saturday": "Samedi: 9h - 14h",
+    "sunday": "Dimanche: Ekangami",
+    "form_title": "Lobela biso na projet na nge",
+    "form_subtitle": "Tozongiselaka na ba heures 24 na moyenne",
+    "badge_response_24h": "Nzongola na ba heures 24",
+    "badge_secure_data": "Ba données oyo eza na sécurité",
+    "badge_priority_support": "Support prioritaire",
+    "cta_title": "Olaki koba koloba directement?",
+    "cta_call_text": "Bengisa biso na",
+    "cta_email_text": "to komela na",
+    "cta_button": "Bengisa sika",
+    "footer_text": "LUVIKA • Identité numérique mpo na Afrique mpe mokili mobimba • © {year}",
+    "made_with": "Esalemi na ❤️ na Kinshasa"
+  },
+  "about_page": {
+    "footer_text": "LUVIKA • Identité numérique mpo na Afrique mpe mokili mobimba • © {year}",
+    "made_with": "Esalemi na ❤️ na Kinshasa"
+  },
+  "org_card": {
+    "default_member": "Membre",
+    "default_org": "Organisation",
+    "status": {
+      "expired": "Carte ekitani",
+      "suspended": "Ekomami",
+      "revoked": "Elongami",
+      "invalid": "Eza malamu te",
+      "valid": "Eza malamu"
+    },
+    "fields": {
+      "surname": "Kombo ya libota",
+      "middle_name": "Kombo ya kati",
+      "given_name": "Kombo ya liboso",
+      "phone": "Telefone",
+      "email": "Email",
+      "position": "Mosala / Fonction",
+      "department": "Département / Service",
+      "role_in_org": "Rôle na organisation",
+      "access_level": "Niveau ya accès",
+      "blood_group": "Groupe ya makila",
+      "nationality": "Nationalité",
+      "work_hours": "Ba heures ya mosala",
+      "matricule": "N° matricule",
+      "validity": "Validité"
+    },
+    "verified_by": "Vérifié na {orgName}",
+    "member_since": "Membre kuutuka {date}",
+    "validity_range": "Kuutuka {from} kino {to}",
+    "no_limit": "Sans limite",
+    "hide_details": "Bomba ba détails",
+    "show_details": "Tala identité mobimba",
+    "org_badge": "LUVIKA ORG",
+    "secure_card": "Carte oyo eza na sécurité",
+    "footer_authenticated": "Carte authentifiée • Vérifiée na {orgName}"
+  },
+  "pricing_page": {
+    "default_title": "Ba prix flexibles mpo na batu nyonso",
+    "subtitle": "Ba solutions oyo ekoki na profili na nge mpe organisation na nge.",
+    "tab_profiles": "🧑‍🎓 Ba prix ya ba profili",
+    "tab_software": "💻 Ba plans ya logiciels",
+    "profiles": {
+      "student": "Etudiant",
+      "employee": "Employé",
+      "artist": "Artiste",
+      "diaspora": "Diaspora",
+      "entrepreneur": "Entrepreneur",
+      "ngo": "ONG / Assoc."
+    },
+    "period_per_month": "/sanza",
+    "period_per_year": "/mobu",
+    "choose_button": "Pona",
+    "recommended_badge": "Epesami nzela",
+    "free_label": "Ofele",
+    "free_lifetime": "Ofele mpo na bomoi yonso",
+    "billed_annually": "facturé annuellement (ba sanza mibale epesami)",
+    "per_month_no_commitment": "na sanza, sans engagement",
+    "save_percent": "Bomba {percent}% na annuel",
+    "more_features": "+{count} ba fonctionnalités misusu",
+    "cta_start_free": "Banda na ofele",
+    "cta_choose_premium": "Pona Premium",
+    "cta_contact_us": "Kutana biso",
+    "cta_freemium": "Banda",
+    "cta_premium": "Pona Premium",
+    "cta_enterprise": "Kutana biso",
+    "no_card_required": "Carte bancaire esengeli te",
+    "cancel_anytime": "Longola na ntangu nyonso",
+    "footer_note": "Ba prix yonso eza na TTC. Ba abonema annuels eza na ba sanza mibale oyo epesami. Sambu na ba devises locales, taux de change e mis à jour mokolo na mokolo."
+  },
+  "ProductActions": {
+    "quantity_label": "Quantité",
+    "out_of_stock_warning": "Stock eza moke",
+    "insufficient_stock_description": "Quantité oyo elingami eleki stock oyo eza.",
+    "out_of_stock_status": "Stock ekiti",
+    "in_stock_status": "{count} na stock",
+    "login_required": "Kota esengeli",
+    "login_to_add_to_cart": "Kota sambu na kubakisa na panier.",
+    "login_to_manage_favorites": "Kota sambu na kosala ba favoris.",
+    "added_to_cart": "Ebakisami na panier",
+    "added_to_cart_description": "{productName} ebakisami na panier na nge.",
+    "error": "Ntembe",
+    "cart_error_description": "Impossible ya kubakisa na panier.",
+    "favorite_error_description": "Impossible ya kosobola ba favoris.",
+    "unavailable": "Eza te",
+    "no_whatsapp_configured": "Vendeur oyo asilisa kotya numero WhatsApp na ye te.",
+    "cart_button": "Panier",
+    "whatsapp_button": "Pona na WhatsApp",
+    "whatsapp_message_template": "Mbote {companyName},\n\nNalingi koteka:\n• {productName}\n• Quantité: {quantity}\n• Prix ya moko: ${unitPrice}\n• Total: ${total}\n\nSenga nga na commande."
+  },
+  "ReviewForm": {
+    "login_required": "Kota esengeli",
+    "login_to_review": "Kota sambu na kotika avis.",
+    "login_to_share_experience": "Kota sambu na kokabola expérience na nge.",
+    "sign_in_button": "Kota",
+    "rating_required": "Note esengeli",
+    "select_rating_before_submit": "Pona note liboso ya kutinda.",
+    "select_rating_button": "Pona note",
+    "submit_review_button": "Tinda avis na ngai",
+    "rating_select_prompt": "Pona note",
+    "rating_low_message": "Tokoki kosala malamu koleka",
+    "rating_medium_message": "Matondo!",
+    "rating_high_message": "Malamu!",
+    "rating_star_aria": "Note {stars} ba étoiles",
+    "thank_you_title": "Matondo!",
+    "thank_you_description": "Avis na nge eza ya mfunu mingi mpo na biso.",
+    "badge_received": "Badge \"Pionnier LUVIKA\" ebakisami na profili na nge!",
+    "review_helps": "Avis na nge esalisaka mpo na kobongisa LUVIKA.",
+    "error_title": "Ntembe",
+    "error_try_again": "Sola diaka na nsima.",
+    "unknown_error": "Ntembe oyo eyebani te",
+    "form_title": "Kabola expérience na nge",
+    "form_subtitle": "Secondes 30 mpo na kusala biso ❤️",
+    "your_rating_label": "Note na nge",
+    "comment_label": "Commentaire (okoki kotika)",
+    "comment_placeholder": "Ba suggestions na nge mpo na kobongisa?",
+    "gift_prefix": "Cadeau:",
+    "next": "oyo eza na nsima",
+    "first": "100 ya liboso",
+    "badge_offer_text": "Ba avis {eligible} bakozwa badge \"Pionnier LUVIKA\".",
+    "spots_remaining": "Ba places oyo etikali",
+    "full": "Etondami",
+    "be_among_pioneers": "Kozala na ba pionniers",
+    "thanks_to_contributors": "Matondo mpo na ba 100 ya liboso oyo basali",
+    "sending": "Envoi...",
+    "footer_anonymous_note": "Avis na nge ekomami na kombo te mpe esalisaka mpo na kobongisa LUVIKA"
+  },
+  "Loading": {
+    "brand_name": "LUVIKA",
+    "message_initializing": "Initialisation...",
+    "message_loading_profile": "Chargement profili...",
+    "message_preparing_interface": "Préparation ya interface..."
+  },
+  "ReviewPrompt": {
+    "rating_required": "Note esengeli",
+    "select_rating_description": "Pona note.",
+    "already_submitted_title": "Etindami",
+    "already_submitted_description": "Aza kotika avis na nge. Matondo!",
+    "thank_you_title": "Matondo mpo na avis na nge!",
+    "thank_you_description": "Feedback na nge esalisaka biso mpo na kobongisa.",
+    "error_title": "Ntembe",
+    "error_try_again": "Sola diaka.",
+    "error_unknown": "Ntembe oyo eyebani te",
+    "prompt_title": "Olaki LUVIKA?",
+    "prompt_description": "Avis na nge eza na mfunu! Zwa secondes 30 mpo na kokabola expérience na nge.",
+    "leave_review_button": "Tika avis",
+    "later_button": "Nsima",
+    "no_thanks_button": "Te, matondo",
+    "modal_title": "Avis na nge",
+    "modal_subtitle": "Kabola expérience na nge",
+    "comment_placeholder": "Expérience na nge (okoki kotika)",
+    "cancel_button": "Longola",
+    "sending_button": "Envoi...",
+    "send_button": "Tinda"
+  },
+  "CheckInClient": {
+    "invalid_qr_message": "Kode QR eza malamu te. Pona kode QR oyo eza malamu.",
+    "name_required_message": "Tia kombo na nge.",
+    "welcome_message": "✅ Boyei, {name}!",
+    "checkin_success_toast": "Check-in esalemi!",
+    "checkin_error_generic": "Ntembe na ntangu ya check-in.",
+    "checkin_error_failed": "Check-in elongi",
+    "network_error_message": "Ntembe ya réseau. Impossible ya kuzwa serveur.",
+    "network_error_toast": "Ntembe ya réseau",
+    "upcoming_title": "⏳ Eko koya noki!",
+    "upcoming_description": "Mele \"{title}\" ekobanda na",
+    "minutes_seconds_label": "minutes : secondes",
+    "ended_title": "Mele ekiti",
+    "ended_description": "Matondo mpo na koya!",
+    "private_title": "Accès privé",
+    "private_description": "Mele oyo eza mpo na ba invités kaka.",
+    "checkin_badge": "Check-in ya mele",
+    "participant_singular": "participant",
+    "participant_plural": "ba participants",
+    "live_status": "Na nzela",
+    "offline_status": "Hors ligne",
+    "last_update": "Dernière mise à jour: {time}",
+    "success_title": "Présence e kaninami!",
+    "success_footer": "Sepela na mele 🎉",
+    "full_name_label": "Kombo na nge yonso *",
+    "name_placeholder": "Tia kombo na nge",
+    "checking_button": "Vérification...",
+    "checkin_button": "Kanisa présence na ngai",
+    "invalid_qr_hint": "❗ Kode QR oyo eza malamu te. Kanga ete osali scan ya lien oyo eza malamu."
+  },
+  "CreateEventForm": {
+    "step1_title": "Ba informations ya base",
+    "step1_subtitle": "Oyo esengeli mpo na kobanda",
+    "step2_title": "Ba détails mpe Ebandeli",
+    "step2_subtitle": "Sobola mele na nge",
+    "step3_title": "Ba options ya monisama",
+    "step3_subtitle": "Nani akoki kutala mele oyo?",
+    "step4_title": "Kode QR na nge",
+    "step4_subtitle": "Génération automatique",
+    "step5_title": "Validation ya nsuka",
+    "step5_subtitle": "Tala mpe sala",
+    "title_label": "Titre *",
+    "title_placeholder": "Lakisa: Conférence Tech",
+    "start_label": "Ebandeli *",
+    "end_label": "Nsuka",
+    "location_label": "Ebandeli",
+    "location_placeholder": "Adresse to 'Na nzi'",
+    "max_participants_label": "Ba max participants",
+    "max_participants_placeholder": "Sans limite",
+    "description_label": "Description mokuse",
+    "description_placeholder": "Ba détails...",
+    "visibility_title": "Monisama",
+    "public_event_label": "Mele ya batu nyonso",
+    "public_event_description": "Emonanaka na batu nyonso.",
+    "private_event_description": "Na invitation kaka.",
+    "qr_title": "Kode QR Intelligent na nge",
+    "qr_subtitle": "Génération automatique oyo etiami na ba informations na nge",
+    "scan_me": "SCAN ME",
+    "review_title": "Vérification ya nsuka",
+    "review_subtitle": "Sengela ba informations liboso ya kosala",
+    "review_title_label": "Titre",
+    "review_date_label": "Mokolo",
+    "review_location_label": "Ebandeli",
+    "review_visibility_label": "Monisama",
+    "review_not_defined": "Emonani te",
+    "public_badge": "Batu nyonso",
+    "private_badge": "Privé",
+    "next_button": "Elanda",
+    "back_button": "Vutuka",
+    "view_qr_button": "Tala QR",
+    "edit_button": "Sobola",
+    "validate_button": "Valider ba détails",
+    "create_button": "Sala mele",
+    "errors_detected_title": "Ba ntembe emonani",
+    "error_title_required": "Esengeli",
+    "error_title_min_length": "Na moins ba caractères 3",
+    "error_date_required": "Esengeli",
+    "error_date_future": "Mokolo ya sika esengeli",
+    "error_date_order": "Esengeli kozala nsima ya ebandeli",
+    "error_max_participants_range": "1-10000",
+    "error_location_not_supported": "Eza na support te",
+    "error_location_unknown": "Ebandeli eyebani te",
+    "error_location_denied": "Boyaki",
+    "error_location_generic": "Ntembe"
+  },
+  "NFCModal": {
+    "title": "Ba carte NFC na ngai",
+    "subtitle": "Sala ba carte NFC na nge ya physique mpe ya virtuel",
+    "close_label": "Kokanga",
+    "status_active": "Active",
+    "status_pending": "Eza kolanda",
+    "status_lost": "Mekweyaka",
+    "status_blocked": "Ekomami",
+    "empty_title": "Carte NFC mosi te",
+    "empty_description": "Aza na carte NFC te oyo esangisami na compte na nge. Pona carte na nge ya liboso mpo na kobanda!",
+    "order_button": "Pona carte",
+    "created_date": "Esalemi le {date}",
+    "usage_label": "Kusadila",
+    "add_card_button": "Bakisa carte NFC"
+  },
+  "OrdersModal": {
+    "title": "Ba commandes na ngai",
+    "subtitle": "Landela etat ya ba commandes na nge mpe abonema LUVIKA",
+    "close_label": "Kokanga",
+    "status_active": "Actif",
+    "status_pending": "Eza kolanda",
+    "status_delivered": "Ekamati",
+    "status_cancelled": "Elongami",
+    "sample_premium_card": "Carte NFC Premium",
+    "sample_premium_subscription": "Abonema Premium",
+    "sample_basic_card": "Carte NFC Basique",
+    "sample_priority_support": "Support Prioritaire",
+    "view_all_button": "Tala ba commandes yonso"
+  },
+  "NFCManagementModal": {
+    "title": "Sala carte NFC",
+    "close_label": "Kokanga",
+    "status_active": "active",
+    "status_lost": "mekweyaka",
+    "status_blocked": "ekomami",
+    "status_inactive": "inactive",
+    "action_select_prompt": "Pona action moko mpo na kosala na carte oyo.",
+    "warning_irreversible_active": "⚠️ Ba actions oyo ekozonga lisusu te mpo na ba carte actives",
+    "warning_card_inactive": "✅ Carte ekomi lisusu active te",
+    "badge_matricule_required": "Matricule esengeli",
+    "security_note_title": "Sécurité ya makasi:",
+    "security_note_description": "Ba actions ya mfunu (kokanga, koloba ete mekweyaka, kosala lisusu) esengeli kotia matricule oyo emonanaka na carte na nge ya physique. Oyo epesaka nzela ete kaka mokonzi ya lotomo akoki kosala ba actions oyo.",
+    "matricule_label": "Matricule ya carte (emonanaka na carte ya physique)",
+    "matricule_placeholder": "Lakisa: NFC-AB123-XYZ",
+    "matricule_format_hint": "Format: Kaka ba lettres ya monene mpe ba chiffres • Lakisa: {example}...",
+    "reason_label": "Motif ya action",
+    "reason_lost_placeholder": "Esika mpe ntangu nini okwegisaki carte?",
+    "reason_report_placeholder": "Lakisa problème to abus oyo omoni",
+    "back_button": "Vutuka na ba actions",
+    "processing_button": "Traitement...",
+    "footer_security_note": "Ba actions yonso ekomami mpe eza na sécurité",
+    "confirm_title": "Confirmation ya nsuka",
+    "confirm_action_prompt": "Okoki soló kolinga kozala na kondima ete olingi {action} carte NFC oyo?",
+    "confirm_warning_block": "⚠️ Action oyo ekosuka. Carte ekobebisama mpo na bomoi yonso.",
+    "confirm_warning_lost": "⚠️ Declaration oyo ekomi ya nsuka. Okoki lisusu kusadila carte oyo te.",
+    "confirm_warning_reset": "🔄 Ba données yonso oyo esangisami na carte oyo ekokomama. Kode QR ya sika ekosalama.",
+    "confirm_warning_reactivate": "✅ Carte ekozonga na état actif na yango mpe ekoki kusadilama.",
+    "confirm_cancel_button": "Longola",
+    "confirm_confirm_button": "Kondima mpo na bomoi yonso",
+    "confirm_processing_button": "Confirmation...",
+    "error_matricule_incorrect": "❌ Matricule eza malamu te",
+    "error_matricule_check_card": "Tala numéro na carte na nge ya physique",
+    "error_reason_required": "⚠️ Motif esengeli",
+    "error_reason_description": "Lakisa ntonina ya action oyo",
+    "error_action_failed": "Ntembe ya action",
+    "error_action_failed_title": "❌ Action elongi",
+    "error_action_retry": "Sola diaka",
+    "toast_new_qr_generated": "🆕 Kode QR ya sika e salami",
+    "toast_qr_url": "URL",
+    "action_block_label": "Kokanga carte",
+    "action_block_description": "Kokanga kusadila carte mobimba",
+    "action_block_confirm": "Kondima kokanga mpo na bomoi yonso",
+    "action_block_success": "Carte ekomami mpo na bomoi yonso",
+    "action_lost_label": "Tuba ete mekweyaka",
+    "action_lost_description": "Carte mekweyaka na mokonzi",
+    "action_lost_confirm": "Kondima mekweyaka",
+    "action_lost_success": "Carte mekweyaka etubami",
+    "action_reset_label": "Kosala lisusu",
+    "action_reset_description": "Longola lien + QR + profili",
+    "action_reset_confirm": "Kondima kosala lisusu",
+    "action_reset_success": "Carte esalami lisusu na kode QR ya sika",
+    "action_report_label": "Tuba",
+    "action_report_description": "Tuba problème (abus, moyibi…)",
+    "action_report_confirm": "Tinda rapport",
+    "action_report_success": "Rapport ekomami",
+    "action_reactivate_label": "Tonda lisusu",
+    "action_reactivate_description": "Tonda lisusu carte oyo ekomami to mekweyaka",
+    "action_reactivate_confirm": "Kondima kotonda lisusu",
+    "action_reactivate_success": "Carte e activé lisusu",
+    "action_modify_qr_label": "Sobola QR",
+    "action_modify_qr_description": "Sala kode QR ya sika moko oyo ekomi te",
+    "action_modify_qr_confirm": "Sala kode QR ya sika",
+    "action_modify_qr_success": "Kode QR ya sika e salami"
+  }
+}

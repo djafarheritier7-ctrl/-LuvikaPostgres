@@ -1,0 +1,2073 @@
+{
+  "LUVIKA": "LUVIKA",
+  "tagline": "Révèle qui tu es — Identité professionnelle digitale · NFC · QR Code · Abonnements · Vente en ligne · Événements",
+  "cta": {
+    "create": "Créer mon profil",
+    "discover": "Découvrir"
+  },
+  "profile": {
+    "edit": "Modifier le profil",
+    "view_public": "Voir profil public"
+  },
+  "system": {
+    "connection_lost": "LUVIKA — Echec de connexion. Vérifiez votre internet.",
+    "connection_back": "Connexion rétablie.",
+    "server_error": "Serveur indisponible. Réessayez plus tard.",
+    "action_error": "Une erreur est survenue. Réessayez."
+  },
+  "features": {
+    "title": "Pourquoi LUVIKA ?",
+    "nfc": {
+      "title": "NFC & QR Code",
+      "desc": "Partagez votre profil en un tap ou scan"
+    },
+    "stats": {
+      "title": "Statistiques",
+      "desc": "Scans, visites, présences — tout est tracé"
+    },
+    "multi": {
+      "title": "Multi-cartes",
+      "desc": "Professionnel ? Gérez plusieurs cartes NFC"
+    },
+    "events": {
+      "title": "Événements et QR Codes",
+      "create": {
+        "title": "Créer des événements",
+        "desc": "Organisez vos salons, conférences ou webinaires et centralisez toutes les informations."
+      },
+      "qr": {
+        "title": "Génération de QR Codes",
+        "desc": "Partage rapide de cartes, profils ou événements via QR codes personnalisés."
+      },
+      "analytics": {
+        "title": "Analytics avancées",
+        "desc": "Suivez les vues, interactions et performances de vos cartes et événements."
+      }
+    },
+    "superpro": {
+      "title": "Comptes Super Pro et Vente en Ligne",
+      "desc": "Les comptes Super Pro permettent aux entreprises de vendre leurs produits et services directement depuis leur carte digitale. Gérez plusieurs cartes, suivez vos ventes et interactions, et partagez vos offres via QR codes pour toucher vos clients partout."
+    }
+  },
+  "event": {
+    "checkin": {
+      "success": "✅ Présence confirmée !",
+      "thanks": "Merci d’avoir participé à {title}.",
+      "view_participants": "Voir les participants"
+    }
+  },
+  "dashboard": {
+    "greeting_morning": "Bonjour, {name}",
+    "greeting_afternoon": "Bon après-midi, {name}",
+    "greeting_evening": "Bonsoir, {name}",
+    "greeting_night": "Coucou, {name}",
+    "subtitle": "Gérez votre identité numérique intelligente",
+    "view_public": "Voir mon profil public",
+    "export_csv": "",
+    "export_json": "",
+    "quick_menu": {
+      "visibility": "Visibilité",
+      "contact": "Messages",
+      "qr": "QR Code",
+      "nfc": "Cartes NFC",
+      "report": "Signaler",
+      "message": "Message perso",
+      "orders": "Commandes",
+      "upgrade": "Upgrade"
+    },"other_features": {
+      "title": "Autres fonctionnalités",
+      "description": "Gérez votre carte NFC ou partagez un message personnalisé.",
+      "report_card": "Signaler votre carte",
+      "reasons": {
+        "lost": "Carte perdue",
+        "stolen": "Carte volée",
+        "damaged": "Carte endommagée",
+        "no_longer_needed": "Plus besoin de la carte",
+        "other": "Autre (précisez)"
+      },
+      "custom_reason": "Précisez la raison",
+      "custom_reason_placeholder": "Ex: carte cassée, erreur d'impression...",
+      "submit_report": "Signaler la carte",
+      "custom_message": "Message personnalisé",
+      "custom_message_placeholder": "Ex: Je change de poste, merci de mettre à jour mon profil...",
+      "send_message": "Envoyer le message"
+    },
+    
+    "messages": {
+      "back":"",
+      "refresh":"",
+      "export":"",
+      "search":"Rechercher",
+      "all_statuses":"Tous",
+  "title": "Messages",
+  "subtitle": "Gérez vos messages et notifications",
+  "no_messages": "Aucun message",
+  "mark_read": "Marquer comme lu",
+  "mark_unread": "Marquer comme non lu",
+  "delete": "Supprimer",
+  "reply": "Répondre",
+  "send": "Envoyer",
+  "message_placeholder": "Votre message...",
+  "new_message": "Nouveau message",
+  "from": "De",
+  "to": "À",
+  "date": "Date",
+  "status": "Statut",
+  "read": "Lu",
+  "unread": "Non lu",
+  "view_received": "Voir les messages reçus" 
+},
+  "navbar": {
+    "sign_out_confirm_title": "Déconnexion",
+    "sign_out_confirm_message": "Voulez-vous vraiment vous déconnecter ?",
+    "sign_out_confirm_yes": "Oui, se déconnecter",
+    "sign_out_confirm_no": "Annuler",
+    "farewell_title": "Au revoir !",
+    "farewell_message": "Merci d’avoir utilisé LUVIKA. Vous allez nous manquer… 😢",
+    "profile_completion": "Complétion du profil",
+    "edit_profile": "Modifier le profil",
+    "completed": "complété",
+    "view_public_profile": "Voir mon profil public"
+  },"settings": {
+    "url_copied": "✅ Lien copié",
+      "title": "Paramètres du Profil",
+      "description": "Gérez vos informations personnelles et la confidentialité",
+              "save": "",
+              
+              "refresh": "",
+              "back": "",
+      "profile": {
+        "title": "Profil",
+        "description": "Informations personnelles et professionnelles",
+        "full_name": "Nom complet",
+        "username": "Nom d'utilisateur",
+        "job_title": "Poste",
+        "bio_short": "Biographie courte"
+      },"photo": {
+        "title": "Photo & Couverture",
+        "avatar": "Photo de profil",
+        "cover": "Photo de couverture",
+        "upload_avatar": "Changer la photo",
+        "upload_cover": "Cliquer pour uploader une couverture"
+      },"contact": {
+        "title": "Coordonnées",
+        "email": "Email",
+        "description": "Informations de contact", 
+        "email_placeholder": "nestor@luvika.me",
+        "phone": "Téléphone",
+        "phone_placeholder": "+243 890 177 601",
+        "address": "Adresse",
+        "address_placeholder": "Kinshasa, RDC",
+        "website": "Site web"
+      },"personal": {
+        "title": "Informations personnelles",
+        "full_name": "Nom complet",
+        "full_name_placeholder": "ex: nestor P.",
+        "username": "Nom d’utilisateur",
+        "username_placeholder": "ex. nestor (muniscule)",
+        "job_title": "Poste",
+        "job_title_placeholder": "Développeur Full-Stack",
+        "company": "Business",
+        "company_placeholder": "LUVIKA",
+        "bio_short": "Bio courte",
+        "bio_short_placeholder": "1 ligne percutante",
+        "bio_long": "Bio complète",
+        "bio_long_placeholder": "Votre parcours, passions, valeurs..."
+      },"privacy": {
+    "title": "Confidentialité & Sécurité",
+    "biometric_auth": "Authentification biométrique",
+    "biometric_auth_desc": "Connectez-vous en un clin d'œil avec votre visage ou empreinte digitale. Aucune donnée biométrique n'est stockée sur nos serveurs — tout reste sur votre appareil.",
+    "hide_birth_year": "Masquer l'année de naissance",
+    "hide_birth_year_desc": "Votre année de naissance ne sera pas visible publiquement sur votre profil",
+    "disable_birthday_icon": "Désactiver l'icône anniversaire",
+    "disable_birthday_icon_desc": "Masquer les animations et notifications liées à votre anniversaire",
+    "verified_badge": "Badge de vérification officielle",
+    "verified_badge_desc": "Affiche un badge ✅ vérifié sur votre profil public",
+    "verified_tooltip": "Profil officiellement vérifié",
+    "enterprise_only": "Disponible uniquement sur le plan Entreprise"
+  },"advanced": {
+        "title": "Options avancées",
+        "public_profile": "Profil public",
+        "public_profile_desc": "Visible sans connexion",
+        "contact_requests": "Messages publics",
+        "contact_requests_desc": "Autoriser les visiteurs à vous écrire",
+        "profile_url": "URL de profil"
+      },"subscription": {
+        "title": "Abonnement",
+        "description": "Gérez votre abonnement",
+        "plan": "Plan",
+        "status": "Statut",
+        "active": "Actif",
+        "manage": "Gérer l'abonnement"
+      },
+      "visibility": {
+  "title": "Visibilité",
+  "description": "Choisissez ce qui apparaît sur votre profil public",
+  "is_public": "Profil public", 
+  "is_public_description": "Rendre votre profil visible par tout le monde",  
+  "sections": "Sections visibles", 
+  "portfolio_locked": "Débloquez le portfolio avec un abonnement Professionnel",
+  "certificates_locked": "Les certificats sont réservés aux comptes Professionnel/Business"
+},
+  "contact": {
+        "title": "Contact",
+        "description": "Informations de contact",
+        "email": "Email",
+        "phone": "Téléphone",
+        "address": "Adresse",
+        "email_placeholder":"nestor@luvika.me",
+        "phone_placeholder":"+243 890 177 601",
+        "website":"Site web",
+        "address_placeholder":"Kinshasa, RDC",
+        "saving": "Enregistrement...",
+        "save": "",
+        "save_success": "✅ Modifications enregistrées",
+        "save_error": "❌ Erreur lors de l'enregistrement"
+      },
+      "social": {
+        "title": "Réseaux sociaux",
+        "description": "Liens vers vos réseaux sociaux",
+        "website": "Site web",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      },
+      "security": {
+        "title": "Sécurité",
+        "description": "Paramètres de sécurité du compte",
+        "two_factor": "Authentification à deux facteurs",
+        "two_factor_description": "Activez l'authentification à deux facteurs pour plus de sécurité",
+        "password": "Mot de passe",
+        "password_description": "Changez votre mot de passe",
+        "change_password": "Changer le mot de passe",
+        "not_configured": "Non configuré"
+      },"parameters": {
+      "title": "Paramètres Système",
+      "subtitle": "Gérez les paramètres avancés de votre compte",
+      "parameters": "Paramètres",
+      "details": "Détails",
+      "refresh": "",
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "save": "",
+      "cancel": "Annuler",
+      "select_parameter": "Sélectionnez un paramètre pour afficher les détails",
+      "no_parameters": "Aucun paramètre trouvé",
+      "no_description": "Aucune description",
+      "updated": "Mis à jour",
+      "key": "Clé",
+      "value": "Valeur",
+      "type": "Type",
+      "description": "Description",
+      "key_placeholder": "Entrez la clé du paramètre",
+      "value_placeholder": "Entrez la valeur du paramètre",
+      "description_placeholder": "Description optionnelle",
+      "back":"",
+      "types": {
+        "string": "Texte",
+        "number": "Nombre",
+        "boolean": "Booléen",
+        "json": "JSON"
+      }
+    }},
+    "statistics": {
+    "title": "Statistiques",
+    "subtitle": "Analysez les performances de votre profil et vos scans",
+    "back":"",
+    "refresh": "",
+    "export": "",
+    
+    "range": "Période",
+    "last_7_days": "7 derniers jours",
+    "last_30_days": "30 derniers jours",
+    "last_90_days": "90 derniers jours",
+    "all_time": "Depuis toujours",
+    
+    "search": "Rechercher",
+    "search_placeholder": "Nom ou username...",
+    
+    "filter_type": "Type de scan",
+    "all_types": "Tous les types",
+    
+    "total_scans": "Scans totaux",
+    
+    "trends": "Tendances",
+    "recent_scans": "Derniers scans",
+    "no_scans": "Aucun scan récent",
+    "anonymous": "Visiteur anonyme",
+    
+    "insights": "Insights",
+    "unique_visitors": "Visiteurs uniques",
+    "unique_visitors_desc": "Personnes différentes qui ont scanné",
+    "best_day": "Jour le plus actif",
+    "best_day_desc": "Date avec le plus de scans",
+    "security": "Sécurité",
+    "security_desc": "Tous vos scans sont chiffrés et sécurisés"
+  },
+    "card_config": {
+      "subtitle_new": "Créez une nouvelle configuration de carte NFC",
+      "active":" Activée",
+      "info_title": "Info",
+      "custom_link_url_label": "URL du lien personnalisé",
+      "custom_link_url_description": "Entrez l'URL que vous souhaitez partager lorsque ce type de scan est activé. Ex: votre site web, portfolio, LinkedIn, etc.",
+      "info_description": "Gérez les types de scans et leurs priorités. Les types disponibles sont : Profil, Carte de Visite, Contact, Réseaux Sociaux, Portfolio, Certificats, Événement, Lien, CV et Personnalisé.",
+      "preview_title": "Afficher le tiitre",
+      "preview_description": "Description",
+      "preview_hint":"Aperçu indice",
+      "title": "Configuration Carte NFC",
+      "subtitle": "Gérez les types de scans et leurs priorités",
+      "configurations": "Configurations",
+      "details": "Détails",
+      "refresh": "",
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "preview_empty": "Aperçu vide",
+      "preview_empty_hint":"Aucun contenu à afficher dans l'aperçu",
+      "delete": "Supprimer",
+      "save": "",
+      "cancel": "Annuler",
+      "back":"",
+      "select_config": "Sélectionnez une configuration pour afficher les détails",
+      "no_configs": "Aucune configuration trouvée",
+      "no_title": "Aucun titre",
+      "no_description": "Aucune description",
+      "updated": "Mis à jour",
+      "type": "Type",
+      "options_title": "Options",
+      "preview": "Aperçu",
+      "description": "Description",
+      "url": "URL",
+      "priority": "Priorité",
+      "enabled": "Activé",
+      "disabled": "Désactivé",
+      "enable": "Activer",
+      "disable": "Désactiver",
+      "changes_saved": "✅ Modifications enregistrées",
+      "title_placeholder": "Entrez le titre de la configuration",
+      "description_placeholder": "Description optionnelle",
+      "url_placeholder": "URL optionnelle",
+      "priority_placeholder": "Priorité numérique",
+      "descriptions" : {
+        "profile":"Profil",
+        "cv":"CV",
+        "portfolio":"Portfolio",
+        "contact":"Réseaux sociaux",
+        "event":"Événement",
+        "custom_link":"Lien personnalisé",
+        "social":"Réseaux sociaux",
+        "business":"Carte de Visite",
+        "articles":"Articles"
+      },
+      "types": {
+        "custom_link": "Lien personnalisé", 
+        "articles": "Articles",
+        "profile": "Profil",
+        "business": "Carte de Visite",
+        "contact": "Contact",
+        "social": "Réseaux Sociaux",
+        "portfolio": "Portfolio",
+        "certificates": "Certificats",
+        "event": "Événement",
+        "link": "Lien",
+        "cv": "CV",
+        "custom": "Personnalisé",
+        "bio": "Biographie",
+        "identity": "Identité",
+        "professional": "Professionnel",
+        "location": "Localisation",
+        "availability": "Disponibilité",
+        "birthday": "Anniversaire"
+      },"descriptions" : {
+        "profile":"Profil",
+        "cv":"CV",
+        "portfolio":"Portfolio",
+        "contact":"Réseaux sociaux",
+        "event":"Événement",
+        "custom_link":"Lien personnalisé",
+        "social":"Réseaux sociaux",
+        "business":"Carte de Visite",
+        "articles":"Articles",
+        "link":"Lien Professionnel",
+        "bio": "Afficher la biographie courte/longue",
+        "identity": "Afficher pseudo, pronoms, statut",
+        "professional": "Afficher poste, entreprise, statut pro",
+        "location": "Afficher ville, pays, adresse",
+        "availability": "Afficher le statut de disponibilité",
+  "birthday": "Afficher la date d'anniversaire (respecte 'Masquer l'année')"
+       }
+    },"parameters": {
+      "title": "Paramètres Système",
+      "subtitle": "Gérez les paramètres avancés de votre compte",
+      "parameters": "Paramètres",
+      "details": "Détails",
+      "refresh": "",
+      "add": "Ajouter",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "save": "",
+      "cancel": "Annuler",
+      "select_parameter": "Sélectionnez un paramètre pour afficher les détails",
+      "no_parameters": "Aucun paramètre trouvé",
+      "no_description": "Aucune description",
+      "updated": "Mis à jour",
+      "key": "Clé",
+      "value": "Valeur",
+      "type": "Type",
+      "description": "Description",
+      "key_placeholder": "Entrez la clé du paramètre",
+      "value_placeholder": "Entrez la valeur du paramètre",
+      "description_placeholder": "Description optionnelle",
+      "back":"",
+      "types": {
+        "string": "Texte",
+        "number": "Nombre",
+        "boolean": "Booléen",
+        "json": "JSON"
+      }
+    },
+    "subscribers": {
+    "title": "Abonnés",
+    "subtitle": "Gérez vos abonnés et leurs permissions",
+    "back": "",
+    "refresh": "",
+    "export": "",
+    
+    "search": "Rechercher",
+    "search_placeholder": "Nom, username ou bio...",
+    
+    "filter_verified": "Vérifié",
+    "all_verified": "Tous",
+    "verified": "Vérifié",
+    "unverified": "Non vérifié",
+    
+    "filter_blocked": "Bloqué",
+    "all_blocked": "Tous",
+    "blocked": "Bloqué",
+    "unblocked": "Débloqué",
+    
+    "sort_by": "Trier par",
+    "order": "Ordre",
+    "sort": {
+      "date": "Date",
+      "name": "Nom"
+    },
+    "asc": "Croissant",
+    "desc": "Décroissant",
+    
+    "results": "résultats",
+    "subscribers": "Liste des abonnés",
+    "no_subscribers": "Aucun abonné pour le moment",
+    
+    "regular": "Standard",
+    "no_bio": "Aucune biographie",
+    
+    "unblock": "Débloquer",
+    "block": "Bloquer",
+    "unverify": "Retirer vérification",
+    "verify": "Vérifier"
+  },
+    "contact_requests": {
+      "title": "Messages des visiteurs",
+      "description": "Autorisez les personnes qui consultent votre profil public à vous laisser un message.",
+      "label": "Recevoir des messages",
+      "enabled": "Activé – les visiteurs peuvent vous contacter",
+      "disabled": "Désactivé – formulaire masqué",
+      "enable": "Activer",
+      "disable": "Désactiver"
+    },
+    "time": {
+      "seconds": "{count} seconde",
+      "seconds_plural": "{count} secondes",
+      "minutes": "{count} minute",
+      "minutes_plural": "{count} minutes",
+      "hours": "{count} heure",
+      "hours_plural": "{count} heures",
+      "days": "{count} jour",
+      "days_plural": "{count} jours"
+    },
+    "orders": {
+      "title": "Commandes de cartes",
+      "description": "Gérez vos commandes NFC en cours.",
+      "manage": "Gérer les commandes"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "active_indicator": " Actif",
+      "inactive_indicator": "Inactif",
+      "status_active": "Abonnement actif",
+      "plans": {
+        "freemium": "Basic",
+        "basic": "Basic",
+        "premium": "Professionnel",
+        "entreprise": "Business"
+      },
+      "active": " Actif",
+      "inactive": "⚠️ Inactif",
+      "active_until": "Votre plan est actif jusqu’au {date}.",
+      "upgrade_prompt": "Votre compte est en mode Basic. Contactez l’administrateur pour activer un plan.",
+      "request_upgrade": "Demander une mise à niveau",
+      "success_title": "✅ Succès !",
+      "success_message": "Un administrateur vous contactera sous 24h.",
+      "upgrade_to_premium": "Passer à Professionnel",
+      "request_enterprise": "Convertir en compte BUSINESS"
+    },
+    
+    "qr": {
+      "title": "QR Code de profil",
+      "alt": "QR Code pour {username}",
+      "instructions": "Scannez pour accéder à votre profil",
+      "open_link": "Ouvrir le lien"
+    },
+    "nfc": {
+  "title": "Ma Carte NFC",
+  "active": "Active",
+  "inactive": "Non active",
+  "none": "Aucune",
+  "card_id":"ID Carte",
+  "no_card_message": "Vous n'avez pas encore de carte NFC LUVIKA.",
+  "no_card_description": "Commandez votre carte NFC personnalisée pour partager facilement vos informations en un simple tap.",
+  "benefit1_title": "Livraison rapide",
+  "benefit1_desc": "Recevez votre carte en 3-5 jours ouvrables",
+  "benefit2_title": "Personnalisable",
+  "benefit2_desc": "Design unique avec votre QR code et infos",
+  "benefit3_title": "Durabilité",
+  "benefit3_desc": "Carte en PVC haute qualité, résistante à l'eau",
+  "order_button": "Commander ma carte NFC",
+  "card_number": "Carte",
+  "scans_count": "Scans",
+  "unique_visitors": "Visiteurs uniques",
+  "manage_button": "Gérer mes cartes",
+  "order_another": "Commander une autre",
+  "tip": "💡 Astuce:",
+  "tip_message": "Personnalisez le contenu de votre carte NFC dans les paramètres pour contrôler les informations partagées."
+},
+      "upgrade_required": "⚠️ Plan Professionnel requis",
+      "add_card": "Ajouter une carte NFC"
+    },
+    "stats": {
+      "title": "Statistiques d’engagement",
+      "total_scans": "Scans totaux",
+      "nfc_scans": "Scans NFC",
+      "qr_scans": "Scans QR",
+      "recent_visitors": "Derniers visiteurs",
+      "no_scans": "Aucun scan récent.",
+      "anonymous": "Visiteur anonyme",
+      "visitors": "Visiteurs",
+      "scan_type": {
+        "nfc": "NFC",
+        "qr": "QR"
+      }
+      
+    },
+    "other_features": {
+      "title": "Autres fonctionnalités",
+      "description": "Gérez votre carte NFC ou partagez un message personnalisé.",
+      "report_card": "Signaler votre carte",
+      "reasons": {
+        "lost": "Carte perdue",
+        "stolen": "Carte volée",
+        "damaged": "Carte endommagée",
+        "no_longer_needed": "Plus besoin de la carte",
+        "other": "Autre (précisez)"
+      },
+      "custom_reason": "Précisez la raison",
+      "custom_reason_placeholder": "Ex: carte cassée, erreur d'impression...",
+      "submit_report": "Signaler la carte",
+      "custom_message": "Message personnalisé",
+      "custom_message_placeholder": "Ex: Je change de poste, merci de mettre à jour mon profil...",
+      "send_message": "Envoyer le message"
+    },
+    
+    "messages": {
+  "title": "Messages",
+  "subtitle": "Gérez vos messages et notifications",
+  "no_messages": "Aucun message",
+  "mark_read": "Marquer comme lu",
+  "mark_unread": "Marquer comme non lu",
+  "delete": "Supprimer",
+  "reply": "Répondre",
+  "send": "Envoyer",
+  "message_placeholder": "Votre message...",
+  "new_message": "Nouveau message",
+  "from": "De",
+  "to": "À",
+  "date": "Date",
+  "status": "Statut",
+  "read": "Lu",
+  "unread": "Non lu",
+  "view_received": "Voir les messages reçus" 
+},
+    "subscribers": {
+      "title": "Abonnés",
+      "subtitle": "Gérez vos abonnés et followers",
+      "no_subscribers": "Aucun abonné",
+      "total": "Total",
+      "new_today": "Nouveaux aujourd'hui",
+      "search": "Rechercher un abonné",
+      "view_profile": "Voir le profil",
+      "unfollow": "Se désabonner",
+      "follow": "Suivre",
+      "blocked": "Bloqué",
+      "verified": "Vérifié",
+      "pending": "En attente"
+    },"subscribers": {
+    "title": "Abonnés",
+    "subtitle": "Gérez vos abonnés et leurs permissions",
+    
+    "refresh": "",
+    "export": "",
+    
+    "search": "Rechercher",
+    "search_placeholder": "Nom, username ou bio...",
+    
+    "filter_verified": "Vérifié",
+    "all_verified": "Tous",
+    "verified": "Vérifié",
+    "unverified": "Non vérifié",
+    
+    "filter_blocked": "Bloqué",
+    "all_blocked": "Tous",
+    "blocked": "Bloqué",
+    "unblocked": "Débloqué",
+    
+    "sort_by": "Trier par",
+    "order": "Ordre",
+    "sort": {
+      "date": "Date",
+      "name": "Nom"
+    },
+    "asc": "Croissant",
+    "desc": "Décroissant",
+    
+    "results": "résultats",
+    "subscribers": "Liste des abonnés",
+    "no_subscribers": "Aucun abonné pour le moment",
+    
+    "regular": "Standard",
+    "no_bio": "Aucune biographie",
+    
+    "unblock": "Débloquer",
+    "block": "Bloquer",
+    "unverify": "Retirer vérification",
+    "verify": "Vérifier"
+  },    
+  "auth": {
+    "signout": "Déconnexion",
+    "welcome": {
+      "title": "Bienvenue !",
+      "message": "Content de vous revoir sur LUVIKA. Prêt à créer ? 🌟"
+    },
+    "complete": {
+      "title": "Complétez votre profil",
+      "description": "Quelques informations pour personnaliser votre compte",
+      "full_name": "Nom complet",
+      "full_name_placeholder": "Nestor Kipampe",
+      "username": "Nom d'utilisateur",
+      "username_placeholder": "nestor",
+      "username_hint": "Lettres minuscules, chiffres, tirets et underscores uniquement (3-20 caractères)",
+      "username_available": "Ce nom d'utilisateur est disponible !",
+      "username_taken": "Ce nom d'utilisateur est déjà pris",
+      "username_checking": "Vérification en cours...",
+      "submit": "Finaliser mon compte",
+      "saving": "Enregistrement...",
+      "success": "Profil créé avec succès !",
+      "redirecting": "Redirection vers votre tableau de bord...",
+      "error_full_name_required": "Veuillez entrer votre nom complet",
+      "error_username_too_short": "Le nom d'utilisateur doit faire au moins 3 caractères",
+      "error_generic": "Une erreur est survenue. Réessayez.",
+      "step_identity": "Identité",
+      "step_contact": "Contact",
+      "step_bio": "Bio",
+      "title_identity": "1. Qui êtes-vous ?",
+      "desc_identity": "Nom complet et nom d'utilisateur (URL de votre profil)",
+      "title_contact": "2. Comment vous contacter ?",
+      "desc_contact": "Téléphone, WhatsApp — tout est privé par défaut",
+      "title_bio": "3. Parlez-nous de vous",
+      "desc_bio": "Poste, entreprise, biographie courte — personnalisez votre carte",
+      "phone": "Téléphone",
+      "whatsapp": "WhatsApp",
+      "job_title": "Poste",
+      "company": "Business",
+      "bio_short": "Bio courte",
+      "skip": "Passer",
+      "back": "",
+      "next": "Suivant",
+      "finish": "Terminer mon profil"
+    },
+    "signup": {
+      "title": "Créer un compte",
+      "identity_step": "1. Identité",
+      "email_step": "3. Adresse email",
+      "security_step": "4. Sécurité",
+      "full_name": "Nom complet",
+      "full_name_placeholder": "ex: Nestor PHAKU",
+      "username": "Nom d’utilisateur (URL)",
+      "username_hint": "Votre profil sera à : {url}",
+      "email": "Email",
+      "password": "Mot de passe",
+      "password_hint": "Au moins 6 caractères",
+      "submit": "S’inscrire",
+      "creating": "Création...",
+      "success": "✅ Compte créé avec succès ! Vous pouvez maintenant vous connecter.",
+      "error_generic": "Une erreur est survenue. Réessayez ou contactez le support.",
+      "error_email": "Email invalide ou déjà utilisé.",
+      "error_password": "Mot de passe trop court (min. 6 caractères).",
+      "error_username": "Nom d’utilisateur invalide (lettres, chiffres, _ ou -).",
+      "already_have_account": "Déjà membre ?",
+      "sign_in": "Connectez-vous",
+      "privacy": "En continuant, vous acceptez nos",
+      "terms": "Conditions d’utilisation",
+      "identity_desc": "Commencez par nous dire qui vous êtes.",
+      "email_desc": "Nous vous enverrons un lien de confirmation",
+      "security_desc": "Choisissez un mot de passe fort. La 2FA est activée par défaut.",
+      "code_sent": "✅ Code envoyé ! Vérifiez vos emails (y compris les spams).",
+      "invalid_code": "Code invalide ou expiré.",
+      "sending": "Envoi...",
+      "send_code": "Envoyer le code",
+      "verify_code": "Vérifier le code",
+      "otp": "Code de vérification (8 chiffres)",
+      "password_length": "Au moins 8 caractères",
+      "password_uppercase": "Une lettre majuscule",
+      "password_lowercase": "Une lettre minuscule",
+      "password_number": "Un chiffre",
+      "password_confirm": "Confirmation du mot de passe",
+      "password_special": "Un caractère spécial",
+      "password_match": "Les mots de passe correspondent",
+      "2fa_enabled": "🔒 L'authentification à deux facteurs (2FA) est activée par défaut pour votre sécurité.",
+      "back": "",
+      "next": "Suivant",
+      "create_account": "Créer mon compte",
+      "error_name": "Le nom doit comporter au moins 2 caractères.",
+      "error_email_format": "Adresse email invalide.",
+      "username_hint_plain": "Votre profil : luvika.me/{username}",
+      "email_exists": "📧 Vous avez déjà un compte avec cet email. Connectez-vous ou utilisez un autre email.",
+      "check_email": "✅ Vérifiez vos emails — un lien de confirmation vous a été envoyé.",
+      "choose_plan": "Choisissez votre plan",
+      "plan_desc": "Démarrez gratuitement, passez à Professionnel pour plus de fonctionnalités"
+    },
+    "reset": {
+      "title": "Nouveau mot de passe",
+      "subtitle": "Saisissez un nouveau mot de passe sécurisé.",
+      "new_password": "Nouveau mot de passe",
+      "submit": "Mettre à jour",
+      "verifying": "Vérification du lien...",
+      "invalid_link": "Lien invalide ou expiré.",
+      "error_update": "Échec de la mise à jour.",
+      "success_title": "Mot de passe mis à jour !",
+      "success_message": "Votre mot de passe a été changé avec succès."
+    },
+    "signin": {
+      "title": "Connexion",
+      "email": "Email",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "connecting": "Connexion...",
+      "error_generic": "Erreur inconnue. Réessayez plus tard.",
+      "error_credentials": "Email ou mot de passe incorrect.",
+      "error_email": "Adresse email invalide.",
+      "error_password": "Mot de passe requis.",
+      "no_account": "Pas encore inscrit ?",
+      "sign_up": "Créer un compte",
+      "subtitle": "Connectez-vous à votre compte LUVIKA.",
+      "profile_missing": "Votre profil est incomplet. Veuillez contacter le support."
+    },
+    "forgot_password": {
+      "title": "Mot de passe oublié",
+      "subtitle": "Entrez votre email pour recevoir un lien de réinitialisation.",
+      "otp_subtitle": "Un code vous a été envoyé par email.",
+      "reset_subtitle": "Choisissez un nouveau mot de passe sécurisé.",
+      "email": "Email",
+      "otp": "Code de vérification",
+      "new_password": "Nouveau mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "submit": "Envoyer le lien",
+      "verify": "Vérifier le code",
+      "reset": "Réinitialiser",
+      "sending": "Envoi...",
+      "email_sent": "✅ Lien envoyé ! Vérifiez vos emails.",
+      "back_to_login": "Retour à la connexion",
+      "error": "Adresse email introuvable.",
+      "error_generic": "Erreur inconnue.",
+      "success": "✅ Mot de passe mis à jour !",
+      "password_length": "Au moins 8 caractères",
+      "password_uppercase": "Une majuscule",
+      "password_lowercase": "Une minuscule",
+      "password_number": "Un chiffre",
+      "password_special": "Un caractère spécial",
+      "password_match": "Les mots de passe correspondent"
+    }
+  },
+  "admin": {
+    "title": "💼 Espace Administrateur",
+    "subtitle": "Gérez les utilisateurs, abonnements et cartes NFC",
+    "stats": {
+      "total_users": "Utilisateurs",
+      "active_subscriptions": "Abonnements actifs",
+      "total_scans": "Scans totaux",
+      "orders": "Commandes",
+      "nfc_cards": "Cartes NFC",
+      "trends": "Tendances récentes"
+    },
+    "subscriptions": {
+      "no_active": "Aucun abonnement actif pour le moment.",
+      "title": "Gestion des abonnements",
+      "description": "Activez ou changez le plan d’un utilisateur.",
+      "action": "Gérer les abonnements"
+    },
+    "nav": {
+      "orders": "Commandes",
+      "back_to_dashboard": ""
+    },
+    "subscription": {
+      "plan": "Plan",
+      "activated": "Activé le",
+      "expires": "Expire le",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "never": "Jamais",
+      "activate": "Activer",
+      "deactivate": "Désactiver",
+      "title": "Gestion des abonnements",
+      "description": "Activez ou changez le plan d’un utilisateur.",
+      "action": "Gérer les abonnements",
+      "edit": "Modifier",
+      "change_plan": "Modifier le plan",
+      "select_plan": "Sélectionner un plan",
+      "expires_help": "Laisser vide pour un abonnement à vie",
+      "updated_success": "Plan mis à jour avec succès",
+      "update_error": "Échec de la mise à jour",
+      "upgrade_to_premium": "Passer à Professionnel",
+      "request_enterprise": "Convertir en compte Business"
+    },
+    "nfc": {
+      "status": {
+        "active": "Active",
+        "lost": "Perdue",
+        "blocked": "Bloquée",
+        "inactive": "Inactive",
+        "status": "Statut"
+      },
+      "created": "Créée le",
+      "no_cards": "Aucune carte NFC pour le moment.",
+      "block_card": "Bloquer la carte",
+      "status_values": {
+        "active": "Active",
+        "lost": "Perdue",
+        "blocked": "Bloquée",
+        "inactive": "Inactive"
+      },
+      "activated": "Activée le",
+      "assigned_to": "Assignée à",
+      "card_id": "ID Carte",
+      "created_at": "Créée le",
+      "actions": "Actions",
+      "activate": "Activer",
+      "block": "Bloquer",
+      "unassign": "Désassigner"
+    },
+    "users": {
+      "name": "Nom",
+      "username": "Identifiant",
+      "email": "Email",
+      "role": "Rôle",
+      "actions": "Actions",
+      "no_users": "Aucun utilisateur pour le moment."
+    },
+    "analytics": {
+      "recent_activity": "Activité récente",
+      "coming_soon": "Graphiques et analyses détaillés bientôt disponibles."
+    },
+    "user_selector": {
+      "placeholder": "Sélectionnez un utilisateur...",
+      "search": "Rechercher un utilisateur...",
+      "loading": "Chargement...",
+      "no_results": "Aucun utilisateur trouvé."
+    },
+    "plans": {
+      "basic": "Basic",
+      "premium": "Pro",
+      "entreprise": "Business",
+      "undefined": "Non défini"
+    },
+    "actions": {
+      "title": "Actions rapides",
+      "welcome_email": {
+        "title": "📧 Email de bienvenue",
+        "description": "Envoyez un email avec QR Code à un nouvel utilisateur",
+        "button": "Envoyer maintenant",
+        "sending": "Envoi en cours…"
+      },
+      "email_success": "✅ Email envoyé avec succès !",
+      "email_error": "❌ Erreur lors de l’envoi.",
+      "error_generic": "Une erreur est survenue. Veuillez réessayer.",
+      "sending": "Envoi en cours..."
+    },
+    "modules": {
+      "subscriptions": {
+        "no_active": "Aucun abonnement actif pour le moment.",
+        "title": "Gestion des abonnements",
+        "description": "Activez ou changez le plan d’un utilisateur.",
+        "action": "Gérer les abonnements"
+      },
+      "orders": {
+        "title": "Commandes NFC",
+        "description": "Gérez les commandes de cartes NFC : validation, expédition, suivi.",
+        "action": "Voir les commandes"
+      },
+      "nfc": {
+        "title": "Cartes NFC",
+        "description": "Bloquez une carte perdue ou inactive.",
+        "action": "Superviser les cartes"
+      },
+      "users": {
+        "title": "Utilisateurs",
+        "description": "Modérez les profils et déclarations de perte.",
+        "action": "Gérer les utilisateurs"
+      },
+      "analytics": {
+        "title": "Statistiques globales",
+        "description": "Analysez les tendances et performances.",
+        "action": "Voir les analytics"
+      }
+    },
+    "orders": {
+      "title": "Commandes de cartes",
+      "subtitle": "Suivez et validez les demandes de cartes physiques.",
+      "no_orders": "Aucune commande pour le moment."
+    }
+  },
+  "navbar": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact",
+    "blog": "Blog et actualité",
+    "sign_in": "Connexion",
+    "sign_up": "S’inscrire",
+    "language": "Langue",
+    "sign_out": "Déconnexion",
+    "sign_out_confirm_title": "Déconnexion",
+    "sign_out_confirm_message": "Voulez-vous vraiment vous déconnecter ?",
+    "sign_out_confirm_yes": "Oui, se déconnecter",
+    "sign_out_confirm_no": "Annuler",
+    "farewell_title": "Au revoir !",
+    "farewell_message": "Merci d’avoir utilisé LUVIKA. Vous allez nous manquer… 😢",
+    "profile_completion": "Complétion du profil",
+    "edit_profile": "Modifier le profil",
+    "completed": "complété",
+    "view_public_profile": "Voir mon profil public"
+  },
+  "about": {
+    "title": "À propos de LUVIKA",
+    "subtitle": "Luvika : Origine du nom et genèse du projet",
+    "origin": {
+      "title": "Origine du nom Luvika",
+      "content": "Le nom Luvika provient de la combinaison de deux éléments significatifs :\n• Luvi, dérivé du mot Luvila, de la langue kikongo, qui désigne l'identité, l'essence, ce qui définit profondément une personne.\n• Ka, qui signifie carte, faisant référence à un support d'identification.\n\nAinsi, Luvika peut être compris comme une identité portée par une carte.\n\nCe nom incarne la vision du projet : offrir une identité numérique moderne, intégrée dans une carte NFC, permettant à chaque individu de se présenter, de partager son profil professionnel et de valoriser son identité de manière simple, sécurisée et innovante.\nÀ travers Luvika, l'identité cesse d'être simplement déclarative : elle devient numérique, portable et connectée, tout en restant fidèle à son essence culturelle et humaine."
+    },
+    "context": {
+      "title": "Contexte et idée initiale",
+      "content": "Luvika est né d'une réflexion personnelle et profonde. À un moment de calme, je me questionnais sur la manière de valoriser mes ressources, mes origines et mon identité, particulièrement celle de ma tribu. L'idée initiale était de créer une solution capable de reconnecter les personnes à leurs sources, permettant de valoriser son histoire, son village d'origine, sa tribu et son appartenance au clan.\n\nLe concept initial visait ainsi le développement d'une application capable d'identifier clairement l'origine d'une personne : son village, sa tribu, son clan. À travers cette plateforme, ces éléments culturels et identitaires pourraient être connus, partagés et préservés."
+    },
+    "problem": {
+      "title": "Problème identifié / limite du concept initial",
+      "content": "Cependant, une analyse plus approfondie m'a conduit à une prise de conscience importante : un projet exclusivement centré sur l'identité culturelle risquait de toucher un public limité et de ne pas favoriser une adoption large."
+    },
+    "transformation": {
+      "title": "Transformation stratégique du projet",
+      "content": "C'est alors qu'est survenue une transformation stratégique du concept. Luvika a évolué pour devenir un identifiant professionnel numérique, basé sur un système de cartes NFC, tout en gardant l'identité comme base fondamentale de sa vision. Cette évolution a permis d'apporter au projet une utilité concrète, moderne et universelle, répondant à des besoins professionnels et commerciaux réels."
+    },
+    "solution": {
+      "title": "Naissance de la solution Luvika (NFC et identité numérique)",
+      "content": "Durant le développement, il est apparu évident que simplement créer des profils d'utilisateurs ne suffisait pas. Ainsi, Luvika s'est structuré autour de trois plans distincts :\n• Le plan Basique, destiné aux utilisateurs qui souhaitent une présence numérique simple et accessible.\n• Le plan Professionnel, offrant des fonctionnalités avancées, incluant la création et la gestion d'événements tels que conférences, mariages, fêtes ou réunions professionnelles.\n• Le plan Business, conçu pour les entreprises et les utilisateurs ayant des besoins élargis, intégrant des outils de vente, de visibilité et de gestion avancée.\n\nGrâce à cette structuration, Luvika est devenu bien plus qu'une simple application. C'est aujourd'hui une plateforme versatile qui permet de valoriser l'identité, de faciliter les échanges professionnels, de numériser les cartes d'identification professionnelle via la technologie NFC et de créer de la valeur économique pour ses utilisateurs."
+    },
+    "offers": {
+      "title": "Structuration des offres (Basique, Professionnel, Business)",
+      "content": "Luvika propose trois formules tarifaires adaptées à différents besoins :\n\nFormule Basique : Pour les particuliers qui souhaitent une présence numérique simple et accessible. Idéale pour les étudiants, jeunes professionnels et particuliers.\n\nFormule Professionnel : Pour les freelances, entrepreneurs et professionnels. Offre des fonctionnalités avancées comme la création d'événements, la gestion de contacts et les outils de networking.\n\nFormule Business : Pour les entreprises et organisations. Intègre des outils de gestion d'équipe, de visibilité commerciale et de création de valeur économique."
+    },
+    "vision": {
+      "title": "Vision et mission de Luvika",
+      "content": "Vision : Devenir la référence africaine de l'identité numérique professionnelle, combinant innovation technologique et fierté culturelle.\n\nMission : Transformer la carte de visite physique en une identité numérique intelligente, contrôlable, sécurisée et accessible à tous — particulièrement pour les entrepreneurs, développeurs et leaders africains.\n\nNous croyons en un futur où l'identité numérique renforce les liens professionnels tout en préservant les racines culturelles de chaque personne."
+    },
+    "value": {
+      "title": "Valeur ajoutée pour les utilisateurs",
+      "content": "Luvika apporte une valeur ajoutée significative à ses utilisateurs :\n\n• Facilité d'utilisation : Interface intuitive et multilingue, accessible à tous\n• Sécurité renforcée : Contrôle total sur vos données personnelles et professionnelles\n• Connectivité : Échanges professionnels facilités grâce à la technologie NFC\n• Visibilité : Valorisation de votre profil et de vos compétences\n• Culture : Valorisation de l'identité et des racines culturelles\n• Économie : Création de valeur et d'opportunités commerciales\n• Innovation : Technologie de pointe au service du développement personnel et professionnel"
+    },
+    "perspective": {
+      "title": "Perspective et ambition du projet",
+      "content": "Luvika a pour ambition de :\n\n• Révolutionner le networking en Afrique et dans le monde\n• Créer un écosystème numérique professionnel et culturellement ancré\n• Faciliter les échanges entre professionnels africains et internationaux\n• Promouvoir l'innovation technologique africaine\n• Contribuer au développement économique du continent\n• Devenir une plateforme indispensable pour les professionnels du monde entier\n\nNotre objectif est de faire de Luvika un symbole de l'excellence technologique africaine, tout en restant profondément connecté aux valeurs et à l'identité de ses utilisateurs."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une question, une idée, une collaboration ? On adore échanger.",
+    "address": "Adresse",
+    "email": "Email",
+    "phone": "Téléphone",
+    "form_title": "Envoyez-nous un message",
+    "name": "Nom",
+    "name_placeholder": "Votre nom",
+    "message": "Message",
+    "message_placeholder": "Bonjour, je voudrais...",
+    "send": "Envoyer"
+  },
+  "download": {
+    "title": "Télécharger",
+    "subtitle": "LUVIKA est gratuit, ouvert à tous, et fonctionne sans installation.",
+    "step1": {
+      "title": "1. Créez votre profil",
+      "desc": "En 2 minutes, remplissez vos infos et personnalisez votre identité."
+    },
+    "step2": {
+      "title": "2. Générez votre QR Code",
+      "desc": "Ou associez une carte NFC (option Professionnel)."
+    },
+    "step3": {
+      "title": "3. Partagez !",
+      "desc": "Scan → contact sauvegardé → connexion établie."
+    },
+    "cta_title": "Prêt à révéler qui tu es ?",
+    "cta_desc": "Commencez gratuitement — aucune carte bancaire requise.",
+    "download_now": "Commencer maintenant"
+  },
+  "footer": {
+  "product": "Plateforme",
+  "features": "Fonctionnalités",
+  "pricing": "Tarifs",
+  "download": "Télécharger",
+  "documentation": "Documentation",
+  "company": "Ressources",
+  "about": "À propos",
+  "contact": "Contact",
+  "blog": "Blog",
+  "legal": "Légal",
+  "privacy": "Confidentialité",
+  "terms": "Conditions",
+  "cookies": "Gestion des cookies",
+  "tagline": "La plateforme digitale qui révolutionne la présentation professionnelle en Afrique. Connectez, partagez, rayonnez.",
+  "copyright": "Fait avec ❤️ à Kinshasa, RDC",
+  "cta_title": "Rejoignez la révolution digitale",
+  "cta_description": "Créez votre profil professionnel en 2 minutes et commencez à rayonner.",
+  "cta_button": "Créer mon profil",
+  "available_languages": "Disponible en 9 langues",
+  "language": "Langue",
+  "sitemap": "Plan du site",
+  "security": "Sécurité",
+  "status": "Statut",
+  "operational": "Service opérationnel",
+  "made_in_africa": "100% Made in Africa",
+  "gdpr_compliant": "RGPD Compliant",
+  "scroll_to_top": "Retour en haut"
+},
+  "pricing": {
+    "title": "Plans Tarifaires",
+    "description": "Choisissez le plan qui correspond à vos besoins",
+    "billing": {
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "per_month": "par mois",
+      "per_year": "par an"
+    },
+    "plans": {
+      "freemium": {
+        "title": "Gratuit",
+        "desc": "Parfait pour commencer",
+        "features": {
+          "nfc": "1 carte NFC",
+          "users": "Profil personnel",
+          "events": "1 événement",
+          "presence": "Suivi des présences",
+          "stats": "Statistiques de base",
+          "roles": "Rôle utilisateur",
+          "dashboard": "Tableau de bord"
+        }
+      },
+      "premium": {
+        "title": "Professionnel",
+        "popular": "Populaire",
+        "desc": "Pour les professionnels",
+        "features": {
+          "nfc": "10 cartes NFC",
+          "users": "Équipe jusqu'à 5",
+          "events": "Événements illimités",
+          "presence": "Suivi avancé",
+          "stats": "Statistiques détaillées",
+          "roles": "Gestion des rôles",
+          "dashboard": "Dashboard avancé"
+        }
+      },
+      "entreprise": {
+        "title": "Business",
+        "desc": "Solution complète",
+        "features": {
+          "nfc": "Cartes NFC illimitées",
+          "users": "Équipe illimitée",
+          "events": "Événements illimités",
+          "presence": "Suivi en temps réel",
+          "stats": "Analytics complètes",
+          "roles": "Contrôle d'accès avancé",
+          "dashboard": "Dashboard personnalisé"
+        }
+      }
+    },
+    "cta": {
+      "choose": "Choisir {plan}"
+    },
+    "footer": {
+      "custom_plan": "Plan personnalisé",
+      "contact_us": "Nous contacter"
+    }
+  },
+  "validate_button": "Valider",
+  "cancel_button": "Annuler",
+  "confirm_cancel": "Êtes-vous sûr de vouloir annuler cette commande ? Cette action est irréversible.",
+  "action_success": {
+    "validate": "✅ Commande validée !",
+    "cancel": "✅ Commande annulée."
+  },
+  "action_error": {
+    "validate": "❌ Échec validation",
+    "cancel": "❌ Échec annulation"
+  },
+  "common": {
+    "save": "",
+    "saving": "Enregistrement..."
+  },
+  "enterprise": {
+    "title": "🏢 Espace Business",
+    "subtitle": "Gérez votre boutique, vos employés, vos cartes et votre présence — en temps réel.",
+    "modules": {
+      "dashboard": {
+        "title": "Tableau de bord",
+        "desc": "Vue d’ensemble en temps réel de votre activité"
+      },"settings": {
+      "title": "Paramètres du Profil",
+      "description": "Gérez vos informations personnelles et la confidentialité",
+      "profile": {
+        "title": "Profil",
+        "description": "Informations personnelles et professionnelles",
+        "full_name": "Nom complet",
+        "username": "Nom d'utilisateur",
+        "job_title": "Poste",
+        "bio_short": "Biographie courte"
+      },
+      "visibility": {
+  "title": "Visibilité",
+  "description": "Choisissez ce qui apparaît sur votre profil public",
+  "is_public": "Profil public", 
+  "is_public_description": "Rendre votre profil visible par tout le monde",  
+  "sections": "Sections visibles", 
+  "portfolio_locked": "Débloquez le portfolio avec un abonnement Professionnel",
+  "certificates_locked": "Les certificats sont réservés aux comptes Professionnel/Business"
+},
+  "contact": {
+        "title": "Contact",
+        "description": "Informations de contact",
+        "email": "Email",
+        "phone": "Téléphone",
+        "address": "Adresse"
+      },
+      "social": {
+        "title": "Réseaux sociaux",
+        "description": "Liens vers vos réseaux sociaux",
+        "website": "Site web",
+        "linkedin": "LinkedIn",
+        "github": "GitHub"
+      },
+      "security": {
+        "title": "Sécurité",
+        "description": "Paramètres de sécurité du compte",
+        "two_factor": "Authentification à deux facteurs",
+        "two_factor_description": "Activez l'authentification à deux facteurs pour plus de sécurité",
+        "password": "Mot de passe",
+        "password_description": "Changez votre mot de passe",
+        "change_password": "Changer le mot de passe",
+        "not_configured": "Non configuré"
+      },
+      "subscription": {
+        "title": "Abonnement",
+        "description": "Gérez votre abonnement",
+        "plan": "Plan",
+        "status": "Statut",
+        "active": "Actif",
+        "manage": "Gérer l'abonnement"
+      },
+      "success": {
+        "title": "Succès",
+        "description": "Vos modifications ont été enregistrées avec succès"
+      },
+      "error": {
+        "title": "Erreur",
+        "description": "Une erreur est survenue lors de l'enregistrement"
+      },
+      "saving": "Enregistrement...",
+      "save": "",
+      "saving": "Sauvegarde...",
+      "save_success": "✅ Profil mis à jour",
+      "save_error": "❌ Échec de la sauvegarde",
+      "load_error": "❌ Impossible de charger le profil",
+      "avatar_uploaded": "✅ Photo de profil mise à jour",
+      "avatar_error": "❌ Échec de l’upload",
+      "avatar_invalid": "⚠️ Format invalide (JPG/PNG seulement)",
+      "cover_uploaded": "✅ Couverture mise à jour",
+      "cover_error": "❌ Échec de l’upload",
+      "cover_invalid": "⚠️ Format invalide (JPG/PNG seulement)",
+      "url_copied": "✅ Lien copié",
+      "photo": {
+        "title": "Photo & Couverture",
+        "avatar": "Photo de profil",
+        "cover": "Photo de couverture",
+        "upload_avatar": "Changer la photo",
+        "upload_cover": "Cliquer pour uploader une couverture"
+      },
+      "personal": {
+        "title": "Informations personnelles",
+        "full_name": "Nom complet",
+        "full_name_placeholder": "ex: Hassan M.",
+        "username": "Nom d’utilisateur",
+        "username_placeholder": "votre_nom",
+        "job_title": "Poste",
+        "job_title_placeholder": "Développeur Full-Stack",
+        "company": "Business",
+        "company_placeholder": "LUVIKA",
+        "bio_short": "Bio courte",
+        "bio_short_placeholder": "1 ligne percutante",
+        "bio_long": "Bio complète",
+        "bio_long_placeholder": "Votre parcours, passions, valeurs..."
+      },
+      "contact": {
+        "title": "Coordonnées",
+        "email": "Email",
+        "description": "Informations de contact", 
+        "email_placeholder": "hassan@luvika.me",
+        "phone": "Téléphone",
+        "phone_placeholder": "+243 999 123 456",
+        "address": "Adresse",
+        "address_placeholder": "Kinshasa, RDC",
+        "website": "Site web"
+      },
+      "visibility": {
+        "title": "Visibilité",
+        "description": "Choisissez ce qui apparaît sur votre profil public",
+        "portfolio_locked": "Débloquez le portfolio avec un abonnement Professionnel",
+        "certificates_locked": "Les certificats sont réservés aux comptes Professionnel/Business"
+      },
+      "advanced": {
+        "title": "Options avancées",
+        "public_profile": "Profil public",
+        "public_profile_desc": "Visible sans connexion",
+        "contact_requests": "Messages publics",
+        "contact_requests_desc": "Autoriser les visiteurs à vous écrire",
+        "profile_url": "URL de profil"
+      },
+      "privacy": {
+        "title": "Confidentialité",
+        "hide_birth_year": "Masquer l'année de naissance",
+        "hide_birth_year_desc": "Affiche seulement jour/mois",
+        "disable_birthday_icon": "Désactiver l'icône anniversaire",
+        "disable_birthday_icon_desc": "Masque 🎂 le jour de l'anniversaire",
+        "verified_badge": "Badge de vérification",
+        "verified_badge_desc": "Affiche à côté de votre nom",
+        "verified_tooltip": "Profil vérifié",
+        "enterprise_only": "Réservé aux entreprises"
+      }
+    },
+      "product": {
+        "add_to_cart": "Ajouter au panier",
+        "added_to_cart": "✅ Ajouté au panier !",
+        "cart_error": "❌ Impossible d’ajouter au panier",
+        "favorite_error": "❌ Erreur favori",
+        "add_to_favorites": "Ajouter aux favoris",
+        "remove_from_favorites": "Retirer des favoris",
+        "quantity": "Quantité",
+        "order_now": "Commander maintenant",
+        "whatsapp_order": "Commander sur WhatsApp",
+        "seller_not_found": "Vendeur introuvable",
+        "no_whatsapp": "Ce vendeur n’est pas joignable par WhatsApp",
+        "quantity_exceeds_stock": "La quantité demandée dépasse le stock disponible",
+        "in_stock": "{count} en stock",
+        "add_favorite": "Ajouter aux favoris",
+        "remove_favorite": "Retirer des favoris",
+        "no_description": "Aucune description"
+      },
+      "shop": {
+        "title": "Boutique & Produits",
+        "desc": "Catalogue public, stock, promotions",
+        "edit_title": "Modifier le produit",
+        "product_info": "Informations produit",
+        "image": "Image",
+        "image_help": "JPG/PNG jusqu’à 5MB",
+        "name": "Nom du produit",
+        "name_placeholder": "ex: T-shirt LUVIKA",
+        "slug": "URL personnalisée",
+        "slug_placeholder": "tshirt-luvika",
+        "description": "Description",
+        "description_placeholder": "Décrivez votre produit...",
+        "price": "Prix",
+        "promo_price": "Prix promotionnel",
+        "stock": "Stock",
+        "sku": "Référence (SKU)",
+        "sku_placeholder": "LUVIKA-TSHIRT-001",
+        "sku_help": "Code unique pour le suivi des stocks",
+        "optional": "Optionnel",
+        "save": "",
+        "saving": "Sauvegarde...",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "save_success": "✅ Produit mis à jour",
+        "save_error": "❌ Échec de la sauvegarde",
+        "load_error": "❌ Impossible de charger le produit",
+        "upload_error": "❌ Échec de l’upload",
+        "invalid_image": "⚠️ Format invalide (JPG/PNG seulement)",
+        "image_too_large": "⚠️ Image trop grande (max 5MB)",
+        "missing_fields": "⚠️ Veuillez remplir tous les champs requis",
+        "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce produit ? Cette action est irréversible.",
+        "delete_success": "✅ Produit supprimé",
+        "delete_error": "❌ Échec de la suppression",
+        "new_product": "Nouveau produit",
+        "images": "Images du produit",
+        "image_help_multi": "Jusqu’à 5 images (JPG/PNG, max 5MB)",
+        "max_5_images": "⚠️ Maximum 5 images",
+        "create_product": "Créer le produit",
+        "create_success": "✅ Produit créé",
+        "create_error": "❌ Échec création",
+        "uploading": "Upload en cours...",
+        "no_products": "Aucun produit enregistré",
+        "add_product": "Ajouter un produit",
+        "edit_product": "Modifier le produit",
+        "delete_product": "Supprimer",
+        "view_coming_soon": "Disponible prochainement",
+        "view_product": "Voir le produit",
+        "invalid_slug": "Le slug ne doit pas contenir d'URL ou de mots réservés",
+        "slug_preview": "Aperçu du lien"
+      },
+      "orders": {
+        "title": "Commandes",
+        "desc": "Suivi des ventes et expéditions",
+        "total_revenue": "Revenu total",
+        "pending_orders": "Commandes en attente",
+        "completed_orders": "Commandes livrées",
+        "recent_orders": "Commandes récentes"
+      },
+      "employees": {
+        "title": "Employés",
+        "desc": "Gestion RH légère et rôles",
+        "add_employee": "Ajouter un employé",
+        "full_name": "Nom complet",
+        "full_name_placeholder": "ex: Nestor P.",
+        "email": "Email",
+        "email_placeholder": "phaku@entreprise.com",
+        "phone": "Téléphone",
+        "phone_placeholder": "+243 890 177 601",
+        "position": "Poste",
+        "position_placeholder": "Développeur, RH, etc.",
+        "role": "Rôle",
+        "select_role": "Choisir un rôle",
+        "roles": {
+          "employee": "Employé",
+          "manager": "Manager",
+          "admin": "Administrateur"
+        },
+        "cancel": "Annuler",
+        "confirm_add": "Ajouter l'employé",
+        "adding": "Ajout en cours...",
+        "add_success": "✅ Employé ajouté avec succès !",
+        "add_error": "❌ Échec de l'ajout. Réessayez."
+      },
+      "cards": {
+        "title": "Cartes Pro",
+        "desc": "Cartes NFC illimitées pour toute l’équipe"
+      },
+      "attendance": {
+        "title": "Présence",
+        "desc": "Pointage par QR Code en temps réel",
+        "recent_logs": "Présences récentes"
+      },
+      "communication": {
+        "title": "Communication",
+        "desc": "Messages internes et annonces",
+        "broadcast_title": "Message global",
+        "broadcast_desc": "Envoyer un message à tous les employés",
+        "message_placeholder": "Écrivez votre message ici...",
+        "send_broadcast": "Envoyer",
+        "sending": "Envoi..."
+      },
+      "settings": {
+        "title": "Paramètres",
+        "desc": "Configuration de votre entreprise",
+        "company_info": "Informations de l’entreprise",
+        "name": "Nom",
+        "email": "Email",
+        "phone": "Téléphone",
+        "address": "Adresse",
+        "city": "Ville",
+        "country": "Pays",
+        "website": "Site web",
+        "description": "Description",
+        "logo_url": "URL du logo",
+        "save": "",
+        "saving": "Sauvegarde...",
+        "save_success": "✅ Profil mis à jour",
+        "save_error": "❌ Échec de la sauvegarde",
+        "loading": "Chargement..."
+      }
+    },
+    "value_prop": {
+      "title": "Votre entreprise, unifiée et vivante",
+      "desc": "Luvika n’est pas un profil — c’est votre outil métier quotidien, conçu pour l’Afrique et scalable à l’international."
+    }
+  },
+  "enterprise_only": "Business",
+  "blog": {
+    "title": "Blog LUVIKA",
+    "description": "Découvrez les dernières actualités, tutoriels et conseils pour utiliser LUVIKA au maximum."
+  },
+  "not_found": {
+    "loading": "Chargement...",
+    "title": "Page non trouvée",
+    "session_expired": "Votre session a peut-être expiré. Reconnectez-vous pour continuer.",
+    "page_moved": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "sign_out": "Déconnexion",
+    "back": "Retour",
+    "suggestions_title": "Suggestions",
+    "need_help": "Besoin d'aide ?",
+    "contact_support": "Contacter le support",
+    "made_with": "Fait avec ❤️ à Kinshasa",
+    "suggestions": {
+      "dashboard": "Tableau de bord",
+      "features": "Fonctionnalités NFC",
+      "pricing": "Offres et tarifs",
+      "documentation": "Documentation"
+    },
+    "badges": {
+      "languages": "9 langues",
+      "security": "Sécurité bancaire",
+      "availability": "99.9% dispo"
+    }
+  },
+  "cookies_page": {
+    "loading": "Chargement...",
+    "badge": "Cookies",
+    "title": "Politique de Cookies",
+    "description": "Nous utilisons uniquement des cookies strictement nécessaires au fonctionnement de la plateforme. Aucun cookie de suivi ou publicitaire n'est utilisé.",
+    "used_cookies_title": "Cookies utilisés",
+    "used_cookies_subtitle": "Strictement nécessaires au fonctionnement",
+    "cookies_list": {
+      "auth": "Authentification",
+      "auth_desc": "Cookies de session pour garder votre compte actif",
+      "preferences": "Préférences",
+      "preferences_desc": "Langue sélectionnée et thème d'affichage",
+      "security": "Sécurité",
+      "security_desc": "Protection contre les attaques CSRF et XSS"
+    },
+    "important_title": "Important",
+    "important_no_tracking": "Aucun cookie de suivi",
+    "important_description": "(Google Analytics, Meta Pixel, etc.) n'est utilisé sur LUVIKA. Vous pouvez gérer ou supprimer les cookies via les paramètres de votre navigateur à tout moment.",
+    "your_rights_title": "Vos droits",
+    "rights_list": {
+      "access": "Accéder à la liste des cookies utilisés",
+      "delete": "Supprimer les cookies via les paramètres de votre navigateur",
+      "refuse": "Refuser les cookies non-essentiels (aucun sur LUVIKA)"
+    },
+    "back_to_home": "Retour à l'accueil",
+    "footer_text": "LUVIKA • Politique de Cookies • Dernière mise à jour: {date}",
+    "made_with": "Fait avec ❤️ à Kinshasa"
+  },
+  "privacy_page": {
+    "loading": "Chargement...",
+    "badge": "Confidentialité",
+    "title": "Politique de confidentialité – Luvika",
+    "description": "Votre vie privée est notre priorité absolue. Cette politique explique comment nous protégeons vos données personnelles.",
+    "back_to_home": "Retour à l'accueil",
+    "footer_text": "LUVIKA • Politique de Confidentialité • Dernière mise à jour: {date}",
+    "made_with": "Fait avec ❤️ à Kinshasa",
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Luvika est une plateforme de cartes numériques professionnelles. La protection de vos données personnelles est une priorité absolue. Cette politique explique quelles données nous collectons, pourquoi, et comment elles sont protégées."
+      },
+      "collected_data": {
+        "title": "Données collectées",
+        "content": "Lors de l'utilisation de Luvika, nous collectons :",
+        "items": "Nom et prénom|Adresse e-mail|Numéro de téléphone|Photo de profil|Informations de carte numérique créées|Données de connexion (adresse IP, type d'appareil)"
+      },
+      "purpose": {
+        "title": "Finalité de la collecte",
+        "content": "Les données sont utilisées pour :",
+        "items": "Créer et gérer votre compte|Générer vos cartes numériques|Sécuriser l'accès à la plateforme|Améliorer les performances du service"
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Luvika utilise des cookies pour :",
+        "items": "Maintenir votre session connectée|Sécuriser la navigation|Mémoriser certaines préférences",
+        "highlight": "Aucun cookie publicitaire tiers n'est utilisé sans votre consentement."
+      },
+      "data_sharing": {
+        "title": "Partage des données",
+        "content": "Vos données ne sont jamais vendues. Elles peuvent être hébergées chez des services techniques sécurisés uniquement pour le fonctionnement de la plateforme."
+      },
+      "security": {
+        "title": "Sécurité",
+        "content": "Nous mettons en place des mesures techniques avancées pour protéger vos informations contre tout accès non autorisé."
+      },
+      "retention": {
+        "title": "Durée de conservation",
+        "content": "Les données sont conservées tant que votre compte est actif. Vous pouvez demander la suppression à tout moment."
+      },
+      "your_rights": {
+        "title": "Vos droits",
+        "content": "Vous pouvez :",
+        "items": "Accéder à vos données|Modifier vos informations|Supprimer votre compte"
+      },
+      "contact": {
+        "title": "Contact",
+        "content_before": "Pour toute demande :"
+      }
+    }
+  },
+  "terms_page": {
+    "loading": "Chargement...",
+    "badge": "Conditions Générales",
+    "title": "Conditions Générales d'Utilisation",
+    "description": "Conditions d'utilisation de la plateforme LUVIKA. En utilisant nos services, vous acceptez ces conditions.",
+    "effective_date": "En vigueur au : {date}",
+    "back_to_home": "Retour à l'accueil",
+    "footer_text": "LUVIKA • Conditions Générales d'Utilisation • Dernière mise à jour: {date}",
+    "made_with": "Fait avec ❤️ à Kinshasa",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptation des conditions",
+        "content": "En utilisant LUVIKA, vous acceptez ces conditions. Si vous n'êtes pas d'accord, veuillez ne pas utiliser le service."
+      },
+      "account": {
+        "title": "2. Compte utilisateur",
+        "content": "Vous êtes responsable de la sécurité de votre compte et des informations que vous partagez publiquement."
+      },
+      "intellectual_property": {
+        "title": "3. Propriété intellectuelle",
+        "content": "LUVIKA et son code source sont la propriété de ses auteurs. Le contenu que vous publiez reste le vôtre."
+      },
+      "liability": {
+        "title": "4. Limitation de responsabilité",
+        "content": "LUVIKA est fourni « tel quel ». Nous ne garantissons pas la disponibilité 24/7 ni la fiabilité des scans NFC/QR."
+      },
+      "modifications": {
+        "title": "5. Modifications",
+        "content": "Nous pouvons mettre à jour ces conditions. Vous serez informé(e) en cas de changement majeur."
+      }
+    }
+  },
+  "home": {
+    "audience": {
+      "creators": "Créateurs",
+      "entrepreneurs": "Entrepreneurs",
+      "professionals": "Professionnels"
+    },
+    "stats": {
+      "users": "Utilisateurs",
+      "scans": "Scans",
+      "satisfaction": "Satisfaction"
+    },
+    "features": {
+      "title_before": "Réinventez votre",
+      "title_highlight": "présence numérique",
+      "description": "LUVIKA transforme votre identité numérique avec des fonctionnalités innovantes conçues pour les créateurs, entrepreneurs et professionnels ambitieux.",
+      "nfc_stat": "100% sans contact",
+      "stats_stat": "Données en temps réel",
+      "multi_stat": "Multi-plateforme"
+    },
+    "reviews": {
+      "badge": "Avis vérifiés",
+      "title": "Ce que nos utilisateurs disent",
+      "description": "Découvrez les retours d'expérience de notre communauté.",
+      "verified": "Vérifié"
+    },
+    "events": {
+      "badge": "Événements intelligents",
+      "description": "Organisez, gérez et analysez vos événements avec des QR codes personnalisés et des statistiques en temps réel."
+    },
+    "footer": {
+      "description": "La nouvelle génération d'identité numérique pour les créateurs, entrepreneurs et professionnels ambitieux en Afrique et ailleurs.",
+      "product": "Produit",
+      "company": "Entreprise",
+      "legal": "Légal",
+      "features": "Fonctionnalités",
+      "pricing": "Tarifs",
+      "download": "Télécharger",
+      "documentation": "Documentation",
+      "about": "À propos",
+      "contact": "Contact",
+      "blog": "Blog",
+      "careers": "Carrières",
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "cookies": "Cookies",
+      "security": "Sécurité",
+      "copyright": "© {year} {brand}. Fait avec ❤️ en RDC.",
+      "operational": "Opérationnel"
+    },
+    "profile_preview": "Aperçu de la carte",
+    "best_solution_badge": "Meilleure solution 2026"
+  },
+  "cookies_banner": {
+    "title": "Cookies",
+    "essential_badge": "Essentiels",
+    "close_label": "Fermer",
+    "description": "Nous utilisons des cookies strictement nécessaires au fonctionnement de la plateforme, à la sécurisation de votre session et à l'amélioration de nos services.",
+    "badge_security": "Sécurité",
+    "badge_session": "Session",
+    "badge_preferences": "Préférences",
+    "accept_button": "Accepter",
+    "reject_button": "Refuser",
+    "privacy_link": "Confidentialité"
+  },
+  "install_modal": {
+    "title": "Installer Luvika",
+    "pwa_badge": "Application PWA",
+    "close_label": "Fermer",
+    "ios_prefix": "Sur iOS :",
+    "ios_instruction_before": "Appuyez sur",
+    "ios_share_text": "Partager",
+    "ios_add_text": "Ajouter à l'écran d'accueil",
+    "android_prefix": "Sur Android :",
+    "android_description": "Installez Luvika pour un accès rapide, des notifications et le mode hors-ligne.",
+    "install_button": "Installer",
+    "later_button": "Plus tard",
+    "footer_text": "Gratuit • Quelques secondes"
+  },
+  "profile_card_3d": {
+    "brand_name": "LUVIKA",
+    "tagline": "Révèle qui tu es",
+    "example_url": "luvika.me/vika",
+    "verified_badge": "⚡ Verified",
+    "matricule_example": "483 920 174"
+  },
+  "contact_page": {
+    "opening_hours": "Heures d'ouverture",
+    "monday_friday": "Lundi - Vendredi: 8h - 18h",
+    "saturday": "Samedi: 9h - 14h",
+    "sunday": "Dimanche: Fermé",
+    "form_title": "Parlez-nous de votre projet",
+    "form_subtitle": "Nous répondons sous 24h en moyenne",
+    "badge_response_24h": "Réponse sous 24h",
+    "badge_secure_data": "Données sécurisées",
+    "badge_priority_support": "Support prioritaire",
+    "cta_title": "Préférez-vous discuter directement ?",
+    "cta_call_text": "Appelez-nous au",
+    "cta_email_text": "ou écrivez à",
+    "cta_button": "Appeler maintenant",
+    "footer_text": "LUVIKA • Une identité numérique pour l'Afrique et le monde • © {year}",
+    "made_with": "Fait avec ❤️ à Kinshasa"
+  },
+  "about_page": {
+    "footer_text": "LUVIKA • Une identité numérique pour l'Afrique et le monde • © {year}",
+    "made_with": "Fait avec ❤️ à Kinshasa"
+  },
+  "org_card": {
+    "default_member": "Membre",
+    "default_org": "Organisation",
+    "status": {
+      "expired": "Carte expirée",
+      "suspended": "Suspendue",
+      "revoked": "Révoquée",
+      "invalid": "Invalide",
+      "valid": "Valide"
+    },
+    "fields": {
+      "surname": "Nom",
+      "middle_name": "Post-nom",
+      "given_name": "Prénom",
+      "phone": "Téléphone",
+      "email": "Email",
+      "position": "Poste / Fonction",
+      "department": "Département / Service",
+      "role_in_org": "Rôle dans l'organisation",
+      "access_level": "Niveau d'accès",
+      "blood_group": "Groupe sanguin",
+      "nationality": "Nationalité",
+      "work_hours": "Horaires de service",
+      "matricule": "N° matricule",
+      "validity": "Validité"
+    },
+    "verified_by": "Vérifié par {orgName}",
+    "member_since": "Membre depuis le {date}",
+    "validity_range": "Du {from} au {to}",
+    "no_limit": "Sans limite",
+    "hide_details": "Masquer les détails",
+    "show_details": "Voir l'identité complète",
+    "org_badge": "LUVIKA ORG",
+    "secure_card": "Carte sécurisée",
+    "footer_authenticated": "Carte authentifiée • Vérifiée par {orgName}"
+  },
+  "pricing_page": {
+    "default_title": "Tarifs flexibles pour tous",
+    "subtitle": "Des solutions adaptées à votre profil comme à votre organisation.",
+    "tab_profiles": "🧑‍🎓 Tarifs Profils",
+    "tab_software": "💻 Plans Logiciels",
+    "profiles": {
+      "student": "Étudiant",
+      "employee": "Employé",
+      "artist": "Artiste",
+      "diaspora": "Diaspora",
+      "entrepreneur": "Entrepreneur",
+      "ngo": "ONG / Assoc."
+    },
+    "period_per_month": "/mois",
+    "period_per_year": "/an",
+    "choose_button": "Choisir",
+    "recommended_badge": "Recommandé",
+    "free_label": "Gratuit",
+    "free_lifetime": "Gratuit à vie",
+    "billed_annually": "facturé annuellement (2 mois offerts)",
+    "per_month_no_commitment": "par mois, sans engagement",
+    "save_percent": "Économisez {percent}% avec l'annuel",
+    "more_features": "+{count} autres fonctionnalités",
+    "cta_start_free": "Commencer gratuitement",
+    "cta_choose_premium": "Choisir Premium",
+    "cta_contact_us": "Nous contacter",
+    "cta_freemium": "Commencer",
+    "cta_premium": "Choisir Premium",
+    "cta_enterprise": "Nous contacter",
+    "no_card_required": "Sans carte bancaire",
+    "cancel_anytime": "Annulation possible à tout moment",
+    "footer_note": "Tous les tarifs sont TTC. Les abonnements annuels incluent 2 mois offerts. Pour les devises locales, le taux de change est mis à jour quotidiennement."
+  },
+  "ProductActions": {
+    "quantity_label": "Quantité",
+    "out_of_stock_warning": "Stock insuffisant",
+    "insufficient_stock_description": "La quantité demandée dépasse le stock disponible.",
+    "out_of_stock_status": "Rupture de stock",
+    "in_stock_status": "{count} en stock",
+    "login_required": "Connexion requise",
+    "login_to_add_to_cart": "Connectez-vous pour ajouter au panier.",
+    "login_to_manage_favorites": "Connectez-vous pour gérer vos favoris.",
+    "added_to_cart": "Ajouté au panier",
+    "added_to_cart_description": "{productName} a été ajouté à votre panier.",
+    "error": "Erreur",
+    "cart_error_description": "Impossible d'ajouter au panier.",
+    "favorite_error_description": "Impossible de modifier les favoris.",
+    "unavailable": "Indisponible",
+    "no_whatsapp_configured": "Ce vendeur n'a pas configuré son numéro WhatsApp.",
+    "cart_button": "Panier",
+    "whatsapp_button": "Commander via WhatsApp",
+    "whatsapp_message_template": "Bonjour {companyName},\n\nJe souhaite commander :\n• {productName}\n• Quantité : {quantity}\n• Prix unitaire : ${unitPrice}\n• Total : ${total}\n\nMerci de me confirmer la commande."
+  },
+  "ReviewForm": {
+    "login_required": "Connexion requise",
+    "login_to_review": "Connectez-vous pour laisser un avis.",
+    "login_to_share_experience": "Connectez-vous pour partager votre expérience.",
+    "sign_in_button": "Se connecter",
+    "rating_required": "Note requise",
+    "select_rating_before_submit": "Sélectionnez une note avant d'envoyer.",
+    "select_rating_button": "Sélectionnez une note",
+    "submit_review_button": "Envoyer mon avis",
+    "rating_select_prompt": "Sélectionnez une note",
+    "rating_low_message": "Nous pouvons faire mieux",
+    "rating_medium_message": "Merci !",
+    "rating_high_message": "Excellent !",
+    "rating_star_aria": "Note {stars} étoiles",
+    "thank_you_title": "Merci !",
+    "thank_you_description": "Votre avis compte énormément pour nous.",
+    "badge_received": "Badge \"Pionnier LUVIKA\" ajouté à votre profil !",
+    "review_helps": "Votre avis aide à améliorer LUVIKA.",
+    "error_title": "Erreur",
+    "error_try_again": "Veuillez réessayer plus tard.",
+    "unknown_error": "Erreur inconnue",
+    "form_title": "Partagez votre expérience",
+    "form_subtitle": "30 secondes pour nous aider ❤️",
+    "your_rating_label": "Votre note",
+    "comment_label": "Commentaire (optionnel)",
+    "comment_placeholder": "Vos suggestions d'amélioration ?",
+    "gift_prefix": "Cadeau :",
+    "next": "prochains",
+    "first": "100 premiers",
+    "badge_offer_text": "{eligible} avis reçoivent le badge \"Pionnier LUVIKA\".",
+    "spots_remaining": "Places restantes",
+    "full": "Complet",
+    "be_among_pioneers": "Soyez parmi les pionniers",
+    "thanks_to_contributors": "Merci aux 100 premiers contributeurs",
+    "sending": "Envoi...",
+    "footer_anonymous_note": "Votre avis est anonyme et contribue à améliorer LUVIKA"
+  },
+  "Loading": {
+    "brand_name": "LUVIKA",
+    "message_initializing": "Initialisation...",
+    "message_loading_profile": "Chargement du profil...",
+    "message_preparing_interface": "Préparation de l'interface..."
+  },
+  "ReviewPrompt": {
+    "rating_required": "Note requise",
+    "select_rating_description": "Sélectionnez une note.",
+    "already_submitted_title": "Déjà soumis",
+    "already_submitted_description": "Vous avez déjà donné votre avis. Merci !",
+    "thank_you_title": "Merci pour votre avis !",
+    "thank_you_description": "Votre feedback nous aide à nous améliorer.",
+    "error_title": "Erreur",
+    "error_try_again": "Veuillez réessayer.",
+    "error_unknown": "Erreur inconnue",
+    "prompt_title": "Vous aimez LUVIKA ?",
+    "prompt_description": "Votre avis compte ! Prenez 30 secondes pour partager votre expérience.",
+    "leave_review_button": "Laisser un avis",
+    "later_button": "Plus tard",
+    "no_thanks_button": "Non merci",
+    "modal_title": "Votre avis",
+    "modal_subtitle": "Partagez votre expérience",
+    "comment_placeholder": "Votre expérience (optionnel)",
+    "cancel_button": "Annuler",
+    "sending_button": "Envoi...",
+    "send_button": "Envoyer"
+  },
+  "CheckInClient": {
+    "invalid_qr_message": "QR code invalide. Veuillez scanner un QR valide.",
+    "name_required_message": "Veuillez entrer votre nom.",
+    "welcome_message": "✅ Bienvenue, {name} !",
+    "checkin_success_toast": "Check-in réussi !",
+    "checkin_error_generic": "Erreur lors du check-in.",
+    "checkin_error_failed": "Échec du check-in",
+    "network_error_message": "Erreur réseau. Impossible de joindre le serveur.",
+    "network_error_toast": "Erreur réseau",
+    "upcoming_title": "⏳ Bientôt !",
+    "upcoming_description": "L'événement « {title} » commence dans",
+    "minutes_seconds_label": "minutes : secondes",
+    "ended_title": "Événement terminé",
+    "ended_description": "Merci d'être venu(e) !",
+    "private_title": "Accès privé",
+    "private_description": "Cet événement est réservé aux invités.",
+    "checkin_badge": "Check-in événement",
+    "participant_singular": "participant",
+    "participant_plural": "participants",
+    "live_status": "Live",
+    "offline_status": "Hors ligne",
+    "last_update": "Dernière mise à jour : {time}",
+    "success_title": "Présence enregistrée !",
+    "success_footer": "Profitez de l'événement 🎉",
+    "full_name_label": "Votre nom complet *",
+    "name_placeholder": "Entrez votre nom",
+    "checking_button": "Vérification...",
+    "checkin_button": "Enregistrer ma présence",
+    "invalid_qr_hint": "❗ Ce QR code n'est pas valide. Assurez-vous de scanner le bon lien."
+  },
+  "CreateEventForm": {
+    "step1_title": "Informations de base",
+    "step1_subtitle": "L'essentiel pour commencer",
+    "step2_title": "Détails & Lieu",
+    "step2_subtitle": "Personnalisez votre événement",
+    "step3_title": "Options de visibilité",
+    "step3_subtitle": "Qui peut voir cet événement ?",
+    "step4_title": "Votre QR Code",
+    "step4_subtitle": "Génération automatique",
+    "step5_title": "Validation Finale",
+    "step5_subtitle": "Vérifiez et créez",
+    "title_label": "Titre *",
+    "title_placeholder": "Ex: Conférence Tech",
+    "start_label": "Début *",
+    "end_label": "Fin",
+    "location_label": "Lieu",
+    "location_placeholder": "Adresse ou 'En ligne'",
+    "max_participants_label": "Max participants",
+    "max_participants_placeholder": "Illimité",
+    "description_label": "Description courte",
+    "description_placeholder": "Détails...",
+    "visibility_title": "Visibilité",
+    "public_event_label": "Événement Public",
+    "public_event_description": "Visible par tous.",
+    "private_event_description": "Sur invitation uniquement.",
+    "qr_title": "Votre QR Code Intelligent",
+    "qr_subtitle": "Génération automatique basée sur vos infos",
+    "scan_me": "SCAN ME",
+    "review_title": "Dernière vérification",
+    "review_subtitle": "Confirmez les informations avant la création",
+    "review_title_label": "Titre",
+    "review_date_label": "Date",
+    "review_location_label": "Lieu",
+    "review_visibility_label": "Visibilité",
+    "review_not_defined": "Non défini",
+    "public_badge": "Public",
+    "private_badge": "Privé",
+    "next_button": "Suivant",
+    "back_button": "Retour",
+    "view_qr_button": "Voir le QR",
+    "edit_button": "Modifier",
+    "validate_button": "Valider les détails",
+    "create_button": "Créer l'événement",
+    "errors_detected_title": "Erreurs détectées",
+    "error_title_required": "Requis",
+    "error_title_min_length": "3 caractères minimum",
+    "error_date_required": "Requis",
+    "error_date_future": "Date future requise",
+    "error_date_order": "Doit être après le début",
+    "error_max_participants_range": "1-10000",
+    "error_location_not_supported": "Non supporté",
+    "error_location_unknown": "Position inconnue",
+    "error_location_denied": "Refusé",
+    "error_location_generic": "Erreur"
+  },
+  "NFCModal": {
+    "title": "Mes cartes NFC",
+    "subtitle": "Gérez vos cartes NFC physiques et virtuelles",
+    "close_label": "Fermer",
+    "status_active": "Active",
+    "status_pending": "En attente",
+    "status_lost": "Perdue",
+    "status_blocked": "Bloquée",
+    "empty_title": "Aucune carte NFC",
+    "empty_description": "Vous n'avez pas encore de carte NFC associée à votre compte. Commandez votre première carte pour commencer !",
+    "order_button": "Commander une carte",
+    "created_date": "Créée le {date}",
+    "usage_label": "Utilisation",
+    "add_card_button": "Ajouter une carte NFC"
+  },
+  "OrdersModal": {
+    "title": "Mes commandes",
+    "subtitle": "Suivez l'état de vos commandes et abonnements LUVIKA",
+    "close_label": "Fermer",
+    "status_active": "Actif",
+    "status_pending": "En attente",
+    "status_delivered": "Livrée",
+    "status_cancelled": "Annulée",
+    "sample_premium_card": "Carte NFC Premium",
+    "sample_premium_subscription": "Abonnement Premium",
+    "sample_basic_card": "Carte NFC Basique",
+    "sample_priority_support": "Support Prioritaire",
+    "view_all_button": "Voir toutes les commandes"
+  },
+  "NFCManagementModal": {
+    "title": "Gestion de la carte NFC",
+    "close_label": "Fermer",
+    "status_active": "active",
+    "status_lost": "perdue",
+    "status_blocked": "bloquée",
+    "status_inactive": "inactive",
+    "action_select_prompt": "Sélectionnez une action à effectuer sur cette carte.",
+    "warning_irreversible_active": "⚠️ Actions irréversibles pour les cartes actives",
+    "warning_card_inactive": "✅ Carte actuellement désactivée",
+    "badge_matricule_required": "Matricule requis",
+    "security_note_title": "Sécurité renforcée :",
+    "security_note_description": "Les actions sensibles (bloquer, déclarer perdue, réinitialiser) nécessitent la saisie du matricule visible sur votre carte physique. Cela garantit que seul le propriétaire légitime peut effectuer ces actions.",
+    "matricule_label": "Matricule de la carte (visible sur la carte physique)",
+    "matricule_placeholder": "Ex: NFC-AB123-XYZ",
+    "matricule_format_hint": "Format: Lettres majuscules et chiffres uniquement • Exemple: {example}...",
+    "reason_label": "Motif de l'action",
+    "reason_lost_placeholder": "Où et quand avez-vous perdu la carte ?",
+    "reason_report_placeholder": "Décrivez le problème ou l'abus observé",
+    "back_button": "Retour aux actions",
+    "processing_button": "Traitement...",
+    "footer_security_note": "Toutes les actions sont journalisées et sécurisées",
+    "confirm_title": "Confirmation finale",
+    "confirm_action_prompt": "Êtes-vous absolument certain de vouloir {action} cette carte NFC ?",
+    "confirm_warning_block": "⚠️ Cette action est irréversible. La carte sera définitivement inutilisable.",
+    "confirm_warning_lost": "⚠️ Cette déclaration est définitive. Vous ne pourrez plus utiliser cette carte.",
+    "confirm_warning_reset": "🔄 Toutes les données liées à cette carte seront supprimées. Un nouveau QR sera généré.",
+    "confirm_warning_reactivate": "✅ La carte retrouvera son statut actif et pourra être utilisée normalement.",
+    "confirm_cancel_button": "Annuler",
+    "confirm_confirm_button": "Confirmer définitivement",
+    "confirm_processing_button": "Confirmation...",
+    "error_matricule_incorrect": "❌ Matricule incorrect",
+    "error_matricule_check_card": "Vérifiez le numéro sur votre carte physique",
+    "error_reason_required": "⚠️ Raison requise",
+    "error_reason_description": "Veuillez indiquer le motif de cette action",
+    "error_action_failed": "Erreur action",
+    "error_action_failed_title": "❌ Échec de l'action",
+    "error_action_retry": "Veuillez réessayer",
+    "toast_new_qr_generated": "🆕 Nouveau QR généré",
+    "toast_qr_url": "URL",
+    "action_block_label": "Bloquer carte",
+    "action_block_description": "Bloque totalement l'usage de la carte",
+    "action_block_confirm": "Confirmer le blocage définitif",
+    "action_block_success": "Carte bloquée définitivement",
+    "action_lost_label": "Déclarer perdue",
+    "action_lost_description": "Carte perdue par le propriétaire",
+    "action_lost_confirm": "Confirmer la perte",
+    "action_lost_success": "Carte déclarée perdue",
+    "action_reset_label": "Réinitialiser",
+    "action_reset_description": "Supprime lien + QR + profil",
+    "action_reset_confirm": "Confirmer la réinitialisation",
+    "action_reset_success": "Carte réinitialisée avec nouveau QR",
+    "action_report_label": "Signaler",
+    "action_report_description": "Signale un problème (abus, vol…)",
+    "action_report_confirm": "Envoyer le signalement",
+    "action_report_success": "Signalement enregistré",
+    "action_reactivate_label": "Réactiver",
+    "action_reactivate_description": "Réactive une carte bloquée ou perdue",
+    "action_reactivate_confirm": "Confirmer la réactivation",
+    "action_reactivate_success": "Carte réactivée",
+    "action_modify_qr_label": "Modifier QR",
+    "action_modify_qr_description": "Génère un nouveau QR unique",
+    "action_modify_qr_confirm": "Générer nouveau QR",
+    "action_modify_qr_success": "Nouveau QR généré"
+  },
+  "common": {
+     "loading": "Chargement...",
+    "back_to_home": "Accueil",
+    "privacy_link": "Confidentialité",
+    "terms_link": "Conditions",
+    "contact_link": "Contact"
+  },
+  "auth": {
+    "signin": {
+      "title": "Connexion",
+      "subtitle": "Connectez-vous à votre compte LUVIKA",
+      "email": "Email",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié ?",
+      "submit": "Se connecter",
+      "connecting": "Connexion...",
+      "no_account": "Pas de compte ?",
+      "sign_up": "S'inscrire",
+      "error_credentials": "Email ou mot de passe incorrect.",
+      "error_deactivated": "Ce compte a été désactivé. Contactez le support.",
+      "secure_badge": "Sécurisé",
+      "privacy_link": "Confidentialité",
+      "terms_link": "Conditions",
+      "contact_link": "Contact"
+    },"signup": {
+      "email_title": "Adresse email",
+      "security_title": "Sécurité",
+      "email_desc": "Entrez votre adresse email",
+      "security_desc": "Choisissez un mot de passe sécurisé",
+      "email": "Email",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "error_email_format": "Seule une adresse Gmail est acceptée",
+      "email_exists": "Cet email est déjà utilisé",
+      "check_email": "Compte créé ! Vérifiez votre boîte mail.",
+      "error_generic": "Erreur lors de la création du compte",
+      "next": "Suivant",
+      "create_account": "Créer le compte",
+      "creating": "Création...",
+      "already_have_account": "Déjà un compte ?",
+      "sign_in": "Se connecter",
+      "back_button": "Retour",
+      "password_min_length": "Minimum 6 caractères",
+      "password_mismatch": "Les mots de passe ne correspondent pas",
+      "two_factor_info": "Authentification à deux facteurs activée par défaut pour sécuriser votre compte.",
+      "welcome_title": "Bienvenue sur LUVIKA !",
+      "welcome_description": "Votre compte a été créé. Vérifiez votre email pour l'activer.",
+      "welcome_start_button": "Commencer",
+      "welcome_login_button": "Connexion"
+    },"error": {
+      "title": "Erreur d'authentification",
+      "description": "Une erreur est survenue lors de l'authentification.",
+      "default_message": "Une erreur est survenue.",
+      "unexpected_error": "Une erreur inattendue est survenue.",
+      "back_to_login": "Retour à la connexion",
+      "back_to_login_button": "Retour à la connexion",
+      "signature": "LUVIKA • Assistance disponible"
+    }, "forgot_password": {
+      "back_to_login": "Retour à la connexion",
+      "title": "Mot de passe oublié ?",
+      "subtitle": "Entrez votre email pour recevoir un lien de réinitialisation.",
+      "email_label": "Adresse email",
+      "email_placeholder": "votre@email.com",
+      "submit": "Envoyer le lien",
+      "success": "Email envoyé ! Vérifiez votre boîte de réception.",
+      "error_generic": "Email non trouvé. Veuillez réessayer.",
+      "error_invalid_email": "Veuillez entrer une adresse email valide",
+      "error_no_account": "Aucun compte trouvé avec cette adresse email",
+      "sending": "Envoi...",
+      "check_spam": "Pensez à vérifier vos spams.",
+      "signature": "LUVIKA • Lien valable 1h"
+    } 
+  }
+}

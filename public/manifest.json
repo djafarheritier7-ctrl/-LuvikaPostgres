@@ -1,0 +1,68 @@
+{
+  "name": "LUVIKA - Carte de visite NFC & QR Code",
+  "short_name": "LUVIKA",
+  "description": "Carte de visite intelligente NFC · QR Code · Abonnements · Événements",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "orientation": "any",
+  "categories": ["productivity", "business", "utilities"],
+  "lang": "fr",
+  "dir": "ltr",
+  "id": "/",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icons/lo-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/lo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/lo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/lo-1280.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Écran d'accueil"
+    },
+    {
+      "src": "/screenshots/lo-720.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Version mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scanner ma carte",
+      "short_name": "Scanner",
+      "description": "Scanner votre carte NFC ou QR Code",
+      "url": "/dashboard/card-config?utm_source=pwa",
+      "icons": [{ "src": "/icons/lo-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mes statistiques",
+      "short_name": "Stats",
+      "description": "Voir vos statistiques de scans",
+      "url": "/dashboard/statistics?utm_source=pwa",
+      "icons": [{ "src": "/icons/lo-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
