@@ -66,6 +66,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   const locale = await getLocale();
   const messages = await getMessages();
 
+  // Evaluate production at build/server time to avoid leaking process.env into client script
+  const isProd = process.env.NODE_ENV === 'production';
+
   return (
     <html lang={locale} suppressHydrationWarning className="scroll-smooth">
       <head>
@@ -119,7 +122,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Script id="sw-register" strategy="afterInteractive">
           {`
             // Only register service worker in production to avoid dev-time blob/fallback issues
-            if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+            if (${isProd} && 'serviceWorker' in navigator) {
               window.addEventListener('load', async () => {
                 try {
                   const res = await fetch('/sw.js', { cache: 'no-store' });
