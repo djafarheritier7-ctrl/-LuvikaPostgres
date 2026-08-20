@@ -1,6 +1,6 @@
 // src/app/api/review/check/route.ts
 import { NextResponse } from 'next/server';
-import { createClientForPage } from '@/src/lib/supabase/server';
+import { createServerClient } from '@/src/lib/supabase/server';
 
 export async function GET(request: Request) {
   try {
@@ -11,8 +11,11 @@ export async function GET(request: Request) {
       return NextResponse.json({ error: 'User ID required' }, { status: 400 });
     }
 
-    const supabase = createClientForPage();
-    const { data: review } = await (await supabase)
+    // Use the incoming request cookie explicitly for server-side shim client
+    const cookie = request.headers.get('cookie') ?? undefined;
+    const supabase = createServerClient(cookie);
+
+    const { data: review, error } = await supabase
       .from('reviews')
       .select('id')
       .eq('profile_id', userId)
