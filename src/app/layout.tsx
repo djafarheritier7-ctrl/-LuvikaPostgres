@@ -118,71 +118,39 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         {/* SERVICE WORKER */}
         <Script id="sw-register" strategy="afterInteractive">
           {`
-            if ('serviceWorker' in navigator) {
-              fetch('/sw.js')
-                .then(response => {
-                  if (!response.ok) {
-                    console.error('❌ sw.js non trouvé (status:', response.status, ')');
+            // Only register service worker in production to avoid dev-time blob/fallback issues
+            if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+              window.addEventListener('load', async () => {
+                try {
+                  const res = await fetch('/sw.js', { cache: 'no-store' });
+                  if (!res.ok) {
+                    console.info('sw.js not found (status:', res.status, '), skipping service worker registration.');
                     return;
                   }
-                  console.log('✅ sw.js trouvé, enregistrement...');
-                  
-                  return navigator.serviceWorker.register('/sw.js', {
-                    scope: '/'
-                  });
-                })
-                .then(registration => {
-                  if (registration) {
-                    console.log('✅ Service Worker enregistré:', registration.scope);
-                    
-                    registration.addEventListener('updatefound', () => {
-                      const newWorker = registration.installing;
-                      if (newWorker) {
-                        newWorker.addEventListener('statechange', () => {
-                          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                            console.log('🔄 Nouvelle version disponible');
-                            if (confirm('Nouvelle version disponible. Mettre à jour ?')) {
-                              newWorker.postMessage({ type: 'SKIP_WAITING' });
-                              window.location.reload();
-                            }
-                          }
-                        });
-                      }
-                    });
-                    
-                    if (registration.waiting) {
-                      console.log('⏳ Nouvelle version en attente');
-                    }
-                  }
-                })
-                .catch(error => {
-                  console.error('❌ Erreur enregistrement SW:', error);
-                  
-                  fetch('/sw.js')
-                    .then(res => res.text())
-                    .then(scriptContent => {
-                      const blob = new Blob([scriptContent], { type: 'application/javascript' });
-                      const blobUrl = URL.createObjectURL(blob);
-                      
-                      return navigator.serviceWorker.register(blobUrl, { scope: '/' });
-                    })
-                    .then(reg => console.log('✅ SW enregistré via blob:', reg?.scope))
-                    .catch(err => console.error('❌ Échec blob aussi:', err));
-                });
-                
-              window.addEventListener('load', () => {
-                navigator.serviceWorker.getRegistration()
-                  .then(reg => {
-                    if (reg) {
-                      console.log('📊 SW Status:', {
-                        scope: reg.scope,
-                        active: reg.active?.state,
-                        waiting: reg.waiting?.state,
-                        installing: reg.installing?.state
+
+                  // Register the SW served from /sw.js (must be a standalone JS file in /public)
+                  const registration = await navigator.serviceWorker.register('/sw.js', { scope: '/' });
+                  console.log('✅ Service Worker enregistré:', registration.scope);
+
+                  registration.addEventListener('updatefound', () => {
+                    const newWorker = registration.installing;
+                    if (newWorker) {
+                      newWorker.addEventListener('statechange', () => {
+                        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                          console.log('🔄 Nouvelle version du SW disponible');
+                          // Optionally notify the user — avoid blocking navigation automatically
+                        }
                       });
                     }
                   });
+                } catch (err) {
+                  console.error('❌ Erreur lors de l’enregistrement du Service Worker:', err);
+                  // Do not attempt blob fallback — browsers disallow blob: registration for SWs.
+                }
               });
+            } else {
+              // In dev we explicitly skip SW registration to avoid intercepting local API responses
+              console.debug('Service Worker registration skipped (not production or unsupported).');
             }
           `}
         </Script>
@@ -192,7 +160,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Script id="gtag-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){dataLayer.push(arguments);} 
             gtag('js', new Date());
             gtag('config', 'G-RYQBRH3CZC', {
               page_path: window.location.pathname,
