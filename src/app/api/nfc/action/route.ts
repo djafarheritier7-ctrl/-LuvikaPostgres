@@ -1,11 +1,14 @@
 // src/app/api/nfc/action/route.ts
 import { NextResponse } from 'next/server';
-import { createClientForPage } from '@/src/lib/supabase/server';
+import { createServerClient } from '@/src/lib/supabase/server';
 
 export async function POST(request: Request) {
   try {
-    const supabase = createClientForPage();
-    const { data : { user }, error: authError } = await (await supabase).auth.getUser();
+    // Use the cookie from the incoming request (route handlers must use request headers)
+    const cookie = request.headers.get('cookie') ?? undefined;
+    const supabase = createServerClient(cookie);
+
+    const { data : { user }, error: authError } = await supabase.auth.getUser();
     
     if (authError || !user) {
       return NextResponse.json({ error: 'Non autorisé' }, { status: 401 });
@@ -22,7 +25,7 @@ export async function POST(request: Request) {
     }
 
     // 🔹 Récupérer la carte et vérifier propriété
-    const { data: card, error: cardError } = await (await supabase)
+    const { data: card, error: cardError } = await supabase
       .from('nfc_cards')
       .select('id, matricule, user_id, status')
       .eq('id', cardId)
@@ -39,7 +42,7 @@ export async function POST(request: Request) {
     // 🔹 Vérification matricule (comparaison sécurisée)
     if (requiresMatricule && card.matricule !== matricule.trim().toUpperCase()) {
       // 🔹 Journalisation des tentatives de falsification
-      await (await supabase).from('nfc_card_actions').insert({
+      await supabase.from('nfc_card_actions').insert({
         card_id: card.id,
         user_id: user.id,
         action_type: 'report',
@@ -74,7 +77,7 @@ export async function POST(request: Request) {
         newQrUrl = `/scan/nfc/${newCardId}`;
         
         // 🔹 Créer nouvelle configuration de carte
-        const { data: newConfig } = await (await supabase)
+        const { data: newConfig } = await supabase
           .from('card_configs')
           .insert({
             profile_id: user.id,
@@ -93,7 +96,7 @@ export async function POST(request: Request) {
       
       case 'report':
         // 🔹 Journaliser sans modifier la carte
-        await (await supabase).from('nfc_card_actions').insert({
+        await supabase.from('nfc_card_actions').insert({
           card_id: card.id,
           user_id: user.id,
           action_type: 'report',
@@ -114,7 +117,7 @@ export async function POST(request: Request) {
     }
 
     // 🔹 Mettre à jour la carte
-    const { error: updateError } = await (await supabase)
+    const { error: updateError } = await supabase
       .from('nfc_cards')
       .update(updateData)
       .eq('id', cardId);
@@ -122,7 +125,7 @@ export async function POST(request: Request) {
     if (updateError) throw updateError;
 
     // 🔹 Enregistrer l'action dans l'historique
-    await (await supabase).from('nfc_card_actions').insert({
+    await supabase.from('nfc_card_actions').insert({
       card_id: card.id,
       user_id: user.id,
       action_type: action,
