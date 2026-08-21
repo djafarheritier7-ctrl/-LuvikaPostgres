@@ -28,28 +28,42 @@ function mapOp(op: string): string {
     default: return '=';
   }
 }
+function buildWhereClause(
+  filters: any[],
+  startIndex = 1
+): { where: string; values: any[] } {
+  if (!filters || filters.length === 0) {
+    return { where: '', values: [] };
+  }
 
-function buildWhereClause(filters: any[]): { where: string; values: any[] } {
-  if (!filters || filters.length === 0) return { where: '', values: [] };
   const clauses: string[] = [];
   const values: any[] = [];
-  let paramIndex = 1;
+  let paramIndex = startIndex;
 
   for (const filter of filters) {
-    // Refuse raw expr/or usage for safety — ask client to send structured filters
     if (filter.op === 'or' && filter.expr) {
-      throw new Error('Operator "or" with raw expr is not supported for security reasons. Use multiple filters or a structured OR array.');
+      throw new Error(
+        'Operator "or" with raw expr is not supported for security reasons. Use structured filters.'
+      );
     }
 
     const { column, op, value } = filter;
+
     if (!isSafeIdentifier(column)) {
       throw new Error(`Invalid column name: ${String(column)}`);
     }
 
     if (op === 'in') {
-      const arr = Array.isArray(value) ? value : (String(value).split(',').map((v: string) => v.trim()));
+      const arr = Array.isArray(value)
+        ? value
+        : String(value).split(',').map((v: string) => v.trim());
+
       if (arr.length === 0) continue;
-      const placeholders = arr.map(() => `$${paramIndex++}`).join(', ');
+
+      const placeholders = arr
+        .map(() => `$${paramIndex++}`)
+        .join(', ');
+
       values.push(...arr);
       clauses.push(`${column} IN (${placeholders})`);
       continue;
@@ -69,10 +83,13 @@ function buildWhereClause(filters: any[]): { where: string; values: any[] } {
     clauses.push(`${column} ${mapOp(op)} $${paramIndex++}`);
   }
 
-  const where = clauses.length > 0 ? `WHERE ${clauses.join(' AND ')}` : '';
+  const where =
+    clauses.length > 0
+      ? `WHERE ${clauses.join(' AND ')}`
+      : '';
+
   return { where, values };
 }
-
 export async function GET(request: NextRequest, { params }: { params: Promise<{ table: string }> }) {
   const { table } = await params;
 
@@ -207,11 +224,14 @@ export async function PUT(request: NextRequest, { params }: { params: Promise<{ 
 
     const setClauses = columns.map((col, i) => `${col} = $${i + 1}`);
     const setValues = Object.values(payload);
+const startIndex = setValues.length + 1;
 
-    const { where, values: whereValues } = buildWhereClause(filters);
-    const allValues = [...setValues, ...whereValues];
-    const setPlaceholders = setClauses.join(', ');
+const { where, values: whereValues } =
+  buildWhereClause(filters, startIndex);
 
+const allValues = [...setValues, ...whereValues];
+
+const setPlaceholders = setClauses.join(', ');
     const query = `UPDATE ${table} SET ${setPlaceholders} ${where} RETURNING *`;
 
     const result = await pool.query(query, allValues);
